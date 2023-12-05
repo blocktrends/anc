@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+
+  font-family: 'Public Sans', sans-serif;
+}
+
+.bg-top {
+  background: url('../imgs/banner-cca.jpg') top center no-repeat;
+  background-size: cover;
+}
+/*
+.bg-home {
+  background: url('../imgs/home-bg.jpg') top center no-repeat;
+  background-size: cover;
+
+}*/
+@media (max-width: 1615px) {
+  body .xl\:container {
+    padding: 0 20px;
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+ .hidebrs br {
+    display: none;
+  }
+}
