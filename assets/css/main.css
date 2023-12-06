@@ -14,6 +14,36 @@ body {
   background: url('../imgs/banner-cca.jpg') top center no-repeat;
   background-size: cover;
 }
+
+.programa-cca-container {
+  background: url('../imgs/bg-programa-cca.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.parceria {
+  background: url('../imgs/bg-sobre-nos.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.bg-ancord {
+  background: url('../imgs/bg-ancord.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.bg-bt {
+  background: url('../imgs/bg-bt.jpg') top center no-repeat;
+  background-size: cover;
+}
+.bg-banca {
+  background: url('../imgs/bg-banca.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.bg-check {
+  background: url('../imgs/bg-check.jpg') top center no-repeat;
+  background-size: cover;
+}
+
 /*
 .bg-home {
   background: url('../imgs/home-bg.jpg') top center no-repeat;
@@ -25,10 +55,24 @@ body {
     padding: 0 20px;
     max-width: none;
   }
+ 
 }
 
+@media (max-width: 1280px) {
+  .hidebrsmd br {
+     display: none;
+   }
+
+ }
+
 @media (max-width: 768px) {
+  .bg-ancord, .bg-bt {
+    background: none;
+  }
  .hidebrs br {
     display: none;
+  }
+  body .xl\:container.px-0 {
+    padding: 0;
   }
 }
