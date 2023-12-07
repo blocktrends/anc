@@ -130,12 +130,14 @@
     </div>
 
 
-<div class="bg-white h-96">
-  Conteúdo Módulos acordeão
+<div class="bg-white">
+  <Aulas />
 </div>
+
+
 <div class="xl:container mx-auto  ">
     <div
-      class="-mt-28 justify-between items-center rounded border border-[color:var(--athens-gray-600,#6775A9)] bg-neutral-900 self-center z-[1] lg:flex w-full max-w-screen-2xl gap-5 px-12 py-11 border-solid max-md:max-w-full max-md:flex-wrap max-md:px-5">
+      class="-mt-20 lg:-mt-28 justify-between items-center rounded border border-[color:var(--athens-gray-600,#6775A9)] bg-neutral-900 self-center z-[1] lg:flex w-full max-w-screen-2xl gap-5 px-12 py-11 border-solid max-md:max-w-full max-md:flex-wrap max-md:px-5">
       <div class="flex grow basis-[0%] flex-col items-start max-md:max-w-full">
         <div
           class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-black px-5 py-2 border-solid">
@@ -630,12 +632,14 @@
 import Header from '../components/header.vue'
 import Hero from '../components/hero.vue'
 import Programa from '../components/programa.vue'
+import Aulas from '../components/aulas.vue'
 
 export default defineNuxtComponent({
   components: {
     Header,
     Hero,
-    Programa
+    Programa,
+    Aulas
   },
 
   data() {
