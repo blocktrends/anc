@@ -34,7 +34,7 @@
                                     class="text-cyan-500 text-xs md:text-sm font-bold leading-5 tracking-tight uppercase self-stretch whitespace-nowrap mt-2">
                                     {{ teacher.cargo }}
                                 </div>
-                                <div class="text-zinc-600 text-sm leading-5 self-stretch mt-6">
+                                <div class="text-zinc-600 pr-5 sm:pr-10 text-sm leading-5 self-stretch mt-6">
                                     {{ teacher.bio }}
                                 </div>
                                 <div class="absolute hidden md:block bottom-8">
