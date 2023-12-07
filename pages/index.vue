@@ -166,12 +166,12 @@
   </div>
 
     <div
-      class="text-white text-center text-5xl font-bold leading-[58px] tracking-tighter self-center  mt-9 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+      class="text-white text-center text-5xl font-bold leading-[58px] tracking-tighter self-center  mt-9 max-md:max-w-full max-md:text-4xl max-md:leading-[54px] ">
       Dos Fundamentos à Certificação de Especialista
     </div>
 
-    <div class="self-center hidebrs xl:container mx-auto w-full max-w-screen-2xl mt-14 max-md:max-w-full max-md:mt-10">
-      <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+    <div class="self-centerhidebrs xl:container mx-auto w-full max-w-screen-2xl mt-14 max-md:max-w-full max-md:mt-10">
+      <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0  pb-28 ">
         <div class="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
           <div class="flex flex-col items-end max-md:max-w-full max-md:mt-10">
             <div class="self-stretch flex justify-between items-start max-md:max-w-full max-md:flex-wrap">
@@ -236,10 +236,16 @@
         </div>
       </div>
     </div>
-<div class="bg-[#121214] pb-20" id="matricule">
+
+    <div class="py-3 mentores bg-white depoimentos-fold">
+      <Mentores />
+    </div>
+
+
+<div class="bg-[#121214] pb-20  " id="matricule">
 
     <div class="xl:container mx-auto">
-      <div class="flex w-full max-w-screen-2xl flex-col mt-24 mb-12 max-md:max-w-full max-md:my-10">
+      <div class="flex w-full max-w-screen-2xl flex-col mb-12 max-md:max-w-full">
       <div
         class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 self-center px-9 mt-20 py-2 border-solid max-md:px-5">
         ACESSO IMEDIATO
@@ -416,48 +422,6 @@
 
 
 
-    <div class="py-3 sm:py-20 bg-white depoimentos-fold">
-      <div>
-        <div class="container mx-auto">
-
-          <div class="lg:flex mt-10">
-            <div class="flex-1">
-              <div class="text-4xl sm:text-5xl sm:leading-tight font-bold">
-                prof<br>
-                <span class="text-purple">slider</span>
-              </div>
-            </div>
-            <div class="w-full mt-10 lg:mt-0 lg:max-w-[50%]">
-              <div class="accordion-container">
-                <div class="set">
-
-                </div>
-                <div class="set">
-
-                </div>
-                <div class="set">
-
-                </div>
-
-                <div class="set">
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="container mx-auto">
-
-
-        </div>
-
-      </div>
-    </div>
-
 
     <div class="items-center bg-check self-stretch flex w-full flex-col px-20 py-12 max-md:max-w-full max-md:px-5">
       <div class="text-white text-center text-4xl font-bold tracking-tighter  mt-6 max-md:max-w-full">
@@ -596,6 +560,7 @@ import Hero from '../components/hero.vue'
 import Programa from '../components/programa.vue'
 import Aulas from '../components/aulas.vue'
 import Faq from '../components/faq.vue'
+import Mentores from '../components/mentores.vue'
 
 export default defineNuxtComponent({
   components: {
@@ -603,7 +568,8 @@ export default defineNuxtComponent({
     Hero,
     Programa,
     Aulas,
-    Faq
+    Faq,
+    Mentores
   },
 
   data() {
