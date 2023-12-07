@@ -347,19 +347,19 @@
                   
 
                 
-                  <div class="text-neutral-400 text-xl font-extrabold grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-extrabold grow ">
                     Inscrição para o Exame do CCA
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img  class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/raio.svg" alt="Icone raio" />
-                  <div class="text-neutral-400 text-xl font-extrabold grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-extrabold grow ">
                     Acesso à Comunidade e Networking
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img  class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/raio.svg" alt="Icone raio" />
-                  <div class="text-neutral-400 text-xl font-extrabold grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-extrabold grow ">
                     Live exclusiva para alunos
                   </div>
                 </div>
@@ -369,31 +369,31 @@
 
 
 
-                  <div class="text-neutral-400 text-xl font-medium grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-medium grow">
                     Curso Intensivo CCA
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/check.svg" alt="Icone check" />
-                  <div class="text-neutral-400 text-xl font-medium grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-medium grow ">
                     19 Aulas completas
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/check.svg" alt="Icone check" />
-                  <div class="text-neutral-400 text-xl font-medium grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-medium grow ">
                     4 Apostilas abrangentes
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/check.svg" alt="Icone check" />
-                  <div class="text-neutral-400 text-xl font-medium grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-medium grow ">
                     Plantão de tira-dúvidas
                   </div>
                 </div>
                 <div class="items-stretch flex justify-between gap-3 mt-6">
                   <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" src="../assets/imgs/check.svg" alt="Icone check" />
-                  <div class="text-neutral-400 text-xl font-medium grow whitespace-nowrap">
+                  <div class="text-neutral-400 text-xl font-medium grow ">
                     Atendimento humano e especializado
                   </div>
                 </div>
@@ -409,46 +409,8 @@
 
 
 
-    <div class="py-3 sm:py-20 bg-white depoimentos-fold">
-      <div>
-        <div class="container mx-auto">
-
-          <div class="lg:flex mt-10">
-            <div class="flex-1">
-              <div class="text-4xl sm:text-5xl sm:leading-tight font-bold">
-                perguntas<br>
-                <span class="text-purple">accordion</span>
-              </div>
-            </div>
-            <div class="w-full mt-10 lg:mt-0 lg:max-w-[50%]">
-              <div class="accordion-container">
-                <div class="set">
-
-                </div>
-                <div class="set">
-
-                </div>
-                <div class="set">
-
-                </div>
-
-                <div class="set">
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="container mx-auto">
-
-
-        </div>
-
-      </div>
+    <div class="py-3 faq sm:py-20 bg-black depoimentos-fold">
+      <Faq />
     </div>
 
 
@@ -633,13 +595,15 @@ import Header from '../components/header.vue'
 import Hero from '../components/hero.vue'
 import Programa from '../components/programa.vue'
 import Aulas from '../components/aulas.vue'
+import Faq from '../components/faq.vue'
 
 export default defineNuxtComponent({
   components: {
     Header,
     Hero,
     Programa,
-    Aulas
+    Aulas,
+    Faq
   },
 
   data() {

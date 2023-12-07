@@ -6,7 +6,7 @@ html, body {
   overflow-x: hidden;
 }
 body {
-
+  counter-reset: section;
   font-family: 'Public Sans', sans-serif;
 }
 
@@ -50,6 +50,11 @@ body {
   top: 50%;
   margin-top: -12px;
   left: 0;
+}
+
+.faq .accordion  label:before {
+  counter-increment: section;
+  content: "0" counter(section) ".";
 }
 
 .accordion  label:after {
