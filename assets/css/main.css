@@ -103,6 +103,14 @@ div .carousel__next {
   height: 64px;
 }
 
+.line-mobile {
+  background: url('../imgs/line-mobile.svg') repeat-y;
+  height: 1300px;
+  width: 20px;
+  margin-top: 20px;
+}
+
+
 div .carousel__prev svg, div .carousel__next svg {
   display:none;
 }
@@ -154,6 +162,30 @@ div .carousel__prev svg, div .carousel__next svg {
 
  }
 
+@media (max-width: 1024px) {
+  .number-mobile {
+    margin-left: 20px;
+  }
+  .bottom-timeline .number-mobile {
+    margin-left: 22px;
+}
+ .number-mobile:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 7.5px;
+  position: absolute;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #69b6d5;
+  margin-top: 8px;
+  margin-left: -42px;
+ }
+ .timeline-mobile {
+  border-left: 1px dotted #69b6d5;
+ }
+}
 @media (max-width: 768px) {
   body div br.brmobile {
     display: block;
