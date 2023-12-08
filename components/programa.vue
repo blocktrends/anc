@@ -11,7 +11,7 @@
         class="text-cyan-500 text-center sm:text-left  leading-tight xs:leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight text-4xl sm:text-3xl hidebrs md:text-5xl xl:text-7xl mb-3 sm:mb-12 font-extrabold pl-3 lg:pl-9 sm:mt-2.5 max-md:max-w-full ">
         Como se tornar um Especialista<br /> em Criptoativos - CCA
       </div>
-      <div class="self-center lg:flex w-full pl-2 lg:pl-8  gap-7 mb-6 max-md:max-w-full max-md:flex-wrap">
+      <div class="self-center xl:flex w-full pl-2 lg:pl-8  gap-7 mb-6 max-md:max-w-full max-md:flex-wrap">
         <div class="flex justify-between gap-7 items-start max-md:max-w-full max-md:flex-wrap 2xl:pr-36">
 
       
@@ -19,7 +19,7 @@
 
 
           <svg
-            class="absolute hidden lg:block sm:relative aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full  mt-7"
+            class="absolute hidden xl:block sm:relative aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full  mt-7"
             width="12" height="547" viewBox="0 0 12 547" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.99885 6L6 547" stroke="url(#paint0_linear_968_156)" stroke-width="2" stroke-dasharray="2 2" />
             <circle cx="6" cy="6" r="6" fill="#00A7D0" />
@@ -44,7 +44,7 @@
                   </div>
                 </div>
                 <div
-                  class="flex flex-col items-stretch lg:w-[320px] xl:w-[435px] -mt-2 md:mt-0  max-md:w-full max-md:ml-0">
+                  class="flex flex-col items-stretch  xl:w-[435px] -mt-2 md:mt-0  max-md:w-full max-md:ml-0">
                   <div class="flex grow flex-col items-stretch mt-1 mt-2 xl:mt-4 max-md:max-w-full max-md:mt-10">
                     <div class="text-white text-2xl sm:text-3xl font-bold leading-9 whitespace-nowrap max-md:max-w-full">
                       Curso Intensivo CCA
@@ -58,7 +58,7 @@
                 </div>
               </div>
             </div>
-            <div class="self-stretch pt-9 max-md:max-w-full">
+            <div class="self-stretch pt-4 lg:pt-9 max-md:max-w-full">
               <div class="lg:gap-7 flex  max-md:items-stretch max-md:gap-0">
                 <div class="flex flex-col items-stretch  max-md:ml-0">
                   <div
@@ -67,7 +67,7 @@
                   </div>
                 </div>
                 <div
-                  class="flex flex-col items-stretch lg:w-[334px] xl:w-[415px] -mt-2 md:mt-0 max-md:w-full max-md:ml-0">
+                  class="flex flex-col items-stretch xl:w-[415px] -mt-2 md:mt-0 max-md:w-full max-md:ml-0">
                   <div class="flex grow flex-col items-stretch mt-3 xl:mt-4  max-md:max-w-full max-md:mt-10">
                     <div class="text-white text-2xl sm:text-3xl font-bold leading-9 whitespace-nowrap max-md:max-w-full">
                       Provas Intermediárias
@@ -82,7 +82,7 @@
                 </div>
               </div>
             </div>
-            <div class="self-stretch pt-7 max-md:max-w-full">
+            <div class="self-stretch pt-4 lg:pt-7 max-md:max-w-full">
               <div class="lg:gap-7 flex  max-md:items-stretch max-md:gap-0">
                 <div class="flex flex-col items-stretch  max-md:ml-0">
                   <div
@@ -91,7 +91,7 @@
                   </div>
                 </div>
                 <div
-                  class="flex flex-col items-stretch xs:w-[390px]  lg:w-[360px] max-md:w-full -mt-2 md:mt-0 max-md:ml-0">
+                  class="flex flex-col items-stretch   xl:w-[360px] max-md:w-full -mt-2 md:mt-0 max-md:ml-0">
                   <div class="flex grow flex-col items-stretch mt-3 xl:mt-4 max-md:max-w-full max-md:mt-10">
                     <div class="text-white text-2xl sm:text-3xl font-bold leading-9 max-md:max-w-full">
                       Carta de Aptidão
@@ -110,7 +110,7 @@
         </div>
 
         <svg
-          class="absolute hidden lg:block sm:relative  xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start -mt-9"
+          class="absolute hidden xl:block sm:relative  xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start -mt-9"
           width="12" height="314" viewBox="0 0 12 314" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="6" y1="4.37114e-08" x2="5.99999" y2="308" stroke="url(#paint0_linear_968_157)" stroke-width="2"
             stroke-dasharray="2 2" />
@@ -125,7 +125,7 @@
         </svg>
 
 
-        <div class="self-center flex grow basis-[0%] flex-col items-end max-md:max-w-full lg:mt-7 lg:-mt-20 xl:-mt-0">
+        <div class="self-center flex grow basis-[0%] flex-col items-end max-md:max-w-full lg:mt-0  xl:-mt-0">
 
           <div class="timeline-mobile bottom-timeline self-stretch max-md:max-w-full">
             <div class="lg:gap-2 flex max-md:items-stretch ">
@@ -140,7 +140,7 @@
                   <div class="text-white text-2xl sm:text-3xl font-bold leading-9 whitespace-nowrap max-md:max-w-full">
                     Exame de Certificação
                   </div>
-                  <div class="text-white lg:w-[345px] xl:w-[365px] text-lg leading-7 mt-3 max-md:max-w-full">
+                  <div class="text-white  xl:w-[365px] text-lg leading-7 mt-3 max-md:max-w-full">
                     Aplicado pela FGV, o Exame de Certificação é uma prova de
                     múltipla escolha com 40 questões. Assim como no Curso e nas
                     Provas Intermediárias, o Exame Final é dividido em 4 módulos.
@@ -151,8 +151,8 @@
           </div>
 
           <div class=" self-stretch max-md:max-w-full">
-            <div class="block lg:hidden h-20 absolute  timeline-mobile"></div>
-            <div class="lg:gap-2 bottom-timeline flex  max-md:items-stretch ">
+            <div class="block xl:hidden h-20 absolute  timeline-mobile"></div>
+            <div class="lg:gap-2 last-timeline bottom-timeline flex  max-md:items-stretch ">
               <div class="flex flex-col items-stretch mt-8   max-md:ml-0">
                 <div
                   class="number-mobile text-neutral-900  w-[60px] mr-5 md:mr-0  xl:w-[80px] text-center text-2xl xl:text-5xl h-[55px] sm:h-[55px] lg:h-[55px] xl:h-[70px]  text-center font-bold tracking-tighter whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-cyan-500 p-2.5 border-solid ">
@@ -165,7 +165,7 @@
                     class="text-cyan-500 text-2xl sm:text-3xl font-bold leading-9 grow shrink basis-auto mt-5 self-start max-md:max-w-full">
                     CCA - Certificação<br />Criptoativos ANCORD
                   </div>
-                  <div class="text-white lg:w-[350px] xl:w-[425px] text-lg leading-7 mt-3 max-md:max-w-full">
+                  <div class="text-white  xl:w-[425px] text-lg leading-7 mt-3 max-md:max-w-full">
                     Caso atinja uma nota igual ou superior a 7 no Exame de Certificação,
                     você se torna em um Especialista em Criptoativos e é certificado como
                     um CCA.

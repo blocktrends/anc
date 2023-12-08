@@ -162,9 +162,15 @@ div .carousel__prev svg, div .carousel__next svg {
 
  }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .number-mobile {
     margin-left: 20px;
+  }
+  .bottom-timeline{
+    padding-top: 17px;
+  }
+  .last-timeline {
+    padding-top: 6px;
   }
   .bottom-timeline .number-mobile {
     margin-left: 22px;
