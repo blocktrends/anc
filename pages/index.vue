@@ -14,8 +14,8 @@
     <Header />
 
     <Hero />
-
-    <Programa />
+    <a  id="programa" style="position: absolute;"></a>
+    <Programa  />
     <div class="parceria pb-20" id="sobre">
       <div class="xl:container lg:flex justify-center mx-auto">
         <div class="flex xl:w-[1276px] max-w-full flex-col items-stretch my-12 max-md:my-10">
@@ -264,11 +264,12 @@
         <span class="text-white">, sua jornada completa de aprendizado para a Web3
         </span>
       </div>
-      <svg  class="aspect-square object-contain object-center w-6 overflow-hidden self-center max-w-full mt-14 max-md:mt-10" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg id="matricule" class="aspect-square object-contain object-center w-6 overflow-hidden self-center max-w-full mt-14 max-md:mt-10" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 4.5V19.5M12 19.5L18.75 12.75M12 19.5L5.25 12.75" stroke="#A9A9A9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      <div id="matricule"
+  <a  style="position: absolute;"></a>
+      <div 
         class="border border-[color:var(--cinza-cinza-4,#575757)] self-stretch mt-12 rounded-lg border-solid max-lg:max-w-full max-lg:mt-10">
         <div class="flex max-lg:flex-col max-lg:items-stretch max-lg:gap-0">
           <div class="flex flex-col items-stretch w-6/12 max-lg:w-full max-md:ml-0">

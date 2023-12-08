@@ -1,6 +1,6 @@
 <template>
-  <div class="xl:container mx-auto px-0">
-    <div id="programa"
+  <div  class="xl:container mx-auto px-0">
+    <div
       class="mt-16  mb-12 flex justify-center mx-auto items-center w-[119px] h-[30px] relative gap-2.5 p-2.5 rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">PROGRAMA CCA</p>
     </div>
@@ -16,7 +16,7 @@
 
 
           <svg
-            class="hidden xl:block aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full max-md:hidden mt-7"
+            class="absolute sm:relative aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full  mt-7"
             width="12" height="547" viewBox="0 0 12 547" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.99885 6L6 547" stroke="url(#paint0_linear_968_156)" stroke-width="2" stroke-dasharray="2 2" />
             <circle cx="6" cy="6" r="6" fill="#00A7D0" />
@@ -107,7 +107,7 @@
         </div>
 
         <svg
-          class="hidden xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start max-md:hidden -mt-9"
+          class="absolute sm:relative  xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start -mt-9"
           width="12" height="314" viewBox="0 0 12 314" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="6" y1="4.37114e-08" x2="5.99999" y2="308" stroke="url(#paint0_linear_968_157)" stroke-width="2"
             stroke-dasharray="2 2" />
@@ -120,6 +120,7 @@
             </linearGradient>
           </defs>
         </svg>
+
 
         <div class="self-center flex grow basis-[0%] flex-col items-end max-md:max-w-full mt-7 lg:-mt-20 xl:-mt-0">
 
