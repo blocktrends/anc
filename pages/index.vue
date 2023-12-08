@@ -198,7 +198,7 @@
     </div>
 
     <div
-      class="text-white text-center text-5xl font-bold leading-[58px] tracking-tighter self-center  mt-9 max-md:max-w-full px-5 sm:px-0 ">
+      class="text-white text-center text-5xl font-bold leading-[58px] tracking-tighter self-center mt-3 sm:mt-9 max-md:max-w-full px-5 sm:px-0 ">
       Dos Fundamentos à Certificação de Especialista
     </div>
 
