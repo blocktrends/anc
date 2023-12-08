@@ -66,7 +66,7 @@
                       class="flex flex-col justify-start items-center sm:items-start     relative gap-6">
                       <div
                         class="flex flex-col justify-start items-center sm:items-start    relative gap-2">
-                        <p class=" text-center sm:text-left   text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
+                        <p class=" text-center sm:text-left   text-3xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                           <span
                             class="   font-bold text-left text-[#00a7d0]">CCA</span><span
                             class="    font-bold text-left text-white">
