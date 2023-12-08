@@ -75,11 +75,11 @@
                       </div>
                       <div class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                         Domine
-                          a blockchain e lidere a revolução cripto<br />
-                          com o Programa CCA, desenvolvido pelo<br />
+                          a blockchain e lidere a <br class="brmobile" /> revolução cripto<br />
+                          com o Programa<br class="brmobile" /> CCA, desenvolvido pelo<br />
                           <strong
                           class="   opacity-[0.87] font-extrabold text-left text-white">
-                          BlockTrends</strong>
+                          BlockTrends</strong><br class="brmobile" /> 
                           e certificado pela ANCORD.
                       </div>
                     </div>

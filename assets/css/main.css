@@ -115,6 +115,9 @@ div .carousel__prev svg, div .carousel__next svg {
   fill: #038BB7;
 }
 
+.brmobile {
+  display: none;
+}
 
 @media (max-width: 1615px) {
   body .xl\:container {
@@ -152,6 +155,9 @@ div .carousel__prev svg, div .carousel__next svg {
  }
 
 @media (max-width: 768px) {
+  .brmobile {
+    display: block;
+  }
   div .carousel__prev {
  
     left: 0;
