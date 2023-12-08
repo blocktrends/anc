@@ -38,11 +38,11 @@
             <div class="gap-1 flex max-lg:flex-col max-lg:items-stretch max-md:gap-0">
               <div class="flex bg-ancord flex-col items-stretch w-6/12 max-lg:w-full max-lg:ml-0">
                 <div
-                  class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5">
-                  
+                  class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5" style="padding: 3rem 40px 7rem;">
+                  <a href="https://www.ancord.org.br/" target="_blank">
                   <img  class="aspect-[2.84] object-contain object-center w-[142px] fill-white overflow-hidden max-w-full mt-8" src="../assets/imgs/ancord-logo.svg" alt="Logo Ancord" />
 
-                
+                </a>
                   <div class="bg-white self-stretch shrink-0 h-px mt-16 max-md:max-w-full max-md:mt-10"></div>
                   <div
                     class="text-[#00A7D0] text-center text-3xl lg:text-5xl font-extrabold leading-9 whitespace-nowrap mt-8  max-md:leading-8">
@@ -54,6 +54,7 @@
                     Com +50 anos de atuação, a <strong>ANCORD</strong> (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) é a principal entidade certificadora do Brasil. Além de ser responsável pela certificação de Assessores de Investimento (AIs), a instituição representa Corretoras, DTVMs, Bancos, Gestoras e outras Instituições Financeiras, fortalecendo seu papel central no mercado financeiro brasileiro.
 
                   </div>
+                    <!--
                   <a href="#" target="_blank" class="items-stretch flex gap-2 mt-16 mb-3.5 max-md:mt-10">
                     <div class="text-[#00A7D0] text-xl font-bold leading-7 grow whitespace-nowrap">
                       Institucional ANCORD
@@ -63,14 +64,15 @@
 <path d="M5 19.5L20 4.5M20 4.5L8.75 4.5M20 4.5V15.75" stroke="#00A7D0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-</a>
+</a>-->
                 </div>
               </div>
               <div class="flex mt-10 lg:mt-0 bg-bt flex-col items-stretch w-6/12 ml-5 max-lg:w-full max-lg:ml-0">
-                <div style="padding: 3rem 46px;"
+                <div style="padding: 3rem 46px 7rem;"
                   class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5">
+                  <a href="https://blocktrends.com.br/" target="_blank">
                   <img src="../assets/imgs/bt-logo.svg" alt="Logo Blocktrends" class="aspect-[2.84] object-contain object-center w-[142px] fill-white overflow-hidden max-w-full mt-8" />
-          
+                </a>
                   <div class="bg-white self-stretch shrink-0 h-px mt-16 max-md:max-w-full max-md:mt-10"></div>
                   <div
                     class="text-white text-center text-3xl lg:text-5xl font-extrabold leading-9 whitespace-nowrap mt-8 max-md:text-4xl max-md:leading-8">
@@ -81,6 +83,7 @@
                     class="text-white text-justify text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
                     Formando +27 mil alunos em cursos de Web3, o <strong>BlockTrends</strong> é uma EdTech que busca acelerar a educação sobre criptoativos no Brasil. Reduzindo o gap educacional no setor, o BlockTrends é responsável pelo maior curso da história da bolsa de valores (B3) e pela 1ª Pós-Graduação em desenvolvimento blockchain do país, além de possuir um portal de notícias sobre cripto que impacta todo mês uma audiência de +1 milhão de pessoas.
                   </div>
+                  <!--
                   <a href="https://blocktrends.com.br/" target="_blank" class="items-stretch flex gap-2 mt-16 mb-3.5 max-md:mt-10">
                     <div class="text-white text-xl font-bold leading-7 grow whitespace-nowrap">
                       Institucional BlockTrends
@@ -90,7 +93,7 @@
 <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-</a>
+</a>-->
                 </div>
               </div>
             </div>

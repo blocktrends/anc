@@ -57,23 +57,23 @@
           <div class="lg:flex mt-16">
             <div class="flex-1 sm:pr-20 text-white">
 
-              <div class="flex flex-col justify-start items-start relative gap-9">
-                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 gap-10">
-                  <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-12">
+              <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
+                <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0 gap-10">
+                  <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0 relative gap-12">
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
                     <div
-                      class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0  relative gap-6">
+                      class="flex flex-col justify-start items-center sm:items-start  flex-grow-0 flex-shrink-0  relative gap-6">
                       <div
-                        class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0  relative gap-2">
-                        <p class="flex-grow-0 flex-shrink-0  text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight text-left">
+                        class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0  relative gap-2">
+                        <p class="flex-grow-0 text-center sm:text-left flex-shrink-0  text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                           <span
                             class="flex-grow-0 flex-shrink-0  font-bold text-left text-[#00a7d0]">CCA</span><span
                             class="flex-grow-0 flex-shrink-0   font-bold text-left text-white">
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class="flex-grow-0 font-light hidebrs flex-shrink-0  opacity-[0.87] text-xl 2xl:text-2xl text-left text-white">
+                      <p class="flex-grow-0 px-5 sm:px-0  font-light hidebrs flex-shrink-0  opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                         <span
                           class="flex-grow-0 flex-shrink-0  opacity-[0.87] text-left text-white">Domine
                           a blockchain e lidere a revolução cripto<br />
@@ -87,7 +87,7 @@
                     </div>
                   </div>
                   <a href="#matricule"
-                    class="flex justify-center items-center flex-grow-0 flex-shrink-0 w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
+                    class="flex justify-center mx-auto xl:mx-0 items-center flex-grow-0 flex-shrink-0 w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
                       class="flex-grow-0 flex-shrink-0 w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
                       <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
