@@ -202,10 +202,10 @@
       Dos Fundamentos à Certificação de Especialista
     </div>
 
-    <div class="self-centerhidebrs xl:container mx-auto w-full max-w-screen-2xl mt-14 max-md:max-w-full max-md:mt-10">
+    <div class="self-center hidebrs xl:container mx-auto w-full max-w-screen-2xl mt-14 max-md:max-w-full max-md:mt-10">
       <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0  pb-28 ">
-        <div class="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
-          <div class="flex hidebrs flex-col items-end max-md:max-w-full max-md:mt-10">
+        <div class="flex flex-col items-stretch sm:w-[47%] max-md:w-full max-md:ml-0">
+          <div class="flex  flex-col items-end max-md:max-w-full max-md:mt-10">
      
 
             <div class="self-stretch flex justify-between mt-6 items-start max-md:max-w-full max-md:flex-wrap">
@@ -289,7 +289,7 @@
             ACESSO IMEDIATO
           </div>
           <div
-            class="text-white text-center sm:text-3xl  text-5xl font-bold leading-[58px] self-center max-w-[1149px] mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-10">
+            class="text-white text-center text-3xl  sm:text-5xl font-bold sm:leading-[58px] self-center sm:max-w-[1149px] mt-16 max-md:max-w-full max-md:leading-[54px] max-md:mt-10">
             <span class="text-cyan-500">Programa Certificação Criptoativos ANCORD</span>
             <span class="text-white">, sua jornada completa de aprendizado para a Web3
             </span>
@@ -491,7 +491,7 @@
 
 
     <div class="items-center bg-check self-stretch flex w-full flex-col px-20 py-12 max-md:max-w-full max-md:px-5">
-      <div class="text-white text-center text-4xl font-bold tracking-tighter  mt-6 max-md:max-w-full">
+      <div class="text-white text-center text-2xl sm:text-4xl font-bold tracking-tighter  mt-6 max-md:max-w-full">
         Comece agora a 1ª Certificação Cripto do Brasil
       </div>
       <div class="text-white text-center text-lg leading-7 max-w-[525px] mt-6 max-md:max-w-full">
