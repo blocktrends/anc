@@ -193,18 +193,46 @@ div .carousel__prev svg, div .carousel__next svg {
  }
 }
 @media (max-width: 768px) {
+  
+div .carousel__prev {
+  background: url('../imgs/arrow-l-mobile.svg');
+  
+
+  width: 24px;
+  height: 24px;
+
+  top: 238px;
+}
+
+.mentores .xl\:container{
+  padding: 0;
+}
+
+div .carousel__next {
+  background: url('../imgs/arrow-r-mobile.svg');
+ 
+  width: 24px;
+  height: 24px;
+  right: -30px;
+ top: 238px;
+}
+
+.carousel {
+  margin: 40px 0 0 8px;
+}
+
   body div br.brmobile {
     display: block;
   }
   div .carousel__prev {
  
-    left: 0;
+    left: -12px;
   
   }
   
   div .carousel__next {
    
-    right: 0;
+    right: -7px;
 
 
   }

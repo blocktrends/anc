@@ -1,7 +1,7 @@
 <template>
     <div class="xl:container  mx-auto" id="faq">
 
-        <div class="xl:flex py-14 lg:py-14">
+        <div class="xl:flex py-4 pt-14 sm:pt-0 lg:py-14">
             <div class="flex-1 xl:max-w-[50%]">
                 <div
                     class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 aspect-[1.9655172413793103] px-4 inline-block py-2 border-solid">
@@ -162,7 +162,7 @@
     >
       <a
       href="#"
-        class="text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#087339] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
+        class="mb-3 sm:mb-0 text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#087339] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
       >
         chamar no whatsapp
   </a>

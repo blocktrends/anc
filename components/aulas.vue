@@ -8,7 +8,7 @@
                     CONTEÚDO
                 </div>
                 <div class="text-4xl py-10 sm:text-5xl sm:leading-tight font-bold">
-                    O que você vai aprender
+                    O que você <br class="brmobile" />vai aprender
                 </div>
                 <div class="items-stretch flex gap-2">
                     <img class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full"
@@ -223,7 +223,7 @@
                         <label for="panel-4"
                             class="relative uppercase pl-11 border-y border-[#93A5C7] block cursor-pointer green-text p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            MÓDULO IV - A Transformação do<br /> Mercado de Capitais com os Ativos Digitais
+                            MÓDULO IV - A Transformação do<br /> Mercado de Capitais com <br class="brmobile" />os Ativos Digitais
                         </label>
 
                         <div class="accordion__content overflow-hidden ">
