@@ -5,15 +5,15 @@
         <nav class="flex items-center justify-between flex-wrap xl:container mx-auto">
           <div class="flex items-center flex-no-shrink text-white">
             <a href="/">
-              <img src="../assets/imgs/certificacao-criptoativos-ancord.svg" alt="Logo Ancord" />
+              <img src="../assets/imgs/certificacao-criptoativos-ancord.svg" class="max-w-[260px] sm:max-w-none" alt="Logo Ancord" />
             </a>
           </div>
           <div class="block lg:hidden">
-            <button @click="toggleMenu" class="flex items-center px-4 py-3 border rounded text-white">
-              <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-              </svg>
+            <button @click="toggleMenu" class="flex items-center text-white">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 13.5C4.5 12.8787 5.00368 12.375 5.625 12.375H30.375C30.9963 12.375 31.5 12.8787 31.5 13.5C31.5 14.1213 30.9963 14.625 30.375 14.625H5.625C5.00368 14.625 4.5 14.1213 4.5 13.5ZM4.5 23.625C4.5 23.0037 5.00368 22.5 5.625 22.5H30.375C30.9963 22.5 31.5 23.0037 31.5 23.625C31.5 24.2463 30.9963 24.75 30.375 24.75H5.625C5.00368 24.75 4.5 24.2463 4.5 23.625Z" fill="white"/>
+</svg>
+
             </button>
           </div>
           <div :class="open ? 'block' : 'hidden'"

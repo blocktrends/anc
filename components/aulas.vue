@@ -1,5 +1,5 @@
 <template>
-    <div class="xl:container  mx-auto" id="aulas">
+    <div class="xl:container  mx-auto" id="conteudo">
 
         <div class="lg:flex py-14 lg:py-24">
             <div class="flex-1 lg:max-w-[50%]">

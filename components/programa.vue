@@ -215,7 +215,7 @@
     </a>
     </header>
 
-    <div id="conteudo"
+    <div 
       class="mt-16  flex justify-center mx-auto items-center w-[139px] h-[30px] relative gap-2.5 p-2.5 rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">SOBRE O PROGRAMA</p>
     </div>
