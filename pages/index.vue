@@ -99,14 +99,14 @@
             </div>
           </div>
           <div
-            class="rounded bg-banca border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col  mt-6 px-5  py-9 border-[1.5px] border-solid max-md:max-w-full max-md:px-5">
+            class="rounded bg-banca border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col  mt-6 px-5  py-9 border-[1.5px] border-solid items-center justify-center max-md:max-w-full max-md:px-5">
             <div
               class="flex  flex-1 max-w-full items-stretch   max-sm:flex-wrap ">
-              <div class="text-white uppercase lg:text-xl xl:pl-16 leading-8 self-center grow my-auto">
+              <div class="text-white pr-5 uppercase lg:text-xl xl:pl-16 leading-8 self-center grow my-auto">
                 Aplicação da Prova:
               </div>
               <div class="flex-1 text-right xl:pr-7">
-              <svg class="inline-block" width="167" height="31" viewBox="0 0 167 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <svg class="max-w-[110px] sm:max-w-none inline-block" width="167" height="31" viewBox="0 0 167 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="167" height="31" fill="url(#pattern0)"/>
               <defs>
               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
