@@ -16,7 +16,7 @@
 
 
           <svg
-            class="absolute sm:relative aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full  mt-7"
+            class="absolute hidden:sm-block sm:relative aspect-[0.02] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full  mt-7"
             width="12" height="547" viewBox="0 0 12 547" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.99885 6L6 547" stroke="url(#paint0_linear_968_156)" stroke-width="2" stroke-dasharray="2 2" />
             <circle cx="6" cy="6" r="6" fill="#00A7D0" />
@@ -107,7 +107,7 @@
         </div>
 
         <svg
-          class="absolute sm:relative  xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start -mt-9"
+          class="absolute hidden:sm-block sm:relative  xl:block aspect-[0.04] object-contain object-center w-3 overflow-hidden shrink-0 max-w-full self-start -mt-9"
           width="12" height="314" viewBox="0 0 12 314" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="6" y1="4.37114e-08" x2="5.99999" y2="308" stroke="url(#paint0_linear_968_157)" stroke-width="2"
             stroke-dasharray="2 2" />
