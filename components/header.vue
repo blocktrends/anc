@@ -73,17 +73,15 @@
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
-                        <span
-                          class="   opacity-[0.87] text-left text-white">Domine
+                      <div class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
+                        Domine
                           a blockchain e lidere a revolução cripto<br />
-                          com o Programa CCA, desenvolvido pelo<br /></span>
-                          <span
+                          com o Programa CCA, desenvolvido pelo<br />
+                          <strong
                           class="   opacity-[0.87] font-extrabold text-left text-white">
-                          BlockTrends</span><span
-                          class="   opacity-[0.87]  text-left text-white">
-                          e certificado pela ANCORD.</span>
-                      </p>
+                          BlockTrends</strong>
+                          e certificado pela ANCORD.
+                      </div>
                     </div>
                   </div>
                   <a href="#matricule"
