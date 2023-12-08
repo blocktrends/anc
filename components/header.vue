@@ -20,19 +20,19 @@
             class="responsive-menu w-full flex-grow lg:flex lg:items-center lg:w-auto ">
             <div class="lg:text-base xl:text-lg lg:flex-grow text-center lg:text-right">
               <a href="#programa" @click="toggleMenu"
-                class="no-underline block mt-8 lg:mt-0 lg:inline-block  text-white hover:text-white lg:mr-8 xl:mr-16">
+                class="no-underline block mt-8 lg:mt-0 lg:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
                 PROGRAMA
               </a>
               <a href="#conteudo" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 lg:inline-block  text-white hover:text-white lg:mr-8 xl:mr-16">
+                class="no-underline block mt-4 lg:mt-0 lg:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
                 CONTEÚDO
               </a>
               <a href="#mentores" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 block  lg:inline-block text-white hover:text-white lg:mr-8 xl:mr-16">
+                class="no-underline block mt-4 lg:mt-0 block  lg:inline-block text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
                 MENTORES
               </a>
               <a href="#faq" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 lg:inline-block text-white hover:text-white mb-8 xl:mr-16 lg:mr-8 lg:mb-0">
+                class="no-underline block mt-4 lg:mt-0 lg:inline-block text-white hover:text-[#00A7D0] mb-8 xl:mr-16 lg:mr-8 lg:mb-0">
                 FAQ
               </a>
             </div>
@@ -42,7 +42,7 @@
                         já sou aluno
                     </a>-->
               <a href="#matricule"
-                class="text-slate-950 text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded bg-cyan-500 self-stretch grow px-8 xl:px-14 py-3.5 max-md:px-5">
+                class="text-slate-950 text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#038BB7] self-stretch grow px-8 xl:px-14 py-3.5 max-md:px-5">
                 MATRICULE-SE
                   </a>
 
@@ -73,13 +73,13 @@
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class="flex-grow-0 hidebrs flex-shrink-0  opacity-[0.87] text-xl 2xl:text-2xl text-left text-white">
+                      <p class="flex-grow-0 font-light hidebrs flex-shrink-0  opacity-[0.87] text-xl 2xl:text-2xl text-left text-white">
                         <span
                           class="flex-grow-0 flex-shrink-0  opacity-[0.87] text-left text-white">Domine
                           a blockchain e lidere a revolução cripto<br />
                           com o Programa CCA, desenvolvido pelo<br /></span>
                           <span
-                          class="flex-grow-0 flex-shrink-0  opacity-[0.87] font-bold text-left text-white">
+                          class="flex-grow-0 flex-shrink-0  opacity-[0.87] font-extrabold text-left text-white">
                           BlockTrends</span><span
                           class="flex-grow-0 flex-shrink-0  opacity-[0.87]  text-left text-white">
                           e certificado pela ANCORD.</span>
@@ -87,7 +87,7 @@
                     </div>
                   </div>
                   <a href="#matricule"
-                    class="flex justify-center items-center flex-grow-0 flex-shrink-0 w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 rounded bg-[#00a7d0]">
+                    class="flex justify-center items-center flex-grow-0 flex-shrink-0 w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
                       class="flex-grow-0 flex-shrink-0 w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
                       <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"

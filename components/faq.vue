@@ -9,7 +9,7 @@
                 </div>
                 <div class="text-4xl text-white py-10 sm:text-5xl sm:leading-tight font-bold">
 
-                    Perguntas e respostas<br />
+                    Perguntas <br />
                     mais frequentes
                 </div>
 
@@ -47,7 +47,7 @@
                                     é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo
                                     necessário e está pronto para o desafio final.
                                     <br /><br />
-                                    O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 60
+                                    O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 40
                                     questões, divididas em 4 módulos. Este exame é a etapa final do processo, onde você
                                     demonstrará seu conhecimento e habilidades adquiridas.
                                     <br /><br />
@@ -160,11 +160,12 @@
     <div
       class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
     >
-      <div
-        class="text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
+      <a
+      href="#"
+        class="text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#1D873E] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
       >
         chamar no whatsapp
-      </div>
+  </a>
     </div>
   </div>
 </div>

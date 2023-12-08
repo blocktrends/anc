@@ -18,6 +18,7 @@ export default defineNuxtConfig({
       families: {
         'Public Sans':{
           wght: [300, 400, 500, 600, 700, 800],
+          ital: [300, 400, 500],
         },
         download: true,
         inject: true

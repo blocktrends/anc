@@ -107,6 +107,14 @@ div .carousel__prev svg, div .carousel__next svg {
   display:none;
 }
 
+.comece-cta:hover .rect-comece {
+  fill:#202024;
+}
+
+.link-blue-rect:hover .blue-rect {
+  fill: #038BB7;
+}
+
 
 @media (max-width: 1615px) {
   body .xl\:container {
