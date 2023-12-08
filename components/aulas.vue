@@ -43,7 +43,7 @@
                                     Aula 1: Conceitos Gerais, História e Evolução do Mercado de Ativos Digitais (Professor: Nicholas Sacchi)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta primeira Aula, mergulhamos na numismática e na fascinante história do dinheiro, desvendando como os criptoativos emergiram e transformaram o mercado financeiro. Exploramos também os principais agentes que têm moldado o cenário dos ativos digitais ao longo do tempo.
+                                    Nesta primeira aula, mergulhamos na numismática e na fascinante história do dinheiro, desvendando como os criptoativos emergiram e transformaram o mercado financeiro. Exploramos também os principais agentes que têm moldado o cenário dos ativos digitais ao longo do tempo.
                                 </i>
                             </div>
 
@@ -52,7 +52,7 @@
                                     Aula 2: Bitcoin e a Primeira Grande Aplicação da Tecnologia Blockchain (Professor: Murilo Cortina)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    A segunda Aula é uma jornada pela criação do Bitcoin em 2008, destacando sua revolucionária adoção tecnológica. Discutimos os conceitos de descentralização, mineração, consenso e incentivos, além de mergulhar nas teses de investimento que circundam o universo do Bitcoin.
+                                    A segunda aula é uma jornada pela criação do Bitcoin em 2008, destacando sua revolucionária adoção tecnológica. Discutimos os conceitos de descentralização, mineração, consenso e incentivos, além de mergulhar nas teses de investimento que circundam o universo do Bitcoin.
                                 </i>
                             </div>
 
@@ -61,7 +61,7 @@
                                     Aula 3: Ethereum e o Dinheiro Programável (Professor: Murilo Cortina)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na terceira Aula, discutimos o surgimento do Ethereum e a introdução da programabilidade nas finanças. A Aula também foca nos smart contracts, suas implicações e as teses de investimento mais relevantes para o Ethereum.
+                                    Na terceira aula, discutimos o surgimento do Ethereum e a introdução da programabilidade nas finanças. A Aula também foca nos smart contracts, suas implicações e as teses de investimento mais relevantes para o Ethereum.
                                 </i>
                             </div>
 
@@ -70,7 +70,7 @@
                                     Aula 4: Aprofundando no Setor: As Diferentes Subclasses de Criptoativos (Professor: Theodoro Fleury, CFA)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta Aula, desbravamos os diferentes tipos de tokens e a rica diversidade do mercado de criptoativos. Aqui são abordados temas como plataformas, DeFi, stablecoins e armazenamento distribuído, revelando um mercado complexo e interconectado.
+                                    Nesta aula, desbravamos os diferentes tipos de tokens e a rica diversidade do mercado de criptoativos. Aqui são abordados temas como plataformas, DeFi, stablecoins e armazenamento distribuído, revelando um mercado complexo e interconectado.
                                  </i>
                             </div>
 
@@ -79,7 +79,7 @@
                                     Aula 5: DeFi, Staking e Outros Mecanismos de Geração de Renda com Cripto (Professor: Theodoro Fleury, CFA)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    A quinta Aula foca em finanças descentralizadas, explicando sobre corretoras descentralizadas, provedores de liquidez, AMM e empréstimo de criptoativos. Também é abordado como rentabilizar criptoativos através do staking.
+                                    A quinta aula foca em finanças descentralizadas, explicando sobre corretoras descentralizadas, provedores de liquidez, AMM e empréstimo de criptoativos. Também é abordado como rentabilizar criptoativos através do staking.
                                  </i>
                             </div>
 
@@ -88,7 +88,7 @@
                                     Aula 6: Do NFT ao Metaverso: Entendendo o Mercado de Registros Digitais (Professor: Nicholas Sacchi)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta Aula, mergulhamos no universo dos NFTs e do metaverso, explorando como a propriedade intelectual e os registros em blockchain estão redefinindo modelos de negócio e criando novas possibilidades no mundo digital.
+                                    Nesta aula, mergulhamos no universo dos NFTs e do metaverso, explorando como a propriedade intelectual e os registros em blockchain estão redefinindo modelos de negócio e criando novas possibilidades no mundo digital.
                                  </i>
                             </div>
 
@@ -112,7 +112,7 @@
                                     Aula 7: Um Panorama sobre a Institucionalização do Mercado de Ativos Digitais (Professor: Gerson Junior, PhD)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na sétima Aula, apresentamos o panorama sobre a profissionalização e institucionalização do mercado de ativos digitais, analisando como a fusão entre as finanças tradicionais e os criptoativos está remodelando o cenário financeiro global. Também destacamos os principais players e suas inovadoras soluções.
+                                    Na sétima aula, apresentamos o panorama sobre a profissionalização e institucionalização do mercado de ativos digitais, analisando como a fusão entre as finanças tradicionais e os criptoativos está remodelando o cenário financeiro global. Também destacamos os principais players e suas inovadoras soluções.
                                  </i>
                             </div>
 
@@ -121,7 +121,7 @@
                                     Aula 8: Alocação: Impactos da Inclusão de Criptos em um Portfólio de Investimentos (Professor: Gerson Junior, PhD)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta Aula, avaliamos o impacto da inclusão de Bitcoin e Ether em portfólios de investimentos. Discutimos conceitos como o índice de Sharpe e a correlação com investimentos tradicionais no Brasil, além de ponderar sobre o percentual ideal de criptoativos para diferentes perfis de risco.
+                                    Nesta aula, avaliamos o impacto da inclusão de Bitcoin e Ether em portfólios de investimentos. Discutimos conceitos como o índice de Sharpe e a correlação com investimentos tradicionais no Brasil, além de ponderar sobre o percentual ideal de criptoativos para diferentes perfis de risco.
                                  </i>
                             </div>
 
@@ -130,7 +130,7 @@
                                     Aula 9: Cripto à vista: comprando e armazenando ativos digitais (Professor: Nicholas Sacchi)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na nona Aula, exploramos o processo de escolha de uma plataforma de exchange confiável, detalhando os diferentes tipos de ordens e as nuances das transferências via blockchain. Esta Aula é um guia prático para navegar com segurança no mundo das exchanges de criptoativos.
+                                    Na nona aula, exploramos o processo de escolha de uma plataforma de exchange confiável, detalhando os diferentes tipos de ordens e as nuances das transferências via blockchain. Esta Aula é um guia prático para navegar com segurança no mundo das exchanges de criptoativos.
                                  </i>
                             </div>
 
@@ -139,7 +139,7 @@
                                     Aula 10: Fundos, ETFs e Outros Instrumentos de Acesso a Esse Mercado (Professor: Murilo Cortina)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Esta Aula é um mergulho profundo nos instrumentos financeiros disponíveis para investidores interessados no universo cripto. Discutimos as diversas formas de acessar o mercado de criptoativos, incluindo carteiras administradas, fundos de fundos e a avaliação de ETFs. 
+                                    Esta aula é um mergulho profundo nos instrumentos financeiros disponíveis para investidores interessados no universo cripto. Discutimos as diversas formas de acessar o mercado de criptoativos, incluindo carteiras administradas, fundos de fundos e a avaliação de ETFs. 
                                  </i>
                             </div>
 
@@ -148,7 +148,7 @@
                                     Aula 11: Qual dos Instrumentos de Investimentos é Mais Adequados para o Perfil do Cliente? (Professor: Murilo Cortina)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    A décima primeira Aula é dedicada a ajudar a identificar o melhor formato de investimento para atender a diferentes perfis e necessidades de clientes. Comparamos e contrastamos as vantagens e desvantagens do mercado à vista e dos fundos de investimento em criptoativos.
+                                    A décima primeira aula é dedicada a ajudar a identificar o melhor formato de investimento para atender a diferentes perfis e necessidades de clientes. Comparamos e contrastamos as vantagens e desvantagens do mercado à vista e dos fundos de investimento em criptoativos.
                                  </i>
                             </div>
 
@@ -173,7 +173,7 @@
                                     Aula 12: Marco Regulatório dos Criptoativos no Brasil: A Instrução Normativa 1.888 da Receita Federal (Professor: Carlos Mauricio Mirandola)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima segunda Aula, nos debruçamos sobre a Instrução Normativa 1.888 da Receita Federal, destacando sua importância crucial na formalização e regulação do setor de criptoativos no Brasil. Esta Aula é um mapa para entender o marco regulatório atual e suas implicações.
+                                    Na décima segunda aula, nos debruçamos sobre a Instrução Normativa 1.888 da Receita Federal, destacando sua importância crucial na formalização e regulação do setor de criptoativos no Brasil. Esta Aula é um mapa para entender o marco regulatório atual e suas implicações.
                                 </i>
                             </div>
 
@@ -182,7 +182,7 @@
                                     Aula 13: Legislação Atual e Perspectivas de Regulação: o PL 4401/21 e suas Implicações para o Mercado Cripto (Professor: Carlos Mauricio Mirandola)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    A décima terceira Aula oferece uma visão sobre as tendências futuras e as possíveis mudanças no panorama regulatório. Exploramos o PL 4401/21, a legislação brasileira de criptoativos, discutindo a proposta de criação de uma autarquia oficial para regular o mercado.
+                                    A décima terceira aula oferece uma visão sobre as tendências futuras e as possíveis mudanças no panorama regulatório. Exploramos o PL 4401/21, a legislação brasileira de criptoativos, discutindo a proposta de criação de uma autarquia oficial para regular o mercado.
                                  </i>
                             </div>
 
@@ -191,7 +191,7 @@
                                     Aula 14: Compliance e Boas Práticas: As Instruções Normativas da CVM 359, 555 e 175  (Professor: Carlos Mauricio Mirandola)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta Aula, focamos em compliance e boas práticas no universo cripto, abordando temas como KYC, AML, CFT e outras práticas essenciais. Analisamos as Instruções Normativas da CVM e suas implicações para o mercado, incluindo as oportunidades trazidas pelo sandbox regulatório.
+                                    Nesta aula, focamos em compliance e boas práticas no universo cripto, abordando temas como KYC, AML, CFT e outras práticas essenciais. Analisamos as Instruções Normativas da CVM e suas implicações para o mercado, incluindo as oportunidades trazidas pelo sandbox regulatório.
                                  </i>
                             </div>
 
@@ -200,7 +200,7 @@
                                     Aula 15: Tributação: As Orientações da Receita Federal do Brasil sobre a Forma Correta de se Declarar Criptoativos (Professor: Carlos Mauricio Mirandola)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Esta Aula é um guia sobre como declarar corretamente criptoativos, ganhos de capital, ETFs e fundos de investimento em criptoativos, seguindo as orientações da Receita Federal do Brasil.
+                                    Esta aula é um guia sobre como declarar corretamente criptoativos, ganhos de capital, ETFs e fundos de investimento em criptoativos, seguindo as orientações da Receita Federal do Brasil.
                                   </i>
                             </div>
 
@@ -209,7 +209,7 @@
                                     Aula 16: Planejamento Sucessório e Proteção Patrimonial com Criptoativos (Professor: Nicholas Sacchi)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima sexta Aula, abordamos como os criptoativos podem ser integrados ao planejamento sucessório e à proteção patrimonial. Esta Aula é um olhar detalhado sobre os instrumentos mais adequados para garantir segurança e eficiência no manejo de ativos digitais em longo prazo.
+                                    Na décima sexta aula, abordamos como os criptoativos podem ser integrados ao planejamento sucessório e à proteção patrimonial. Esta Aula é um olhar detalhado sobre os instrumentos mais adequados para garantir segurança e eficiência no manejo de ativos digitais em longo prazo.
                                   </i>
                             </div>
 
@@ -233,7 +233,7 @@
                                     Aula 17: Conceitos Básicos, Aplicações Práticas e Potencialidades da Tokenização (Professor: Fernando Carvalho & Anderson Gabriel)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima sétima Aula exploramos o potencial transformador da tokenização no futuro do mercado financeiro. Revisitamos o conceito de tokens, fracionamento de ativos e exploramos os novos modelos de negócios impulsionados pela tokenização.
+                                    Na décima sétima aula exploramos o potencial transformador da tokenização no futuro do mercado financeiro. Revisitamos o conceito de tokens, fracionamento de ativos e exploramos os novos modelos de negócios impulsionados pela tokenização.
                                  </i>
                             </div>
 
@@ -242,7 +242,7 @@
                                     Aula 18: Conceitos e Características das Moedas Digitais de Bancos Centrais (CBDC’s) (Professor: Murilo Cortina)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima oitava Aula, mergulhamos no mundo das Moedas Digitais de Bancos Centrais — as CBDC’s — desvendando seus modelos de atacado e varejo e suas características únicas.
+                                    Na décima oitava aula, mergulhamos no mundo das Moedas Digitais de Bancos Centrais — as CBDC’s — desvendando seus modelos de atacado e varejo e suas características únicas.
                                 </i>
                             </div>
 
@@ -251,7 +251,7 @@
                                     Aula 19: O Real Digital e a Introdução da Programabilidade da Moeda Brasileira pelo Banco Central do Brasil (Professor: Murilo Cortina)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima nona Aula, exploramos a introdução do real digital pelo Banco Central do Brasil — o DREX — analisando como essa inovação permitirá usos inovadores para a moeda brasileira e seu papel nas finanças descentralizadas.
+                                    Na décima nona aula, exploramos a introdução do real digital pelo Banco Central do Brasil — o DREX — analisando como essa inovação permitirá usos inovadores para a moeda brasileira e seu papel nas finanças descentralizadas.
                                  </i>
                             </div>
 
