@@ -22,7 +22,7 @@
                     <div class="xl:pl-8 sm:pl-0">
                         <input type="checkbox" checked name="panel" id="fpanel-1" class="hidden">
                         <label for="fpanel-1" class="relative pl-12 lg:pl-16 border-t border-[#29292E] block cursor-pointer green-text p-4 
-                            text-sm sm:text-lg text-white font-semibold pr-8">
+                            text-sm sm:text-lg text-white font-semibold hidebrs pr-8">
                             Como funciona o processo para se tornar um<br /> Especialista em Criptoativos com a Certificação
                             CCA?
                         </label>

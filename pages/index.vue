@@ -185,7 +185,7 @@
     <div class="self-centerhidebrs xl:container mx-auto w-full max-w-screen-2xl mt-14 max-md:max-w-full max-md:mt-10">
       <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0  pb-28 ">
         <div class="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
-          <div class="flex flex-col items-end max-md:max-w-full max-md:mt-10">
+          <div class="flex hidebrs flex-col items-end max-md:max-w-full max-md:mt-10">
             <div class="self-stretch flex justify-between items-start max-md:max-w-full max-md:flex-wrap">
               
 <svg  class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -263,7 +263,7 @@
         ACESSO IMEDIATO
       </div>
       <div
-        class="text-white text-center text-5xl font-bold leading-[58px] self-center max-w-[1149px] mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-10">
+        class="text-white text-center sm:text-3xl  text-5xl font-bold leading-[58px] self-center max-w-[1149px] mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-10">
         <span class="text-cyan-500">Programa Certificação Criptoativos ANCORD</span>
         <span class="text-white">, sua jornada completa de aprendizado para a Web3
         </span>
@@ -293,7 +293,7 @@
                     <div class="text-white lg:text-center text-xl tracking-tight whitespace-nowrap">
                       De <span class="line-through">R$ 3.895,00</span>
                     </div>
-                    <div class="text-cyan-500 text-center text-4xl tracking-tighter whitespace-nowrap mt-4">
+                    <div class="text-cyan-500 text-center text-2xl sm:text-4xl tracking-tighter whitespace-nowrap mt-4">
                       <span class="">por </span>
                       <span class="font-bold">R$ 1.947</span>
                     </div>
@@ -321,7 +321,7 @@
                 <a href="#"
                   class="justify-center items-center bg-cyan-500 self-center flex gap-2 mt-14 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
                   
-<svg  class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg  class="hidden sm:block aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.1665 10H15.8332" stroke="#010918" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10 4.16699L15.8333 10.0003L10 15.8337" stroke="#010918" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
