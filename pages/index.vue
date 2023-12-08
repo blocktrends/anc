@@ -315,7 +315,7 @@
                   </div>
                 </div>
                 <a href="#"
-                  class="justify-center items-center bg-cyan-500 self-center flex gap-2 mt-14 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#038BB7] max-md:flex-wrap max-md:mt-10 max-md:px-5">
+                  class="justify-center items-center bg-cyan-500 self-center flex gap-2 mt-14 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
                   
 <svg  class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.1665 10H15.8332" stroke="#010918" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -442,14 +442,14 @@
       </div>
       <div
         class="items-stretch flex justify-between gap-5 mt-12 mb-9 px-px max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-        <a href="#" class="transition-all hover:bg-[#A9A9A9] justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
+        <a href="#" class="transition-all hover:bg-[#BDBDBD] justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto" src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />
        
           <div class="text-slate-950 text-xl font-extrabold leading-7 self-stretch grow whitespace-nowrap">
             EMBARQUE AGORA
           </div>
         </a>
-        <a href="#" class="transition-all hover:bg-[#0F172A] items-center bg-cyan-950 flex justify-between gap-4 px-10 py-4 rounded-lg max-md:px-5">
+        <a href="#" class="transition-all hover:bg-[#008CA1] items-center bg-cyan-950 flex justify-between gap-4 px-10 py-4 rounded-lg max-md:px-5">
           <img  class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto" src="../assets/imgs/fale-com-time.svg" alt="Fale com o nosso time" />
           
           <div class="items-stretch self-stretch flex grow basis-[0%] flex-col">

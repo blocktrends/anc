@@ -162,7 +162,7 @@
     >
       <a
       href="#"
-        class="text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#1D873E] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
+        class="text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#087339] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
       >
         chamar no whatsapp
   </a>

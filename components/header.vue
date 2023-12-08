@@ -42,7 +42,7 @@
                         já sou aluno
                     </a>-->
               <a href="#matricule"
-                class="text-slate-950 text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#038BB7] self-stretch grow px-8 xl:px-14 py-3.5 max-md:px-5">
+                class="text-slate-950 text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 xl:px-14 py-3.5 max-md:px-5">
                 MATRICULE-SE
                   </a>
 
@@ -85,7 +85,7 @@
                     </div>
                   </div>
                   <a href="#matricule"
-                    class="flex justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
+                    class="flex justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
                       class="  w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
                       <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
