@@ -58,51 +58,51 @@
             <div class="flex-1 sm:pr-20 text-white">
 
               <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
-                <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0 gap-10">
-                  <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0 relative gap-12">
+                <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0  gap-10">
+                  <div class="flex flex-col justify-start items-center sm:items-start flex-grow-0  relative gap-12">
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
                     <div
-                      class="flex flex-col justify-start items-center sm:items-start  flex-grow-0 flex-shrink-0  relative gap-6">
+                      class="flex flex-col justify-start items-center sm:items-start  flex-grow-0   relative gap-6">
                       <div
-                        class="flex flex-col justify-start items-center sm:items-start flex-grow-0 flex-shrink-0  relative gap-2">
-                        <p class="flex-grow-0 text-center sm:text-left flex-shrink-0  text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
+                        class="flex flex-col justify-start items-center sm:items-start flex-grow-0   relative gap-2">
+                        <p class="flex-grow-0 text-center sm:text-left   text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                           <span
-                            class="flex-grow-0 flex-shrink-0  font-bold text-left text-[#00a7d0]">CCA</span><span
-                            class="flex-grow-0 flex-shrink-0   font-bold text-left text-white">
+                            class="flex-grow-0   font-bold text-left text-[#00a7d0]">CCA</span><span
+                            class="flex-grow-0    font-bold text-left text-white">
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class="flex-grow-0 px-5 sm:px-0  font-light hidebrs flex-shrink-0  opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
+                      <p class="flex-grow-0 px-5 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                         <span
-                          class="flex-grow-0 flex-shrink-0  opacity-[0.87] text-left text-white">Domine
+                          class="flex-grow-0   opacity-[0.87] text-left text-white">Domine
                           a blockchain e lidere a revolução cripto<br />
                           com o Programa CCA, desenvolvido pelo<br /></span>
                           <span
-                          class="flex-grow-0 flex-shrink-0  opacity-[0.87] font-extrabold text-left text-white">
+                          class="flex-grow-0   opacity-[0.87] font-extrabold text-left text-white">
                           BlockTrends</span><span
-                          class="flex-grow-0 flex-shrink-0  opacity-[0.87]  text-left text-white">
+                          class="flex-grow-0   opacity-[0.87]  text-left text-white">
                           e certificado pela ANCORD.</span>
                       </p>
                     </div>
                   </div>
                   <a href="#matricule"
-                    class="flex justify-center mx-auto xl:mx-0 items-center flex-grow-0 flex-shrink-0 w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
+                    class="flex justify-center mx-auto xl:mx-0 items-center flex-grow-0  w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#038BB7]">
                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
-                      class="flex-grow-0 flex-shrink-0 w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
+                      class="flex-grow-0  w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
                       <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
                         stroke-linejoin="round"></path>
                       <path d="M10.5 4.23862L16.3333 10.072L10.5 15.9053" stroke="#010918" stroke-width="1.75"
                         stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
-                    <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-[#010918]">
+                    <p class="flex-grow-0  text-xl font-bold text-left text-[#010918]">
                       MATRICULE-SE AGORA
                     </p>
                   </a>
                 </div>
                 <a href="#programa">
                 <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  class="flex-grow-0 flex-shrink-0 w-12 h-12 relative" preserveAspectRatio="xMidYMid meet">
+                  class="flex-grow-0  w-12 h-12 relative" preserveAspectRatio="xMidYMid meet">
                   <path d="M14 26.072L24 36.072L34 26.072" stroke="#00A7D0" stroke-width="4" stroke-linecap="round"
                     stroke-linejoin="round"></path>
                   <path d="M14 12.072L24 22.072L34 12.072" stroke="#00A7D0" stroke-width="4" stroke-linecap="round"
