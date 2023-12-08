@@ -57,13 +57,13 @@
           <div class="lg:flex mt-16">
             <div class="flex-1 sm:pr-20 text-white">
 
-              <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
+              <div class="flex flex-col justify-start items-center sm:items-start relative sm:gap-9">
                 <div class="flex flex-col justify-start items-center sm:items-start   gap-10">
-                  <div class="flex flex-col justify-start items-center sm:items-start   relative gap-12">
+                  <div class="flex flex-col justify-start items-center sm:items-start   relative sm:gap-12">
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
                     <div
-                      class="flex flex-col justify-start items-center sm:items-start     relative gap-6">
+                      class="flex flex-col justify-start items-center sm:items-start     relative sm:gap-6">
                       <div
                         class="flex flex-col justify-start items-center sm:items-start    relative gap-2">
                         <p class=" text-center sm:text-left   text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
