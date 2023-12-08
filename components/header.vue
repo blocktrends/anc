@@ -1,6 +1,6 @@
 <template>
   
-    <div class="bg-top pb-24">
+    <div class="bg-top pb-14 sm:pb-24">
       <div class="pt-16  top-0 border-b border-[#00A7D0] pb-10">
         <nav class="flex items-center justify-between flex-wrap xl:container mx-auto">
           <div class="flex items-center flex-no-shrink text-white">
@@ -54,12 +54,12 @@
       <div>
         <div class="xl:container mx-auto">
 
-          <div class="lg:flex mt-16">
+          <div class="lg:flex mt-10 sm:mt-16">
             <div class="flex-1 sm:pr-20 text-white">
 
               <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
                 <div class="px-5 sm:px-0 flex flex-col justify-start items-center sm:items-start gap-10">
-                  <div class="flex flex-col justify-start items-center sm:items-start   relative gap-12">
+                  <div class="flex flex-col justify-start items-center sm:items-start   relative gap-7 sm:gap-12">
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
                     <div
@@ -112,13 +112,13 @@
             </div>
 
             <div class="relative mt-20 inline-flex xl:block">
-              <a class="absolute right-3 top-0">
+              <a class="absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" alt="Certificado Cca" />
               </a>
-              <a href="#" class="absolute right-0 inline-table top-0 left-0 bottom-0 m-auto">
+              <a href="#" class="absolute right-0 inline-table top-24 sm:top-0 left-0 bottom-0 m-auto">
                 <img src="../assets/imgs/aperte-play.svg" alt="Certificado Cca" />
               </a>
-              <video width="756px" loop="true" autoplay="autoplay" class="border border-white rounded " muted>
+              <video width="756px" loop="true" autoplay="autoplay" class="mt-24 sm:mt-0 border border-white rounded " muted>
                 <source src="../assets/video/intro-ancord.webm" type="video/webm" />
 
                 <source src="../assets/video/intro-ancord.mp4" type="video/mp4" />
