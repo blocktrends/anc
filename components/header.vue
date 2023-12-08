@@ -52,7 +52,7 @@
       </div>
 
       <div>
-        <div class="xl:container mx-auto">
+        <div class="container mx-auto">
 
           <div class="lg:flex mt-16">
             <div class="flex-1 sm:pr-20 text-white">
@@ -63,7 +63,7 @@
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
                     <div
-                      class="flex max-w-max sm:max-w-none flex-col justify-start items-center sm:items-start     relative gap-6">
+                      class="flex flex-col justify-start items-center sm:items-start     relative gap-6">
                       <div
                         class="flex flex-col justify-start items-center sm:items-start    relative gap-2">
                         <p class=" text-center sm:text-left   text-4xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
@@ -73,7 +73,7 @@
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class=" max-w-max sm:max-w-none px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
+                      <p class=" px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                         <span
                           class="   opacity-[0.87] text-left text-white">Domine
                           a blockchain e lidere a revolução cripto<br />
