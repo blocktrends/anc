@@ -204,6 +204,12 @@ div .carousel__prev {
   top: 238px;
 }
 
+
+.mentor-mobile-image {
+  max-width: 335px;
+  margin-left: 15px;
+}
+
 .mentores .xl\:container{
   padding: 0;
 }

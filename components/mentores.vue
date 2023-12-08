@@ -37,7 +37,7 @@
                         <div class="md:flex rounded-[32px] sm:bg-[#F0F0F0] sm:border border-[#bebebe] carousel__item text-left mx-3">
                             <div class="flex-1 md:max-w-md sm:pt-7 pl-4 md:pl-8">
                                 <div class="block sm:hidden mb-5">
-                                    <img class="border border-[#bebebe] rounded-[22px]" :src="teacher.image" />
+                                    <img class="border mentor-mobile-image border-[#bebebe] rounded-[22px]" :src="teacher.image" />
                                 </div>
                                 <div
                                     class="text-slate-950 text-2xl font-bold leading-8 tracking-tight self-stretch whitespace-nowrap">
