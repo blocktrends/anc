@@ -193,7 +193,7 @@
 </svg>
 
            
-              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-5 max-md:max-w-full">
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-3 sm:px-3 max-md:max-w-full">
                 <div
                   class="text-white text-2xl sm:text-4xl font-semibold whitespace-nowrap max-md:max-w-full">
                   Para se manter atualizado
@@ -210,7 +210,7 @@
               <svg  class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.5 19.125L16.875 22.5L22.5 14.625M31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z" stroke="#00A7D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"  />
 </svg>
-              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-5 max-md:max-w-full">
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-3 sm:px-3 max-md:max-w-full">
                 <div
                   class="text-white text-2xl sm:text-4xl  font-semibold  whitespace-nowrap max-md:max-w-full">
                   Para se especializar
@@ -227,7 +227,7 @@
               <svg  class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.5 19.125L16.875 22.5L22.5 14.625M31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z" stroke="#00A7D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"  />
 </svg>
-              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-5 max-md:max-w-full">
+              <div class="items-stretch self-stretch flex grow basis-[0%] flex-col px-3 sm:px-3 max-md:max-w-full">
                 <div
                   class="text-white text-2xl sm:text-4xl  font-semibold whitespace-nowrap max-md:max-w-full">
                   Para aprender do zero
