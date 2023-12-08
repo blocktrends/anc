@@ -155,7 +155,7 @@ div .carousel__prev svg, div .carousel__next svg {
  }
 
 @media (max-width: 768px) {
-  .brmobile {
+  body div br.brmobile {
     display: block;
   }
   div .carousel__prev {
