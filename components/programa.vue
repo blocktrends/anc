@@ -1,9 +1,13 @@
 <template>
   <div  class="xl:container mx-auto px-0">
+    <div class="text-center">
+
+  
     <div
-      class="mt-16  mb-12 flex justify-center mx-auto items-center w-[119px] h-[30px] relative gap-2.5 p-2.5 rounded bg-[#202024] border border-[#575757]">
+      class="mt-16  mb-12 inline-flex justify-center mx-auto items-center relative gap-2.5 p-3 rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">PROGRAMA CCA</p>
     </div>
+  </div>
 
     <div 
       class="programa-cca-container md:rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col pl-3 lg:pr-20 py-9 sm:py-12 border-y md:border-[1.5px] border-solid items-start px-10 ">
@@ -227,11 +231,13 @@
       </svg>
     </a>
     </header>
-
+    
+    <div class="text-center">
     <div 
-      class="mt-16  flex justify-center mx-auto items-center w-[139px] h-[30px] relative gap-2.5 p-2.5 rounded bg-[#202024] border border-[#575757]">
+      class="mt-16  inline-block mx-auto items-center mx-auto relative gap-2.5 px-3 py-3  rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">SOBRE O PROGRAMA</p>
     </div>
+  </div>
 
     <header class="sm:px-5 md:px-0 self-center w-full  mt-12 pb-20  max-md:mt-10">
       <div class=" flex-wrap flex  max-md:items-stretch max-md:gap-0">
