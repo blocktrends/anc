@@ -58,7 +58,7 @@
             <div class="flex-1 sm:pr-20 text-white">
 
               <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
-                <div class="flex flex-col justify-start items-center sm:items-start   gap-10">
+                <div class="px-5 sm:px-0 flex flex-col justify-start items-center sm:items-start gap-10">
                   <div class="flex flex-col justify-start items-center sm:items-start   relative gap-12">
                     <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
                     
