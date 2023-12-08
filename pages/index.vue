@@ -38,7 +38,7 @@
             <div class="gap-1 flex max-lg:flex-col max-lg:items-stretch max-md:gap-0">
               <div class="flex bg-ancord flex-col items-stretch w-6/12 max-lg:w-full max-lg:ml-0">
                 <div
-                  class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5" style="padding: 3rem 40px 7rem;">
+                  class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5" style="padding: 3rem 40px 5rem;">
                   <a href="https://www.ancord.org.br/" target="_blank">
                   <img  class="aspect-[2.84] object-contain object-center w-[142px] fill-white overflow-hidden max-w-full mt-8" src="../assets/imgs/ancord-logo.svg" alt="Logo Ancord" />
 
@@ -68,7 +68,7 @@
                 </div>
               </div>
               <div class="flex mt-10 lg:mt-0 bg-bt flex-col items-stretch w-6/12 ml-5 max-lg:w-full max-lg:ml-0">
-                <div style="padding: 3rem 46px 7rem;"
+                <div style="padding: 3rem 46px 5rem;"
                   class="rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex grow flex-col items-center w-full px-20 py-12 border-[1.5px] border-solid max-md:max-w-full max-md:mt-6 max-md:px-5">
                   <a href="https://blocktrends.com.br/" target="_blank">
                   <img src="../assets/imgs/bt-logo.svg" alt="Logo Blocktrends" class="aspect-[2.84] object-contain object-center w-[142px] fill-white overflow-hidden max-w-full mt-8" />
