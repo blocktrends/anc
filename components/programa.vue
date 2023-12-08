@@ -1,11 +1,11 @@
 <template>
   <div class="xl:container mx-auto px-0">
-    <div
+    <div id="programa"
       class="mt-16  mb-12 flex justify-center mx-auto items-center w-[119px] h-[30px] relative gap-2.5 p-2.5 rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">PROGRAMA CCA</p>
     </div>
 
-    <div id="programa"
+    <div 
       class="programa-cca-container md:rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col pl-3 lg:pr-20 py-9 sm:py-12 border-y md:border-[1.5px] border-solid items-start px-10 ">
       <div
         class="text-cyan-500  leading-tight xs:leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight text-2xl sm:text-3xl md:text-5xl xl:text-7xl mb-3 sm:mb-12 font-extrabold pl-3 lg:pl-9 sm:mt-2.5 max-md:max-w-full ">
