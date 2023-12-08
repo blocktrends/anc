@@ -115,7 +115,7 @@
               <a class="absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" alt="Certificado Cca" />
               </a>
-              <a href="#" class="absolute right-0 inline-table top-24 sm:top-0 left-0 bottom-0 m-auto">
+              <a href="#" class="absolute right-0 sm:inline-table top-24 sm:top-0 left-0 bottom-0 m-auto">
                 <img src="../assets/imgs/aperte-play.svg" alt="Certificado Cca" />
               </a>
               <video width="756px" loop="true" autoplay="autoplay" class="mt-24 sm:mt-0 border border-white rounded " muted>
