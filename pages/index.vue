@@ -209,7 +209,7 @@
      
 
             <div class="self-stretch flex justify-between mt-6 items-start max-md:max-w-full max-md:flex-wrap">
-              <svg class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36"
+              <svg class="aspect-square object-contain object-center sm:w-9 overflow-hidden shrink-0 max-w-full " width="36"
                 height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.5 19.125L16.875 22.5L22.5 14.625M31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z"
@@ -229,7 +229,7 @@
             </div>
 
             <div class="self-stretch flex justify-between mt-6 items-start max-md:max-w-full max-md:flex-wrap">
-              <svg class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36"
+              <svg class="aspect-square object-contain object-center sm:w-9 overflow-hidden shrink-0 max-w-full " width="36"
                 height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.5 19.125L16.875 22.5L22.5 14.625M31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z"
@@ -249,7 +249,7 @@
             </div>
 
             <div class="self-stretch flex justify-between  mt-6 items-start max-md:max-w-full max-md:flex-wrap">
-              <svg class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full " width="36"
+              <svg class="aspect-square object-contain object-center sm:w-9 overflow-hidden shrink-0 max-w-full " width="36"
                 height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.5 19.125L16.875 22.5L22.5 14.625M31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z"
