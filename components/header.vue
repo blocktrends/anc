@@ -52,7 +52,7 @@
       </div>
 
       <div>
-        <div class="container mx-auto">
+        <div class="xl:container mx-auto">
 
           <div class="lg:flex mt-16">
             <div class="flex-1 sm:pr-20 text-white">
@@ -73,7 +73,7 @@
                             - A 1ª Certificação<br />Cripto da ANCORD</span>
                         </p>
                       </div>
-                      <p class=" px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
+                      <p class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                         <span
                           class="   opacity-[0.87] text-left text-white">Domine
                           a blockchain e lidere a revolução cripto<br />
