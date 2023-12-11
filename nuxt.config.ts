@@ -29,8 +29,8 @@ export default defineNuxtConfig({
     cdnURL: '/',
     head: {
       meta: [
-        { hid: 'og:image', name: 'og:image', content: 'https://blocktrends.com.br/wp-content/uploads/2023/12/ancord-share.jpg'},
-        { hid: 'twitter:image', name: 'twitter:image', content: 'https://blocktrends.com.br/wp-content/uploads/2023/12/ancord-share.jpg'},
+        { hid: 'og:image', name: 'og:image', content: 'https://blocktrends.com.br/wp-content/uploads/2023/12/ancord-share.png'},
+        { hid: 'twitter:image', name: 'twitter:image', content: 'https://blocktrends.com.br/wp-content/uploads/2023/12/ancord-share.png'},
         {  name: 'twitter:card', content: 'summary_large_image'},
         {  hid: 'title', name: 'title', content: 'Programa Certificação Criptoativos ANCORD'},
         {  hid: 'og:title', name: 'twitter:title', content: 'Programa Certificação Criptoativos ANCORD'},
