@@ -54,11 +54,8 @@
                   <div class="bg-white self-stretch shrink-0 h-px mt-9 max-md:max-w-full"></div>
                   <div
                     class="text-white text-justify text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
-                    Com +50 anos de atuação, a <strong>ANCORD</strong> (Associação Nacional das Corretoras e
-                    Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) é a principal entidade
-                    certificadora do Brasil. Além de ser responsável pela certificação de Assessores de Investimento
-                    (AIs), a instituição representa Corretoras, DTVMs, Bancos, Gestoras e outras Instituições Financeiras,
-                    fortalecendo seu papel central no mercado financeiro brasileiro.
+                
+                    Com mais de 50 anos de atuação, a <strong>ANCORD</strong> (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) se consolidou como a mais representativa Associação da Índústria de Intermediação. Além disso, é reconhecida pela qualidade de suas iniciativas educacionais e se tornou uma referência, como a mais importante Entidade Certificadora e Credenciadora do Mercado.
 
                   </div>
                   <!--
