@@ -167,7 +167,7 @@
           </div>
         </div>
 
-        <a class="link-blue-rect" href="#matricule">
+        <a class="link-blue-rect" href="https://clkdmg.site/pay/programa-cca" target="_blank">
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="57" width="406" height="68" rx="4" class="blue-rect transition-all" fill="#00A7D0" />
@@ -346,7 +346,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="#"
+                    <a href="https://clkdmg.site/pay/programa-cca" target="_blank"
                       class="justify-center items-center bg-cyan-500 self-center flex gap-2 mt-14 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
@@ -497,7 +497,7 @@
       </div>
       <div
         class="items-center flex justify-center gap-5 mt-12 mb-9 px-px max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-        <a href="#matricule"
+        <a href="https://clkdmg.site/pay/programa-cca" target="_blank"
           class="transition-all hover:bg-[#BDBDBD] justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />

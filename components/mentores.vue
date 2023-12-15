@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="hidden sm:block items-stretch flex gap-2">
-                    <a class="link-blue-rect" href="#matricule">
+                    <a class="link-blue-rect" href="https://clkdmg.site/pay/programa-cca" target="_blank">
                         
                   
                     <svg width="496" class="max-w-full md:max-w-md" height="68" viewBox="0 0 496 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@
                 </Carousel>
             </div>
             <div class="block sm:hidden mt-7 mx-8 mb-10 items-stretch flex gap-2">
-                    <a class="link-blue-rect" href="#matricule">
+                    <a class="link-blue-rect" href="https://clkdmg.site/pay/programa-cca" target="_blank">
                         
                   
                     <svg width="496" class="max-w-full md:max-w-md" height="68" viewBox="0 0 496 68" fill="none" xmlns="http://www.w3.org/2000/svg">
