@@ -8,7 +8,7 @@
               <img src="../assets/imgs/certificacao-criptoativos-ancord.svg" class="max-w-[260px] sm:max-w-none" alt="Logo Ancord" />
             </a>
           </div>
-          <div class="block lg:hidden">
+          <div class="block xl:hidden">
             <button @click="toggleMenu" class="flex items-center text-white">
               <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 13.5C4.5 12.8787 5.00368 12.375 5.625 12.375H30.375C30.9963 12.375 31.5 12.8787 31.5 13.5C31.5 14.1213 30.9963 14.625 30.375 14.625H5.625C5.00368 14.625 4.5 14.1213 4.5 13.5ZM4.5 23.625C4.5 23.0037 5.00368 22.5 5.625 22.5H30.375C30.9963 22.5 31.5 23.0037 31.5 23.625C31.5 24.2463 30.9963 24.75 30.375 24.75H5.625C5.00368 24.75 4.5 24.2463 4.5 23.625Z" fill="white"/>
@@ -17,32 +17,32 @@
             </button>
           </div>
           <div :class="open ? 'block' : 'hidden'"
-            class="responsive-menu w-full flex-grow lg:flex lg:items-center lg:w-auto ">
-            <div class="lg:text-base xl:text-lg lg:flex-grow text-center lg:text-right">
+            class="responsive-menu w-full flex-grow xl:flex xl:items-center xl:w-auto ">
+            <div class="lg:text-base xl:text-lg xl:flex-grow text-center xl:text-right">
               <a href="#programa" @click="toggleMenu"
-                class="no-underline block mt-8 lg:mt-0 lg:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
+                class="no-underline block mt-8 xl:mt-0 xl:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 2xl:mr-16">
                 PROGRAMA
               </a>
               <a href="#conteudo" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 lg:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
+                class="no-underline block mt-4 xl:mt-0 xl:inline-block  text-white hover:text-[#00A7D0] lg:mr-8 2xl:mr-16">
                 CONTEÚDO
               </a>
               <a href="#mentores" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 block  lg:inline-block text-white hover:text-[#00A7D0] lg:mr-8 xl:mr-16">
+                class="no-underline block mt-4 xl:mt-0 block  xl:inline-block text-white hover:text-[#00A7D0] lg:mr-8 2xl:mr-16">
                 MENTORES
               </a>
               <a href="#faq" @click="toggleMenu"
-                class="no-underline block mt-4 lg:mt-0 lg:inline-block text-white hover:text-[#00A7D0] mb-8 xl:mr-16 lg:mr-8 lg:mb-0">
+                class="no-underline block mt-4 xl:mt-0 xl:inline-block text-white hover:text-[#00A7D0] mb-8 xl:mr-16 lg:mr-8 lg:mb-0">
                 FAQ
               </a>
             </div>
-            <div class="text-center">
-              <!--<a href="#"
-                        class="no-underline uppercase green-border green-text font-bold inline-block text-xs px-7 py-4 mr-5 leading-none border rounded-3xl thin-buttom-green">
-                        já sou aluno
-                    </a>-->
+            <div class="text-center mt-8 xl:mt-0">
+              <a href="https://plataforma.blocktrends.com.br/" target="_blank"
+                        class="mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
+                        FAZER LOGIN
+                    </a>
               <a href="#matricule"
-                class="text-slate-950 text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 xl:px-14 py-3.5 max-md:px-5">
+                class="text-slate-950 text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
                 MATRICULE-SE
                   </a>
 
@@ -148,7 +148,7 @@ export default {
   methods: {
     toggleMenu() {
 
-      if (window.innerWidth < 1024) {
+      if (window.innerWidth < 1280) {
         this.open = !this.open
       }
 
