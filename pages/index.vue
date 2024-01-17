@@ -489,7 +489,7 @@
 
     <div class="items-center bg-check self-stretch flex w-full flex-col px-20 py-12 max-md:max-w-full max-md:px-5">
       <div class="text-white text-center text-2xl sm:text-4xl font-bold tracking-tighter  mt-6 max-md:max-w-full">
-        Comece agora a 1ª Certificação Cripto do Brasil
+        Comece agora a 1ª Certificação Cripto do Mercado Brasileiro
       </div>
       <div class="text-white text-center text-lg leading-7 max-w-[525px] mt-6 max-md:max-w-full">
         Não perca a oportunidade de liderar na indústria cripto. Torne-se um

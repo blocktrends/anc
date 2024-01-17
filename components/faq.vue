@@ -43,7 +43,7 @@
                                     igual ou superior a 7 na soma dessas avaliações. Essas provas são cruciais para
                                     assegurar que você esteja assimilando o conteúdo de forma eficaz.
                                     <br /><br />
-                                    Após a conclusão bem-sucedida do curso, você receberá a Carta de Aptidão. Este documento
+                                    Após a conclusão bem-sucedida do curso, você receberá o Atestado de Qualificação. Este documento
                                     é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo
                                     necessário e está pronto para o desafio final.
                                     <br /><br />

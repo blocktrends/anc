@@ -39,7 +39,7 @@
             <div class="text-center mt-8 xl:mt-0">
               <a href="https://plataforma.blocktrends.com.br/" target="_blank"
                         class="mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
-                        FAZER LOGIN
+                        ENTRAR
                     </a>
               <a href="https://clkdmg.site/pay/programa-cca" target="_blank"
                 class="text-slate-950 text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
@@ -66,11 +66,11 @@
                       class="flex flex-col justify-start items-center sm:items-start     relative gap-6">
                       <div
                         class="flex flex-col justify-start items-center sm:items-start    relative gap-2">
-                        <p class=" text-center sm:text-left   text-3xl md:text-5xl 2xl:text-6xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
+                        <p class=" text-center sm:text-left   text-3xl md:text-5xl 2xl:text-5xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                           <span
                             class="   font-bold text-left text-[#00a7d0]">CCA</span><span
                             class="    font-bold text-left text-white">
-                            - A 1ª Certificação<br />Cripto da ANCORD</span>
+                            - A 1ª Certificação<br />Cripto do Mercado Brasileiro</span>
                         </p>
                       </div>
                       <div class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">

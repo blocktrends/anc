@@ -97,10 +97,10 @@
                   class="flex flex-col items-stretch   xl:w-[360px] max-md:w-full -mt-2 md:mt-0 max-md:ml-0">
                   <div class="flex grow flex-col items-stretch mt-3 xl:mt-4 max-md:max-w-full max-md:mt-10">
                     <div class="text-white text-2xl sm:text-3xl font-bold leading-9 max-md:max-w-full">
-                      Carta de Aptidão
+                      Atestado de Qualificação
                     </div>
                     <div class="text-white text-lg leading-7 mt-3 max-md:max-w-full">
-                      Ao concluir o curso, você receberá uma Carta de Aptidão, o
+                      Ao concluir o curso, você receberá um Atestado de Qualificação, o
                       seu passaporte para o Exame de Certificação. Ela é
                       fundamental, pois atesta que você assimilou o conteúdo e está
                       preparado para o exame final.
