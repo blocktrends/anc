@@ -38,7 +38,7 @@
             </div>
             <div class="text-center mt-8 xl:mt-0">
               <a href="https://plataforma.blocktrends.com.br/" target="_blank"
-                        class="mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
+                        class="entrar-button-plataforma mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
                         ENTRAR
                     </a>
               <a href="https://clkdmg.site/pay/programa-cca" target="_blank"

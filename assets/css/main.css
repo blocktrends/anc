@@ -54,7 +54,7 @@ body {
 
 .faq .accordion  label:before {
   counter-increment: section;
-  content: "0" counter(section) ".";
+  content: counter(section) ".";
 }
 
 .accordion  label:after {
@@ -117,6 +117,10 @@ div .carousel__prev svg, div .carousel__next svg {
 
 .comece-cta:hover .rect-comece {
   fill:#575757;
+}
+
+.entrar-button-plataforma:hover {
+background: #063146;
 }
 
 .link-blue-rect:hover .blue-rect {

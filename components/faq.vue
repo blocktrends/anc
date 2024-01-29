@@ -15,16 +15,15 @@
 
 
             </div>
-            <div class="w-full mt-10 lg:mt-0 xl:max-w-[50%]">
+            <div class="w-full mt-10 lg:mt-0 hidebrs xl:max-w-[50%]">
                 <div class="accordion pb-20 flex flex-col items-end justify-center">
 
                     <!--  Panel 1  -->
-                    <div class="xl:pl-8 sm:pl-0">
+                    <div class="xl:pl-8 sm:pl-0 w-full">
                         <input type="checkbox" checked name="panel" id="fpanel-1" class="hidden">
                         <label for="fpanel-1" class="relative pl-12 lg:pl-16 border-t border-[#29292E] block cursor-pointer green-text p-4 
                             text-sm sm:text-lg text-white font-semibold hidebrs pr-8">
-                            Como funciona o processo para se tornar um<br /> Especialista em Criptoativos com a Certificação
-                            CCA?
+                            Existe alguma restrição para a inscrição no Programa CCA?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E]  overflow-hidden ">
@@ -32,30 +31,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O caminho para se tornar um Especialista em Criptoativos - CCA é estruturado e
-                                    abrangente, garantindo uma formação completa. Inicia-se com o Curso Intensivo CCA, o
-                                    primeiro passo essencial, onde você se matricula para começar sua preparação. Este curso
-                                    é projetado para garantir que você esteja totalmente preparado para o Exame de
-                                    Certificação do Programa CCA.
-                                    <br /><br />
-                                    Durante o curso, você enfrentará Provas Intermediárias em cada módulo, cada uma contendo
-                                    5 questões cuidadosamente elaboradas. Para avançar, é necessário alcançar uma média
-                                    igual ou superior a 7 na soma dessas avaliações. Essas provas são cruciais para
-                                    assegurar que você esteja assimilando o conteúdo de forma eficaz.
-                                    <br /><br />
-                                    Após a conclusão bem-sucedida do curso, você receberá o Atestado de Qualificação. Este documento
-                                    é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo
-                                    necessário e está pronto para o desafio final.
-                                    <br /><br />
-                                    O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 40
-                                    questões, divididas em 4 módulos. Este exame é a etapa final do processo, onde você
-                                    demonstrará seu conhecimento e habilidades adquiridas.
-                                    <br /><br />
-                                    Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alcança o
-                                    status de Especialista em Criptoativos e recebe a Certificação Criptoativos ANCORD -
-                                    CCA. Esta certificação não apenas valida seu conhecimento e habilidades, mas também o
-                                    posiciona como um profissional qualificado e reconhecido no crescente mercado de
-                                    criptoativos.
+                                    Para ingressar no Programa CCA, o aluno deve ter pelo menos 18 anos de idade. Não é necessária comprovação de escolaridade ou certificações prévias.
 
                                 </p>
                             </div>
@@ -67,11 +43,12 @@
                     </div>
 
                     <!--  Panel 2  -->
-                    <div class="xl:pl-8 sm:pl-0">
+                    <div class="xl:pl-8 sm:pl-0 w-full">
                         <input type="checkbox" name="panel" id="fpanel-2" class="hidden">
                         <label for="fpanel-2" class="relative  pl-12 lg:pl-16 border-t border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            Quem deve se inscrever no Programa CCA?
+                            Posso realizar a Certificação CCA mesmo não atuando na área?<br />
+                            Posso realizar a CCA mesmo sendo profissional certificado<br />e credenciado em outra entidade?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
@@ -79,9 +56,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O Programa CCA é ideal para assessores de investimento que buscam aprofundar seus
-                                    conhecimentos em criptoativos, bem como para entusiastas e profissionais do mercado
-                                    financeiro que desejam validar e certificar sua expertise no setor de criptomoedas.
+                                    Sim, o Programa CCA está liberado para todos os públicos e não possui limitações de quaisquer outras certificações profissionais.
                                 </p>
                             </div>
 
@@ -94,11 +69,11 @@
 
 
                     <!--  Panel 3  -->
-                    <div class="xl:pl-8 sm:pl-0">
+                    <div class="xl:pl-8 sm:pl-0 w-full">
                         <input type="checkbox" name="panel" id="fpanel-3" class="hidden">
                         <label for="fpanel-3" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            O que é a ANCORD e qual é o papel do<br /> BlockTrends no Programa CCA?
+                            Como funciona o processo para se tornar um Especialista em Criptoativos com a Certificação CCA?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
@@ -106,28 +81,15 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    A ANCORD (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores
-                                    Mobiliários, Câmbio e Mercadorias) é uma entidade de grande prestígio no mercado
-                                    financeiro brasileiro, com mais de 50 anos de atuação. Ela é a principal certificadora
-                                    do Brasil, especialmente conhecida por sua responsabilidade na certificação de
-                                    Assessores de Investimento (AIs). Além disso, a ANCORD representa uma variedade de
-                                    instituições financeiras, incluindo Corretoras, DTVMs, Bancos e Gestoras, desempenhando
-                                    um papel central e fortalecedor no mercado financeiro do país.
-
-                                    Por outro lado, o BlockTrends é uma EdTech inovadora, focada em acelerar a educação
-                                    sobre criptoativos no Brasil. Com a formação de mais de 27 mil alunos em cursos
-                                    relacionados à Web3, o BlockTrends tem se destacado no cenário educacional, sendo
-                                    responsável pelo maior curso da história da bolsa de valores (B3) e pela primeira
-                                    Pós-Graduação em desenvolvimento blockchain do país. Além disso, o BlockTrends mantém um
-                                portal de notícias sobre criptoativos, alcançando mensalmente uma audiência de mais de
-                                um milhão de pessoas.
-
-                                A parceria entre ANCORD e BlockTrends no Programa CCA representa uma união estratégica e
-                                poderosa. Enquanto a ANCORD traz sua experiência e credibilidade em certificações e
-                                representação no mercado financeiro, o BlockTrends contribui com sua expertise
-                                educacional e inovação no ensino de criptoativos e tecnologias emergentes. Juntos, eles
-                                impulsionam o desenvolvimento profissional dos participantes do Programa CCA,
-                                preparando-os para se destacarem no dinâmico mercado de criptoativos.
+                                    O caminho para se tornar um Especialista em Criptoativos - CCA é estruturado e abrangente, garantindo uma formação completa. Inicia-se com o Curso Intensivo CCA, o primeiro passo essencial, onde você se matricula para começar sua preparação. Este curso é projetado para garantir que você esteja totalmente preparado para o Exame de Certificação do Programa CCA.
+                                    <br /><br />
+Durante o curso, você enfrentará Provas Intermediárias em cada módulo, cada uma contendo 5 questões cuidadosamente elaboradas. Para avançar, é necessário alcançar uma média igual ou superior a 7 na soma dessas avaliações. Essas provas são cruciais para assegurar que você esteja assimilando o conteúdo de forma eficaz.
+<br /><br />
+Após a conclusão bem-sucedida do curso, você receberá o Atestado de Qualificação. Este documento é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo necessário e está pronto para o desafio final.
+<br /><br />
+O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 40 questões, divididas em 4 módulos. Este exame é a etapa final do processo, onde você demonstrará seu conhecimento e habilidades adquiridas.
+<br /><br />
+Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alcança o status de Especialista em Criptoativos e recebe a Certificação Criptoativos ANCORD - CCA. Esta certificação não apenas valida seu conhecimento e habilidades, mas também o posiciona como um profissional qualificado e reconhecido no crescente mercado de criptoativos.
 
 
                             </p>
@@ -138,6 +100,405 @@
                     </div>
 
                 </div>
+
+
+
+                <!--  Panel 4  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-4" class="hidden">
+                        <label for="fpanel-4" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Quem deve se inscrever no Programa CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O Programa CCA é ideal para assessores de investimento que buscam aprofundar seus conhecimentos em criptoativos, bem como para entusiastas e profissionais do mercado financeiro que desejam validar e certificar sua expertise no setor de criptomoedas.
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 5  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-5" class="hidden">
+                        <label for="fpanel-5" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O que é a ANCORD e qual é o papel do BlockTrends no Programa CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    A ANCORD (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) é uma entidade de grande prestígio no mercado financeiro brasileiro, com mais de 50 anos de atuação. Ela é a principal certificadora do Brasil, especialmente conhecida por sua responsabilidade na certificação de Assessores de Investimento (AIs). Além disso, a ANCORD representa uma variedade de instituições financeiras, incluindo Corretoras, DTVMs, Bancos e Gestoras, desempenhando um papel central e fortalecedor no mercado financeiro do país. Por outro lado, o BlockTrends é uma EdTech inovadora, focada em acelerar a educação sobre criptoativos no Brasil. Com a formação de mais de 27 mil alunos em cursos relacionados à Web3, o BlockTrends tem se destacado no cenário educacional, sendo responsável pelo maior curso da história da bolsa de valores (B3) e pela primeira Pós-Graduação em desenvolvimento blockchain do país. Além disso, o BlockTrends mantém um portal de notícias sobre criptoativos, alcançando mensalmente uma audiência de mais de um milhão de pessoas. A parceria entre ANCORD e BlockTrends no Programa CCA representa uma união estratégica e poderosa. Enquanto a ANCORD traz sua experiência e credibilidade em certificações e representação no mercado financeiro, o BlockTrends contribui com sua expertise educacional e inovação no ensino de criptoativos e tecnologias emergentes. Juntos, eles impulsionam o desenvolvimento profissional dos participantes do Programa CCA, preparando-os para se destacarem no dinâmico mercado de criptoativos.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 6  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-6" class="hidden">
+                        <label for="fpanel-6" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O que eu vou aprender no Programa CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O aluno seguirá o aprendizado em quatro módulos. No módulo inaugural, o aluno terá uma introdução completa em criptoativos, conhecendo as principais moedas, mecanismos e subclasses, do início ao presente. No módulo seguinte, o aluno terá uma imersão em como funciona o mercado de criptoativos, incluindo o regulado, além de entender como navegar com segurança neste universo. No terceiro módulo, serão estudadas regulação, tributação e aspectos legais. Por fim, o aluno entenderá conceitos de aplicações práticas, tokenização, moedas digitais de bancos centrais e uma imersão no Real Digital. O objetivo final é formar um aluno que esteja preparado para encarar o mercado de criptoativos com segurança e assertividade.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 7  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-7" class="hidden">
+                        <label for="fpanel-7" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Qual é a carga horária do Curso do Curso Intensivo CCA ANCORD?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    A carga horária é de 47 horas, distribuídas em quatro módulos com 19 aulas. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 4 Provas Intermediárias, com 5 questões cada, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 8  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-8" class="hidden">
+                        <label for="fpanel-8" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O Programa CCA é presencial ou EAD?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    A 1ª, 2ª e 3ª etapa do Programa CCA são realizadas completamente online. São elas: Curso Intensivo CCA, Provas Intermediárias do Curso Intensivo e Atestado de Qualificação. Já o Exame de Certificação, a 4ª Etapa do Programa, é aplicado pela FGV presencialmente com opção híbrida. 
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 9  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-9" class="hidden">
+                        <label for="fpanel-9" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Qual é o valor do Programa CCA? E quais são os meios de pagamento?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O valor é R$1.947,00. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 10  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-10" class="hidden">
+                        <label for="fpanel-10" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Associadas da ANCORD possuem desconto na inscrição para o curso?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    1 - Sim! Profissionais das Associadas ANCORD contam com 30% de desconto nas inscrições.<br /><br />
+2 - Caso as Associadas se interessem em adquirir inscrições em lote para seus colaboradores, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato com o <a href="https://api.whatsapp.com/message/W2USYZZK75FMC1?autoload=1&app_absent=0" target="_blank">nosso suporte no WhatsApp</a>.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 11  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-11" class="hidden">
+                        <label for="fpanel-11" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O Programa CCA tem provas intermediárias e prova final?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Sim, cada módulo do curso possui uma Prova Intermediária composta por 5 questões cuidadosamente elaboradas. Para concluir o curso, você deve alcançar uma média igual ou superior a 7 na soma das avaliações. Ao concluir o curso e receber o seu Atestado de Qualificação, você está liberado para realizar a prova final. A prova final se chama Exame de Certificação CCA e possui 40 questões sobre os conhecimentos adquiridos durante todo o curso. Ao atingir uma nota superior ou igual a 7, o aluno poderá adquirir sua Certificação Criptoativos ANCORD – CCA.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 12  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-12" class="hidden">
+                        <label for="fpanel-12" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Posso realizar o Exame de Certificação sem ter feito o Curso previamente?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Não. O Exame de Certificação é um dos passos do programa CCA, para concluí-lo é necessário obter um Atestado de Qualificação, fornecido apenas aos alunos aprovados nas Provas Intermediárias do Curso Intensivo CCA. Com o Atestado de Qualificação em mãos, o aluno poderá realizar o Exame de Certificação, precisando de nota igual ou superior a 7 para se tornar um CCA.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 13  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-13" class="hidden">
+                        <label for="fpanel-13" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Qual é o valor para realizar o Exame de Certificação?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O Exame de Certificação custa R$1 e o valor já está incluso na inscrição do Programa CCA.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 14  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-14" class="hidden">
+                        <label for="fpanel-14" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Quantas perguntas tem o Exame de Certificação?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    40 questões divididas em 4 módulos, sendo 10 questões por módulo. Cada módulo da prova corresponde, respectivamente, aos módulos estudados no Curso Intensivo CCA.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 15  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-15" class="hidden">
+                        <label for="fpanel-15" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Qual é a diferença entre o Atestado de Qualificação e o Certificado?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O Atestado de Qualificação é um passaporte para a realização do exame final do programa CCA, o Exame de Certificação. Já o Certificado será recebido após a aprovação no Exame de Certificação, apontando que o aluno concluiu todos os passos e está certificado no programa CCA.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 16  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-16" class="hidden">
+                        <label for="fpanel-16" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Depois que finalizei o Curso, quanto tempo tenho para realizar o Exame de Certificação?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    O aluno tem 1 ano para concluir todos os passos do Programa CCA contando a partir da sua data de inscrição.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 17  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-17" class="hidden">
+                        <label for="fpanel-17" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Após a aprovação eu recebo um Certificado? Como funciona a emissão da Certificação?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Sim, com a conclusão do Programa CCA, o aluno receberá a Certificação Criptoativos ANCORD – CCA. A emissão desta certificação é efetuada de forma automática pela plataforma do curso.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 18 -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-18" class="hidden">
+                        <label for="fpanel-18" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O que acontece após a conclusão do Curso CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Ao concluir o Curso, você receberá um Atestado de Qualificação, o seu passaporte para o Exame de Certificação. Ele é fundamental, pois atesta que você assimilou o conteúdo e está preparado para o exame final.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+          <!--  Panel 19  -->
+          <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-19" class="hidden">
+                        <label for="fpanel-19" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Qual é a Instituição responsável em aplicar<br /> a prova de Certificação CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24 min-w-full ">
+                                    A prova de Certificação CCA será aplicada pela Fundação Getúlio Vargas.  
+                                 </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 20  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-20" class="hidden">
+                        <label for="fpanel-20" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Quais outras Entidades, Profissionais e Instituições terão descontos nas Inscrições do Curso?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Além dos colaboradores das Associadas ANCORD que terão 30% de desconto na inscrição do Programa CCA, os Assessores de Investimento terão desconto de 15% na matrícula. Vale ressaltar, no entanto, que o desconto é não cumulativo. Ou seja, caso o aluno trabalhe numa Associada ANCORD e seja um Assessor de Investimentos, será necessário escolher qual dos dois cupons aplicar.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+               
+
+
 
                 <div
   class="border xl:ml-8 border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-900 self-stretch mt-16 pl-6 pr-8 pb-9  sm:py-9 rounded-lg border-solid max-md:max-w-full max-xl:mt-10 max-md:px-5"
