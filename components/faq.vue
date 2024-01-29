@@ -47,8 +47,7 @@
                         <input type="checkbox" name="panel" id="fpanel-2" class="hidden">
                         <label for="fpanel-2" class="relative  pl-12 lg:pl-16 border-t border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            Posso realizar a Certificação CCA mesmo não atuando na área?<br />
-                            Posso realizar a CCA mesmo sendo profissional certificado<br />e credenciado em outra entidade?
+                            Posso realizar a Certificação CCA mesmo não atuando na área ou sendo profissional certificado em outra entidade?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
