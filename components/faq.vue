@@ -518,6 +518,29 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
 
                 </div>
 
+                <!--  Panel 22  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-22" class="hidden">
+                        <label for="fpanel-22" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Posso fazer somente a prova?
+                         </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Não. O Atestado de Qualificação é um requisito para o agendamento da prova de certificação. Caso o aluno seja reprovado na prova da certificação, mas tenha o Atestado de Qualificação, ele pode refazer a prova entrando em contato com o suporte e efetuando o pagamento da taxa.
+                                   </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
                
 
 
