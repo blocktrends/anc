@@ -567,7 +567,7 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
       class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
     >
       <a
-      href="#"
+      href="https://wa.me/message/W2USYZZK75FMC1" target="_blank"
         class="mb-3 sm:mb-0 text-slate-950 text-center text-xl font-bold leading-7 uppercase whitespace-nowrap justify-center items-stretch bg-green-500 hover:bg-[#087339] transition-all w-full my-auto px-11 py-5 rounded-md max-xl:mt-10 max-md:px-5"
       >
         chamar no whatsapp
