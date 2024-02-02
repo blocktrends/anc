@@ -170,37 +170,37 @@
                             
                             <div class="pb-7 pt-7 pl-12">
                                 <h2 class="accordion__header text-[#424766] text-lg font-bold ">
-                                    Aula 12: Marco Regulatório dos Criptoativos no Brasil: A Instrução Normativa 1.888 da Receita Federal (Professor: Carlos Mauricio Mirandola)
+                                    Aula 12: Marco Regulatório dos Criptoativos no Brasil (Professor: Carlos Mauricio Mirandola)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Na décima segunda aula, nos debruçamos sobre a Instrução Normativa 1.888 da Receita Federal, destacando sua importância crucial na formalização e regulação do setor de criptoativos no Brasil. Esta Aula é um mapa para entender o marco regulatório atual e suas implicações.
+                                    A décima segunda aula aborda o marco regulatório dos criptoativos no Brasil, destacando a importância da regulação para a proteção de investidores, a integridade dos mercados, e a promoção da inovação tecnológica. Discute-se a legislação vigente, os órgãos reguladores como o Banco Central, CVM e Receita Federal, e os mecanismos de autorregulação e fiscalização.
                                 </i>
                             </div>
 
                             <div class="pb-7 pl-12">
                                 <h2 class="accordion__header text-[#424766] text-lg font-bold ">
-                                    Aula 13: Legislação Atual e Perspectivas de Regulação: o PL 4401/21 e suas Implicações para o Mercado Cripto (Professor: Carlos Mauricio Mirandola)
+                                    Aula 13: Legislação Atual e Perspectivas de Regulação (Professor: Carlos Mauricio Mirandola)
                                 </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    A décima terceira aula oferece uma visão sobre as tendências futuras e as possíveis mudanças no panorama regulatório. Exploramos o PL 4401/21, a legislação brasileira de criptoativos, discutindo a proposta de criação de uma autarquia oficial para regular o mercado.
+                                    A Aula 13 foca na Lei 14.478/22, detalhando a regulamentação dos prestadores de serviços de criptoativos no Brasil. Discute-se o contexto da lei, as definições de ativos virtuais e VASPs (Prestadores de Serviços de Ativos Virtuais), as exigências regulatórias, e como a legislação aborda a prevenção à lavagem de dinheiro e financiamento ao terrorismo.
                                  </i>
                             </div>
 
                             <div class="pb-7 pl-12">
                                 <h2 class="accordion__header text-[#424766] text-lg font-bold ">
-                                    Aula 14: Compliance e Boas Práticas: As Instruções Normativas da CVM 359, 555 e 175  (Professor: Carlos Mauricio Mirandola)
+                                    Aula 14: Investimento Cripto (Professor: Carlos Mauricio Mirandola)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Nesta aula, focamos em compliance e boas práticas no universo cripto, abordando temas como KYC, AML, CFT e outras práticas essenciais. Analisamos as Instruções Normativas da CVM e suas implicações para o mercado, incluindo as oportunidades trazidas pelo sandbox regulatório.
+                                    A décima quarta explora a regulação de investimentos em criptoativos, abordando as normas da CVM, fundos de investimento, e autorregulação pela ANBIMA. Destaca-se a importância da conformidade com as regulações para fundos cripto, o papel da ANBIMA na promoção de práticas saudáveis no mercado financeiro e a aplicabilidade de normas para a gestão e negociação de criptoativos.
                                  </i>
                             </div>
 
                             <div class="pb-7 pl-12">
                                 <h2 class="accordion__header text-[#424766] text-lg font-bold ">
-                                    Aula 15: Tributação: As Orientações da Receita Federal do Brasil sobre a Forma Correta de se Declarar Criptoativos (Professor: Carlos Mauricio Mirandola)
+                                    Aula 15: Tributação: Orientações da Receita Federal sobre como Declarar Criptoativos (Professor: Carlos Mauricio Mirandola)
                                  </h2>
                                 <i class="accordion__body text-[#6775A9] pt-2 block text-md lg:pr-36">
-                                    Esta aula é um guia sobre como declarar corretamente criptoativos, ganhos de capital, ETFs e fundos de investimento em criptoativos, seguindo as orientações da Receita Federal do Brasil.
+                                    A Aula 15 abrange a tributação de criptoativos no Brasil, enfatizando as diretrizes da Receita Federal e a aplicação da Instrução Normativa 1888. Detalha os procedimentos corretos para a declaração de criptoativos, abordando aspectos de obrigações tributárias, métodos de cálculo para ganho de capital e as penalidades para declarações inexatas.
                                   </i>
                             </div>
 
