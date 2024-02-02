@@ -66,6 +66,29 @@
 
                     </div>
 
+                     <!--  Panel 21  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-21" class="hidden">
+                        <label for="fpanel-21" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O Curso Intensivo CCA credita pontos para o Programa de Educação Continuada dos AIs? Se sim, como lançar os créditos no PEC?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 120 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
 
                     <!--  Panel 3  -->
                     <div class="xl:pl-8 sm:pl-0 w-full">
@@ -495,28 +518,7 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
 
                 </div>
 
-                <!--  Panel 21  -->
-                <div class="xl:pl-8 sm:pl-0 w-full">
-                        <input type="checkbox" name="panel" id="fpanel-21" class="hidden">
-                        <label for="fpanel-21" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
-                            text-sm sm:text-lg font-semibold pr-5">
-                            O Curso Intensivo CCA credita pontos para o Programa de Educação Continuada dos AIs? Se sim, como lançar os créditos no PEC?
-                        </label>
-
-                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
-
-                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
-
-                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Sim. Por se tratar de um curso em que a ANCORD é parceira, o número de créditos do PEC será de no máximo 70 pontos no ano. Ao concluir o Curso e passar pelo Exame de Certificação, será possível adicionar até 120 pontos no PEC. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Curso CCA e a pontuação será creditada automaticamente.
-                            </p>
-                        </div>
-
-
-
-                    </div>
-
-                </div>
+               
 
                 <!--  Panel 22  -->
                 <div class="xl:pl-8 sm:pl-0 w-full">
