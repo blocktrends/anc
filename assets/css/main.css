@@ -261,3 +261,15 @@ div .carousel__next {
     border-bottom-right-radius: 32px;
   }
 }
+
+.iframe-video, .hideMoldura {
+  display: none;
+}
+
+.showVideo {
+  display: block;
+}
+
+.gif-video {
+  cursor: pointer;
+}
