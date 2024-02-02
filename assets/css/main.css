@@ -264,6 +264,7 @@ div .carousel__next {
 
 .iframe-video, .hideMoldura {
   display: none;
+  max-width: 100%;
 }
 
 .showVideo {
