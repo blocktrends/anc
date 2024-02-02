@@ -506,7 +506,7 @@
             EMBARQUE AGORA
           </div>
         </a>
-        <a href="#"
+        <a href="https://wa.me/message/W2USYZZK75FMC1#" target="_blank"
           class="transition-all hover:bg-[#008CA1] items-center bg-cyan-950 flex justify-between gap-4 px-10 py-4 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/fale-com-time.svg" alt="Fale com o nosso time" />
