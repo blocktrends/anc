@@ -10,6 +10,7 @@
                 <div class="text-4xl py-10 sm:text-5xl sm:leading-tight font-bold">
                     O que você <br class="brmobile" />vai aprender
                 </div>
+                <!--
                 <div class="items-stretch flex gap-2">
                     <img class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/play.svg" alt="Play" />
@@ -22,6 +23,7 @@
                         Veja o curso por dentro
                     </div>
                 </div>
+                -->
 
             </div>
             <div class="w-full mt-10 lg:mt-0 lg:max-w-[50%]">
