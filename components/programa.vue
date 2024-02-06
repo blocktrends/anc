@@ -76,10 +76,7 @@
                       Provas Intermediárias
                     </div>
                     <div class="text-white text-lg leading-7 mt-3 max-md:max-w-full">
-                      Cada módulo do curso possui uma Prova Intermediária composta
-                      por 5 questões cuidadosamente elaboradas. Para concluir o
-                      curso, você deve alcançar uma média igual ou superior a 7 na
-                      soma das avaliações.
+                      Cada módulo do curso possui uma Prova Intermediária com 5 questões de múltipla escolha. Ao final dos 4 módulos, aplicamos a última Prova Intermediária, contendo 20 questões. Para passar para a próxima etapa, é necessário que o aluno alcance uma média igual ou superior a 7 em cada uma das avaliações.
                     </div>
                   </div>
                 </div>
