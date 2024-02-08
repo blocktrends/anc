@@ -103,15 +103,21 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+
                                     O caminho para se tornar um Especialista em Criptoativos - CCA é estruturado e abrangente, garantindo uma formação completa. Inicia-se com o Curso Intensivo CCA, o primeiro passo essencial, onde você se matricula para começar sua preparação. Este curso é projetado para garantir que você esteja totalmente preparado para o Exame de Certificação do Programa CCA.
                                     <br /><br />
-Durante o curso, você enfrentará Provas Intermediárias em cada módulo, cada uma contendo 5 questões cuidadosamente elaboradas. Para avançar, é necessário alcançar uma média igual ou superior a 7 na soma dessas avaliações. Essas provas são cruciais para assegurar que você esteja assimilando o conteúdo de forma eficaz.
-<br /><br />
-Após a conclusão bem-sucedida do curso, você receberá o Atestado de Qualificação. Este documento é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo necessário e está pronto para o desafio final.
-<br /><br />
-O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 40 questões, divididas em 4 módulos. Este exame é a etapa final do processo, onde você demonstrará seu conhecimento e habilidades adquiridas.
-<br /><br />
-Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alcança o status de Especialista em Criptoativos e recebe a Certificação Criptoativos ANCORD - CCA. Esta certificação não apenas valida seu conhecimento e habilidades, mas também o posiciona como um profissional qualificado e reconhecido no crescente mercado de criptoativos.
+                                    Durante o curso, você enfrentará Provas Intermediárias em cada módulo, cada uma contendo 5 questões cuidadosamente elaboradas. Além disso, ao final das 4 provas intermediárias, você também precisará realizar uma 5ª Prova Intermediária com 20 questões. Para avançar, é necessário alcançar uma média igual ou superior a 7 em cada uma das avaliações. Essas provas são cruciais para assegurar que você esteja assimilando o conteúdo de forma eficaz.
+                                    <br /><br />
+                                    Após a conclusão bem-sucedida do curso, você receberá o Atestado de Qualificação. Este documento é o seu passaporte para o Exame de Certificação, atestando que você absorveu o conteúdo necessário e está pronto para o desafio final.
+                                    <br /><br />
+                                    O Exame de Certificação, administrado pela FGV, é uma prova de múltipla escolha com 40 questões, divididas em 4 módulos. Este exame é a etapa final do processo, onde você demonstrará seu conhecimento e habilidades adquiridas.
+                                    <br /><br />
+                                    Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alcança o status de Especialista em Criptoativos e recebe a Certificação Criptoativos ANCORD - CCA. Esta certificação não apenas valida seu conhecimento e habilidades, mas também o posiciona como um profissional qualificado e reconhecido no crescente mercado de criptoativos.
+
+
+
+
+
 
 
                             </p>
@@ -208,8 +214,8 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    A carga horária é de 47 horas, distribuídas em quatro módulos com 19 aulas. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 4 Provas Intermediárias, com 5 questões cada, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
-                            </p>
+                                    A carga horária é de 47 horas, distribuídas em quatro módulos com 19 aulas. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 5 Provas Intermediárias, totalizando 40 questões, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
+                                 </p>
                         </div>
 
 
@@ -301,8 +307,8 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Sim, cada módulo do curso possui uma Prova Intermediária composta por 5 questões cuidadosamente elaboradas. Para concluir o curso, você deve alcançar uma média igual ou superior a 7 na soma das avaliações. Ao concluir o curso e receber o seu Atestado de Qualificação, você está liberado para realizar a prova final. A prova final se chama Exame de Certificação CCA e possui 40 questões sobre os conhecimentos adquiridos durante todo o curso. Ao atingir uma nota superior ou igual a 7, o aluno poderá adquirir sua Certificação Criptoativos ANCORD – CCA.
-                            </p>
+                                    Sim, cada módulo do curso possui uma Prova Intermediária composta por 5 questões cuidadosamente elaboradas. Além disso, ao final das 4 provas intermediárias, você também precisará realizar uma 5ª Prova Intermediária com 20 questões. Para concluir o curso, você deve alcançar uma média igual ou superior a 7 em cada uma das avaliações. Ao concluir o curso e receber o seu Atestado de Qualificação, você está liberado para realizar a prova final. A prova final se chama Exame de Certificação CCA e possui 40 questões sobre os conhecimentos adquiridos durante todo o curso. Ao atingir uma nota superior ou igual a 7, o aluno poderá adquirir sua Certificação Criptoativos ANCORD – CCA.
+                                   </p>
                         </div>
 
 
@@ -535,6 +541,28 @@ Ao atingir uma nota igual ou superior a 7 no Exame de Certificação, você alca
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
                                     Não. O Atestado de Qualificação é um requisito para o agendamento da prova de certificação. Caso o aluno seja reprovado na prova da certificação, mas tenha o Atestado de Qualificação, ele pode refazer a prova entrando em contato com o suporte e efetuando o pagamento da taxa.
                                    </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--  Panel 23  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-23" class="hidden">
+                        <label for="fpanel-23" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            O que acontece se eu reprovar nas Provas Intermediárias?
+                         </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    A 2ª Etapa do Programa CCA contém 5 Provas Intermediárias, sendo 4 delas ao final de cada módulo e uma ao final do curso. As 4 Provas Intermediárias de cada módulo contém 5 questões e funcionam como uma espécie de simulado, onde o aluno pode reprovar quantas vezes for necessário para a correta assimilação do conteúdo. Já a última Prova Intermediária ocorre no final do curso, contém 20 questões e só pode ser realizada uma única vez. Caso o aluno reprove na 5ª Prova Intermediária, o mesmo deverá entrar em contato com o suporte e pagar uma taxa de R$55,00 para realizar uma segunda tentativa. Após o pagamento, a 2ª Tentativa da Prova Intermediária aparecerá na página inicial do ambiente logado da plataforma do Programa CCA. Caso o aluno reprove pela segunda vez, o processo é reiniciado e o aluno precisa comprar um novo acesso ao Programa CCA, matriculando-se novamente. </p>
                         </div>
 
 
