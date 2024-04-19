@@ -31,8 +31,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Para ingressar no Programa CCA, o aluno deve ter pelo menos 18 anos de idade. Não é necessária comprovação de escolaridade ou certificações prévias.
-
+                                    Para ingressar no Programa CCA, o aluno deve ser um Assessor de Investimentos devidamente credenciado e regularizado junto à Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias (ANCORD).
                                 </p>
                             </div>
 
@@ -42,29 +41,7 @@
 
                     </div>
 
-                    <!--  Panel 2  -->
-                    <div class="xl:pl-8 sm:pl-0 w-full">
-                        <input type="checkbox" name="panel" id="fpanel-2" class="hidden">
-                        <label for="fpanel-2" class="relative  pl-12 lg:pl-16 border-t border-[#29292E] block cursor-pointer text-white p-4 
-                            text-sm sm:text-lg font-semibold pr-5">
-                            Posso realizar a Certificação CCA mesmo não atuando na área ou sendo profissional certificado em outra entidade?
-                        </label>
-
-                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
-
-                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
-
-                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Sim, o Programa CCA está liberado para todos os públicos e não possui limitações de quaisquer outras certificações profissionais.
-                                </p>
-                            </div>
-
-
-
-
-                        </div>
-
-                    </div>
+                  
 
                      <!--  Panel 21  -->
                 <div class="xl:pl-8 sm:pl-0 w-full">
@@ -144,8 +121,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O Programa CCA é ideal para assessores de investimento que buscam aprofundar seus conhecimentos em criptoativos, bem como para entusiastas e profissionais do mercado financeiro que desejam validar e certificar sua expertise no setor de criptomoedas.
-
+                                    O Programa CCA é exclusivo para Assessores de Investimentos que buscam aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas através da certificação ANCORD.
                             </p>
                         </div>
 
@@ -445,7 +421,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Sim, com a conclusão do Programa CCA, o aluno receberá a Certificação Criptoativos ANCORD – CCA. A emissão desta certificação é efetuada de forma automática pela plataforma do curso.
+                                    Sim, com a conclusão do Programa CCA, o aluno receberá a Certificação Criptoativos ANCORD – CCA. A emissão desta certificação é efetuada após a aprovação no Exame de Certificação e será enviada para o aluno.
                             </p>
                         </div>
 
@@ -501,29 +477,7 @@
 
                 </div>
 
-                <!--  Panel 20  -->
-                <div class="xl:pl-8 sm:pl-0 w-full">
-                        <input type="checkbox" name="panel" id="fpanel-20" class="hidden">
-                        <label for="fpanel-20" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
-                            text-sm sm:text-lg font-semibold pr-5">
-                            Quais outras Entidades, Profissionais e Instituições terão descontos nas Inscrições do Curso?
-                        </label>
-
-                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
-
-                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
-
-                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Além dos colaboradores das Associadas ANCORD que terão 30% de desconto na inscrição do Programa CCA, os Assessores de Investimento terão desconto de 15% na matrícula. Vale ressaltar, no entanto, que o desconto é não cumulativo. Ou seja, caso o aluno trabalhe numa Associada ANCORD e seja um Assessor de Investimentos, será necessário escolher qual dos dois cupons aplicar.
-                            </p>
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
+                
                
 
                 <!--  Panel 22  -->

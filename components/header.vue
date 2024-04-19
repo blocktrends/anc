@@ -113,7 +113,7 @@
 
           <div class="relative mt-20 inline-flex xl:block">
             <iframe :class="youtube ? 'showVideo' : '' " class="mt-20 sm:mt-0 iframe-video" width="756" height="425"
-              src="https://www.youtube.com/embed/u5Gd_FIK0IA?si=0njgQ-k4ZTmA5HgA" title="YouTube video player"
+              src="https://www.youtube.com/embed/7QA-3JxoXU0?si=i87TjIgS7UeP3uxU" title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>

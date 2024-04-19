@@ -218,9 +218,10 @@
                 </div>
                 <div
                   class="text-white text-lg leading-7 mt-3 max-md:max-w-full border-b border-[#29292E] pb-10 max-w-[544px]">
-                  Se você é Assessor de Investimentos, o Programa CCA <br />
+                  Pensado para Assessores de Investimentos, o Programa CCA <br />
                   aprimora sua expertise em cripto e te auxilia a orientar seus <br />
                   clientes com precisão e segurança.
+
                 </div>
               </div>
             </div>
@@ -238,9 +239,11 @@
                 </div>
                 <div
                   class="text-white text-lg leading-7 mt-3 max-md:max-w-full border-b border-[#29292E] pb-10 max-w-[544px]">
-                  Deixe de ser apenas um entusiasta e se torne um especialista <br />
-                  em cripto. Certificado pela ANCORD, o Programa CCA valida <br />
+                  Mergulhe na indústria e se torne um especialista em cripto. <br />
+                  Certificado pela ANCORD, o Programa CCA valida <br />
                   sua expertise e destaca o seu currículo do resto.
+
+
                 </div>
               </div>
             </div>
@@ -257,9 +260,10 @@
                   Para aprender do zero
                 </div>
                 <div class="text-white text-lg leading-7 mt-3 max-md:max-w-full ">
-                  Muitos cursos por aí, mas nenhum com credibilidade? Comece <br />
-                  a aprender sobre Cripto e Web3 com quem entende e <br />
-                  matricule-se agora mesmo no Programa CCA.
+                Muitos cursos por aí, mas nenhum pensado para Assessores de Investimentos? <br />
+                Comece a aprender sobre Cripto e Web3 com quem entende e <br />
+                matricule-se agora já no Programa CCA.
+
                 </div>
               </div>
             </div>

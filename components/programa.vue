@@ -97,10 +97,7 @@
                       Atestado de Qualificação
                     </div>
                     <div class="text-white text-lg leading-7 mt-3 max-md:max-w-full">
-                      Ao concluir o curso, você receberá um Atestado de Qualificação, o
-                      seu passaporte para o Exame de Certificação. Ela é
-                      fundamental, pois atesta que você assimilou o conteúdo e está
-                      preparado para o exame final.
+                      Ao concluir o curso, você receberá um Atestado de Qualificação, o seu passaporte para o Exame de Certificação. Ele é fundamental, pois atesta que você assimilou o conteúdo e está preparado para o exame final.
                     </div>
                   </div>
                 </div>
@@ -125,7 +122,7 @@
         </svg>
 
 
-        <div class="self-center flex grow basis-[0%] flex-col items-end max-md:max-w-full lg:mt-0  xl:-mt-0">
+        <div class="self-center flex grow basis-[0%] flex-col items-end max-md:max-w-full lg:mt-0  xl:-mt-20">
 
           <div class="timeline-mobile bottom-timeline self-stretch max-md:max-w-full">
             <div class="lg:gap-2 flex max-md:items-stretch ">
@@ -166,9 +163,7 @@
                     CCA - Certificação<br />Criptoativos ANCORD
                   </div>
                   <div class="text-white  xl:w-[425px] text-lg leading-7 mt-3 max-md:max-w-full">
-                    Caso atinja uma nota igual ou superior a 7 no Exame de Certificação,
-                    você se torna em um Especialista em Criptoativos e é certificado como
-                    um CCA.
+                    Caso atinja uma nota igual ou superior a 7 no Exame de Certificação, você se torna um Especialista em Criptoativos e é certificado como um CCA.
                     <div>
                       <img class="aspect-[0.99] object-contain object-center w-[212px] overflow-hidden max-w-full mt-7 self-start" 
                       src="../assets/imgs/programa-certificacao-criptoativos-ancord.svg" alt="Programa Certificação Criptoativos ANCORD" />
