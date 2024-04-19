@@ -43,7 +43,7 @@
               <div class="lg:gap-7 flex  max-md:items-stretch max-md:gap-0">
                 <div class="flex flex-col items-stretch  max-md:ml-0">
                   <div
-                    class="number-mobile text-cyan-500 w-[60px] mr-5 lg:mr-0  xl:w-[80px] text-center text-2xl xl:text-5xl font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)]  p-2.5 border-solid  max-md:mt-6">
+                    class="number-mobile number-first-mobile text-cyan-500 w-[60px] mr-5 lg:mr-0  xl:w-[80px] text-center text-2xl xl:text-5xl font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)]  p-2.5 border-solid  max-md:mt-6">
                     01
                   </div>
                 </div>
@@ -148,7 +148,7 @@
           </div>
 
           <div class=" self-stretch max-md:max-w-full">
-            <div class="block xl:hidden h-20 absolute  timeline-mobile"></div>
+            <div class="block xl:hidden h-20 absolute  timeline-mobile last-timeline"></div>
             <div class="lg:gap-2 last-timeline bottom-timeline flex  max-md:items-stretch ">
               <div class="flex flex-col items-stretch mt-8   max-md:ml-0">
                 <div

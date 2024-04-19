@@ -70,7 +70,7 @@
                         class=" text-center sm:text-left   text-3xl md:text-5xl 2xl:text-5xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                         <span class="   font-bold text-left text-[#00a7d0]">CCA</span><span
                           class="    font-bold text-left text-white">
-                          - A 1ª Certificação<br />Cripto do Mercado Brasileiro</span>
+                          - A 1ª Certificação<br />Cripto do Mercado <span class="mobileextra"><br /></span>Brasileiro</span>
                       </p>
                     </div>
                     <div

@@ -192,6 +192,22 @@ background: #063146;
   margin-top: 8px;
   margin-left: -42px;
  }
+
+ .number-first-mobile:after {
+  content: '';
+  position: absolute;
+  background: #011e26;
+  left: 13px;
+  height: 46px;
+  z-index: 999;
+  width: 13px;
+  margin-top: -39px;
+}
+
+ .timeline-mobile.last-timeline  {
+  height: 60px;
+}
+
  .timeline-mobile {
   border-left: 1px dotted #69b6d5;
  }
@@ -273,4 +289,14 @@ div .carousel__next {
 
 .gif-video {
   cursor: pointer;
+}
+
+.mobileextra br {
+  display: none;
+}
+
+@media only screen and (max-width: 405px)  {
+  .mobileextra br {
+      display: block;
+  }
 }

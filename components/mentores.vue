@@ -2,12 +2,12 @@
     <div class="xl:container  mx-auto" id="mentores">
 
         <div class="2xl:flex pt-10 sm:pt-0 sm:py-14 lg:py-24">
-            <div class="pl-8 sm:pl-0 flex-1 2xl:max-w-[35%]">
+            <div class=" text-center sm:text-left sm:pl-0 flex-1 2xl:max-w-[35%]">
                 <div
                     class=" inline-block text-white text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-neutral-900 px-3.5 py-2 border-solid self-start">
                     MENTORES
                 </div>
-                <div class="text-4xl pt-10 sm:pt-0 sm:py-10 sm:text-5xl sm:leading-tight font-bold">
+                <div class="text-4xl pt-6 sm:pt-10 sm:pt-0 sm:py-10 sm:text-5xl sm:leading-tight font-bold">
                     Aprenda com o <br />
                     nosso time de <br />
                     experts em Cripto
@@ -169,6 +169,7 @@ export default {
                 900: {
                     itemsToShow: 1,
                     snapAlign: 'center',
+                    dots: true
                 },
                 // 1024 and up
                 901: {
