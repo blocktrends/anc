@@ -183,9 +183,37 @@
 
 
 
-
-
-
+</div>
+<div class="bg-[#121214] py-14 mt-20">
+  <div class="container text-white mx-auto">
+    <div class="flex flex-col">
+  <div class="self-center text-4xl font-bold tracking-tighter text-cyan-500">
+    IMPORTANTE
+  </div>
+  <div
+    class="mt-10 px-8 sm:px-24 w-full text-lg leading-7 text-justify text-white max-md:max-w-full"
+  >
+    A CCA - Certificação Criptoativos ANCORD - é concedida aos profissionais
+    aprovados no respectivo Exame de Certificação, aplicado pela FGV, que se
+    tornam especialistas em criptoativos. A ANCORD e a BlockTrends
+    <span class="font-bold">
+      não se responsabilizam por quaisquer decisões de investimento tomadas
+      pelos profissionais certificados
+    </span>
+    . É importante que os profissionais que obtenham a CCA tenham plena ciência
+    dos riscos inerentes a esse tipo de produto.
+    <span class="font-bold">
+      Em nenhuma hipótese, a ANCORD e a BlockTrends serão responsáveis por
+      quaisquer danos diretos ou indiretos
+    </span>
+    , incluindo perda de lucro, perda de receita, ou outros danos decorrentes de
+    ofertas de mercado.
+    <br />
+  </div>
+</div>
+  </div>
+</div>
+<div class="container mx-auto">
     <div class="flex">
 
 
