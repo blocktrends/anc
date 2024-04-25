@@ -251,8 +251,8 @@
                   Para aprender do zero
                 </div>
                 <div class="text-white text-lg leading-7 mt-3 max-md:max-w-full ">
-                Muitos cursos por aí, mas nenhum pensado para Assessores de Investimentos? <br />
-                Comece a aprender sobre Cripto e Web3 com quem entende e <br />
+                Muitos cursos por aí, mas nenhum pensado para Assessores de Investimentos? 
+                Comece a aprender sobre Cripto e Web3<br /> com quem entende e 
                 matricule-se agora já no Programa CCA.
 
                 </div>
