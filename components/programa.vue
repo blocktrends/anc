@@ -195,7 +195,7 @@
   >
     A CCA - Certificação Criptoativos ANCORD - é concedida aos profissionais
     aprovados no respectivo Exame de Certificação, aplicado pela FGV, que se
-    tornam especialistas em criptoativos. A ANCORD e a BlockTrends
+    tornam especialistas em criptoativos. A ANCORD e o BlockTrends
     <span class="font-bold">
       não se responsabilizam por quaisquer decisões de investimento tomadas
       pelos profissionais certificados
@@ -203,7 +203,7 @@
     . É importante que os profissionais que obtenham a CCA tenham plena ciência
     dos riscos inerentes a esse tipo de produto.
     <span class="font-bold">
-      Em nenhuma hipótese, a ANCORD e a BlockTrends serão responsáveis por
+      Em nenhuma hipótese, a ANCORD e o BlockTrends serão responsáveis por
       quaisquer danos diretos ou indiretos
     </span>
     , incluindo perda de lucro, perda de receita, ou outros danos decorrentes de
