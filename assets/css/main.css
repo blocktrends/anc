@@ -213,6 +213,28 @@ background: #063146;
  }
 }
 @media (max-width: 768px) {
+
+ body .carousel__pagination-button::after {
+    border-radius: 21px!important;
+
+    width: 7px;
+    height: 7px;
+
+
+    background-color: #d4dbe9;
+
+}
+
+.carousel__pagination-button--active.carousel__pagination-button::after {
+  background: #798ab8;
+}
+
+body .carousel__pagination-button::after {
+  border-radius: 21px!important;
+  width: 7px;
+  height: 7px;
+  background-color: #d4dbe9;
+}
   
 div .carousel__prev {
   background: url('../imgs/arrow-l-mobile.svg');
@@ -226,7 +248,7 @@ div .carousel__prev {
 
 
 .mentor-mobile-image {
-  max-width: 335px;
+  max-width: 84vw;
   margin-left: 15px;
 }
 

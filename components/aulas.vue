@@ -1,13 +1,13 @@
 <template>
     <div class="xl:container  mx-auto" id="conteudo">
 
-        <div class="lg:flex py-14 lg:py-24">
+        <div class="lg:flex py-8 sm:py-14 lg:py-24">
             <div class="flex-1 text-center sm:text-left lg:max-w-[50%]">
                 <div
-                    class=" inline-block text-white text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-neutral-900 px-3.5 py-2 border-solid self-start">
+                    class=" inline-block text-white text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-neutral-900 p-2 py-1 sm:p-3 border-solid self-start">
                     CONTEÚDO
                 </div>
-                <div class="text-4xl py-7 sm:py-10 sm:text-5xl sm:leading-tight font-bold">
+                <div class="text-4xl py-7 pb-0 sm:pb-10 sm:py-10 sm:text-5xl sm:leading-tight font-bold">
                     O que você <br class="brmobile" />vai aprender
                 </div>
                 <!--

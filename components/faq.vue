@@ -1,10 +1,10 @@
 <template>
     <div class="xl:container  mx-auto" id="faq">
 
-        <div class="xl:flex py-4 pt-14 sm:pt-0 lg:py-14">
+        <div class="xl:flex py-4 pt-8 sm:pt-14 sm:pt-0 lg:py-14">
             <div class="flex-1 text-center sm:text-left xl:max-w-[50%]">
                 <div
-                    class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 aspect-[1.9655172413793103] px-4 inline-block py-2 border-solid">
+                    class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 aspect-[1.9655172413793103] inline-block p-2 py-1 sm:p-3 border-solid">
                     FAQ
                 </div>
                 <div class="text-4xl text-white py-10 sm:text-5xl sm:leading-tight font-bold">
@@ -15,7 +15,7 @@
 
 
             </div>
-            <div class="w-full mt-10 lg:mt-0 hidebrs xl:max-w-[50%]">
+            <div class="w-full mt-1 sm:mt-10 lg:mt-0 hidebrs xl:max-w-[50%]">
                 <div class="accordion pb-20 flex flex-col items-end justify-center">
 
                     <!--  Panel 1  -->

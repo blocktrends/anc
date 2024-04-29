@@ -4,7 +4,7 @@
 
   
     <div
-      class="mt-16  mb-12 inline-flex justify-center mx-auto items-center relative gap-2.5 p-3 rounded bg-[#202024] border border-[#575757]">
+      class="mt-9 sm:mt-16  mb-9 sm:mb-12 inline-flex justify-center mx-auto items-center relative gap-2.5 p-2 py-1 sm:p-3 rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">PROGRAMA CCA</p>
     </div>
   </div>
@@ -184,14 +184,14 @@
 
 
 </div>
-<div class="bg-[#121214] py-14 mt-20">
+<div class="bg-[#121214] py-12 sm:py-14 mt-14 sm:mt-20">
   <div class="container text-white mx-auto">
     <div class="flex flex-col">
   <div class="self-center text-4xl font-bold tracking-tighter text-cyan-500">
     IMPORTANTE
   </div>
   <div
-    class="mt-10 px-8 sm:px-24 w-full text-lg leading-7 text-justify text-white max-md:max-w-full"
+    class="mt-8 sm:mt-10 px-8 sm:px-24 w-full text-lg leading-7 text-justify text-white max-md:max-w-full"
   >
     A CCA - Certificação Criptoativos ANCORD - é concedida aos profissionais
     aprovados no respectivo Exame de Certificação, aplicado pela FGV, que se
@@ -224,7 +224,7 @@
     </div>
 
     <header
-      class="md:rounded bg-cyan-500 self-stretch flex justify-center sm:justify-between gap-7 sm:mt-20 sm:px-12 py-12 items-center max-md:max-w-full max-md:flex-wrap  max-md:px-5">
+      class="md:rounded bg-cyan-500 self-stretch flex justify-center sm:justify-between gap-4 sm:gap-7 sm:mt-20 sm:px-12 py-7 sm:py-12 items-center max-md:max-w-full max-md:flex-wrap  max-md:px-5">
       <h1
         class="text-center sm:text-left hidebrs text-black text-2xl  lg:text-4xl lg:leading-tight font-bold hidebrsmd tracking-tighter grow shrink basis-auto max-md:max-w-full">
         Inicie a jornada e se torne um especialista<br /> em cripto certificado pela ANCORD.</h1>
@@ -253,77 +253,77 @@
     
     <div class="text-center">
     <div 
-      class="mt-16  inline-block mx-auto items-center mx-auto relative gap-2.5 px-3 py-3  rounded bg-[#202024] border border-[#575757]">
+      class="mt-12 sm:mt-16  inline-block mx-auto items-center mx-auto relative gap-2.5 p-2 py-1 sm:p-3   rounded bg-[#202024] border border-[#575757]">
       <p class="flex-grow-0 flex-shrink-0 text-xs font-bold text-left text-[#00a7d0]">SOBRE O PROGRAMA</p>
     </div>
   </div>
 
-    <header class="sm:px-5 md:px-0 self-center w-full  mt-12 pb-20  max-md:mt-10">
-      <div class=" flex-wrap flex  max-md:items-stretch max-md:gap-0">
-        <div class="flex sm:mb-5 flex-col items-stretch w-6/12  lg:w-3/12 max-md:ml-0">
+    <header class="sm:px-5 md:px-0 self-center w-full  mt-0 sm:mt-12 pb-20 ">
+      <div class=" flex-wrap  sm:flex  max-md:items-stretch max-md:gap-0">
+        <div class="sm:flex sm:mb-5 flex-col items-stretch sm:w-6/12  lg:w-3/12 max-md:ml-0">
           <div class="items-stretch  flex grow flex-col justify-center max-md:mt-6">
             <div
-              class="sm:rounded sm:mr-6 h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
+              class="sm:rounded sm:mr-6 sm:h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-6 sm:pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
               <div
                 class="items-center rounded bg-neutral-800 flex aspect-square flex-col justify-center w-[60px] h-[60px] px-2.5">
 
                 <img src="../assets/imgs/47-horas.svg" alt="47 horas" />
 
               </div>
-              <div class="text-white text-xl sm:text-4xl font-bold tracking-tighter self-stretch mt-7 2xl:mt-14 max-md:mt-10">47
+              <div class="text-white text-3xl sm:text-4xl font-bold tracking-tighter self-stretch mt-7 sm:mt-7 2xl:mt-14 ">47
                 horas</div>
-              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 mb-9">Totais de conteúdo divididos em aulas,
+              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 sm:mb-9">Totais de conteúdo divididos em aulas,
                 apostilas, lives e exercícios.</div>
             </div>
           </div>
         </div>
-        <div class="flex sm:mb-5  flex-col items-stretch w-6/12  lg:w-3/12   max-md:ml-0">
+        <div class="sm:flex sm:mb-5  flex-col items-stretch sm:w-6/12  lg:w-3/12   max-md:ml-0">
           <div class="items-stretch  flex grow flex-col justify-center max-md:mt-6">
             <div
-              class="sm:rounded lg:mr-6 h-[350px] bg-black flex flex-col px-4 sm:px-5 py-7 border-[1.5px] border-solid border-cyan-500 items-start">
+              class="sm:rounded lg:mr-6 sm:h-[350px] bg-black flex flex-col px-4 sm:px-5 py-7 border-[1.5px] border-solid border-cyan-500 items-start">
               <div
                 class="items-center rounded bg-neutral-800 flex aspect-square flex-col justify-center w-[60px] h-[60px] px-2.5">
 
                 <img src="../assets/imgs/certificacao-cripto.svg" alt="Certificação Cripto" />
 
               </div>
-              <div class="text-cyan-500 text-xl sm:text-4xl  font-bold tracking-tighter self-stretch mt-7 2xl:mt-14 max-md:mt-10">
+              <div class="text-cyan-500 text-3xl sm:text-4xl  font-bold tracking-tighter self-stretch mt-7 2xl:mt-14 ">
                 Certificação Cripto</div>
               <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6">Desenvolvida pelo BlockTrends em parceria com
                 a ANCORD.<br /></div>
             </div>
           </div>
         </div>
-        <div class="flex sm:mb-5 flex-col items-stretch w-6/12  lg:w-3/12  max-md:ml-0">
+        <div class="sm:flex sm:mb-5 flex-col items-stretch sm:w-6/12  lg:w-3/12  max-md:ml-0">
           <div class="items-stretch flex grow flex-col justify-center max-md:mt-6">
             <div
-              class="sm:rounded  sm:mr-6  h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
+              class="sm:rounded  sm:mr-6  sm:h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-6 sm:pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
               <div
                 class="items-center rounded bg-neutral-800 flex aspect-square flex-col justify-center w-[60px] h-[60px] px-2.5">
 
                 <img src="../assets/imgs/7-experts.svg" alt="7 experts" />
 
               </div>
-              <div class="text-white text-xl sm:text-4xl font-bold tracking-tighter self-stretch  mt-7 2xl:mt-14 max-md:mt-10">7
+              <div class="text-white text-3xl sm:text-4xl font-bold tracking-tighter self-stretch  mt-7 2xl:mt-14 ">7
                 experts</div>
-              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 mb-9">Em cripto com vasta<br /> experiência de
+              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 sm:mb-9">Em cripto com vasta<br /> experiência de
                 mercado.</div>
             </div>
           </div>
         </div>
-        <div class="flex sm:mb-5 flex-col items-stretch w-6/12  lg:w-3/12  max-md:ml-0">
+        <div class="sm:flex sm:mb-5 flex-col items-stretch sm:w-6/12  lg:w-3/12  max-md:ml-0">
           <div class="items-stretch flex grow flex-col justify-center max-md:mt-6">
             <div
-              class="sm:rounded h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
+              class="sm:rounded sm:h-[350px] bg-black flex flex-col px-4 sm:px-5 pt-6 pb-6 sm:pb-12 border-[1.5px] border-solid border-zinc-600 items-start max-md:pr-5">
               <div
                 class="items-center rounded bg-neutral-800 flex aspect-square flex-col justify-center w-[60px] h-[60px] px-2.5">
 
                 <img src="../assets/imgs/comunidade.svg" alt="Comnidade" />
 
               </div>
-              <div class="text-white text-xl sm:text-4xl font-bold tracking-tighter self-stretch  mt-7 2xl:mt-14 max-md:mt-10">
+              <div class="text-white text-3xl sm:text-4xl font-bold tracking-tighter self-stretch  mt-7 2xl:mt-14 ">
                 Comunidade</div>
-              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 mb-9">Exclusiva para networking entre alunos
+              <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 sm:mb-9">Exclusiva para networking entre alunos
                 do Programa CCA.</div>
             </div>
           </div>

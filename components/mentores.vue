@@ -4,7 +4,7 @@
         <div class="2xl:flex pt-10 sm:pt-0 sm:py-14 lg:py-24">
             <div class=" text-center sm:text-left sm:pl-0 flex-1 2xl:max-w-[35%]">
                 <div
-                    class=" inline-block text-white text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-neutral-900 px-3.5 py-2 border-solid self-start">
+                    class=" inline-block text-white text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-neutral-900 p-2 py-1 sm:p-3 border-solid self-start">
                     MENTORES
                 </div>
                 <div class="text-4xl pt-6 sm:pt-10 sm:pt-0 sm:py-10 sm:text-5xl sm:leading-tight font-bold">
@@ -35,22 +35,22 @@
                 <Carousel v-bind="settings" :breakpoints="breakpoints">
                     <slide v-for="teacher in teachers" :key="teacher.image">
                         <div class="md:flex rounded-[32px] sm:bg-[#F0F0F0] sm:border border-[#bebebe] carousel__item text-left mx-3">
-                            <div class="flex-1 md:max-w-md sm:pt-7 pl-4 md:pl-8">
-                                <div class="block sm:hidden mb-5">
+                            <div class="flex flex-wrap sm:flex-nowrap sm:block flex-1 md:max-w-md sm:pt-7 md:pl-8">
+                                <div class="block order-1 sm:hidden mb-3 sm:mb-5">
                                     <img class="border mentor-mobile-image border-[#bebebe] rounded-[22px]" :src="teacher.image" />
                                 </div>
                                 <div
-                                    class="text-slate-950 text-2xl font-bold leading-8 tracking-tight self-stretch whitespace-nowrap">
+                                    class="text-slate-950 order-2 w-full text-xl sm:text-2xl font-bold leading-8 tracking-tight self-stretch whitespace-nowrap text-center sm:text-left">
                                     {{ teacher.nome }}
                                 </div>
                                 <div
-                                    class="text-cyan-500 text-xs md:text-sm font-bold leading-5 tracking-tight uppercase self-stretch whitespace-nowrap mt-2">
+                                    class="text-cyan-500 order-3 w-full text-xs md:text-sm font-bold leading-5 tracking-tight uppercase self-stretch text-center sm:text-left whitespace-nowrap sm:mt-2">
                                     {{ teacher.cargo }}
                                 </div>
-                                <div class="text-zinc-600  sm:pr-10 text-sm leading-5 self-stretch mt-3 sm:mt-6">
+                                <div class="text-zinc-600 order-5  sm:pr-10 text-sm leading-5 self-stretch mt-3 sm:mt-6">
                                     {{ teacher.bio }}
                                 </div>
-                                <div class="sm:absolute mt-6 sm:mt-0  md:block sm:bottom-8">
+                                <div class="sm:absolute mx-auto order-4 mt-5 mb-2 sm:mb-0 sm:mt-6 sm:mt-0  md:block sm:bottom-8">
                                     <img :src="teacher.empresa" />
                                 </div>
 
@@ -66,6 +66,7 @@
 
                     <template #addons>
                         <Navigation />
+                        <div class="sm:hidden mt-7"><Pagination /></div>
                     </template>
 
 

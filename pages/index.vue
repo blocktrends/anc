@@ -20,7 +20,7 @@
       <div class="xl:container lg:flex justify-center mx-auto">
         <div class="flex xl:w-[1276px] max-w-full flex-col items-stretch my-12 max-md:my-10">
           <div
-            class="text-cyan-500 mt-12 text-xs font-bold inline-block whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-slate-950 self-center px-7 py-2.5 border-solid max-md:px-5">
+            class="text-cyan-500 mt-12 text-xs font-bold inline-block whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)] bg-slate-950 self-center p-2 py-1 sm:p-3 border-solid max-md:px-5">
             SOBRE NÓS
           </div>
           <div class="flex justify-center mt-14">
@@ -180,7 +180,7 @@
 
     <div class="text-center">
       <div
-        class="text-cyan-500 mx-auto inline-block text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 self-center mt-20 px-3 py-2.5 border-solid max-md:mt-10">
+        class="text-cyan-500 mx-auto inline-block text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 self-center mt-20 p-2 py-1 sm:p-3 border-solid max-md:mt-10">
         PARA QUEM É?
       </div>
     </div>
@@ -277,7 +277,7 @@
       <div class="xl:container mx-auto">
         <div class="flex w-full max-w-screen-2xl flex-col mb-12 max-md:max-w-full">
           <div
-            class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 self-center px-9 mt-20 py-2 border-solid max-md:px-5">
+            class="text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--cinza-cinza-4,#575757)] bg-neutral-800 self-center  mt-12 sm:mt-20 p-2 py-1 sm:p-3 border-solid max-md:px-5">
             ACESSO IMEDIATO
           </div>
           <div
@@ -520,11 +520,11 @@
       <div
         class="items-center flex justify-center gap-5 mt-12 mb-9 px-px max-md:max-w-full max-md:flex-wrap max-md:mt-10">
         <a href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank"
-          class="transition-all hover:bg-[#BDBDBD] justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
+          class="transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />
 
-          <div class="text-slate-950 text-xl font-extrabold leading-7 self-stretch grow whitespace-nowrap">
+          <div class="text-slate-950 text-xl font-extrabold leading-7 self-stretch sm:grow whitespace-nowrap">
             EMBARQUE AGORA
           </div>
         </a>
@@ -553,7 +553,7 @@
 
           <div class="sm:flex items-start justify-start lg:mr-18 flex-1 w-full">
 
-            <div class="mr-44">
+            <div class="text-center sm:text-left sm:mr-44">
 
               <span
                 style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
@@ -566,9 +566,9 @@
               </span>
 
 
-              <div class="mt-14">
+              <div class="mt-14 text-center mx-auto sm:text-left">
 
-                <img src="../assets/imgs/ancord-bt-rodape.svg" alt="Logo Ancord Blocktrends" />
+                <img src="../assets/imgs/ancord-bt-rodape.svg" class="inline-block sm:block" alt="Logo Ancord Blocktrends" />
 
 
 
@@ -578,12 +578,12 @@
 
             </div>
 
-            <div class="sm:flex relative flex-col lg:flex-row  text-sm lg:text-md w-full">
+            <div class="flex relative sm:flex-col lg:flex-row  text-sm lg:text-md w-full">
 
 
 
 
-              <div class="mb-4 mt-10 lg:mt-0 flex flex-col mr-20">
+              <div class="mb-4 mt-10 lg:mt-0 flex flex-col mr-16 sm:mr-20">
 
                 <h6 class="text-sm  font-semibold text-[#00A7D0] mb-5">INSTITUCIONAL</h6>
                 <a class="text-white text-left text-sm hover:text-green-main mb-5 font-normal"
@@ -598,7 +598,7 @@
 
               </div>
 
-              <div class="mb-4 mt-10 lg:mt-0 flex flex-col mr-20">
+              <div class="mb-4 mt-10 lg:mt-0 flex flex-col sm:mr-20">
 
                 <h6 class="text-sm  font-bold text-[#00A7D0] mb-5">POLÍTICAS</h6>
                 <a class="text-white text-left text-sm hover:text-green-main mb-5 font-normal" href="#">Termos e
