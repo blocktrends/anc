@@ -36,7 +36,7 @@ export default {
     async submitCpf() {
 
 
-        let apiToken = $fetch('http://54.209.206.23:9092/auth/entrar/', {
+        let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
             method: 'POST',
             body: { 
                 "login": "26195884000170",
@@ -47,7 +47,7 @@ export default {
         apiToken.then((res) => { 
      
 
-           let statusCpf = $fetch('http://54.209.206.23:9092/candidato/consultar/aprovados', {
+           let statusCpf = $fetch('https://apicredenciamento.ancord.org.br:8085/candidato/consultar/aprovados', {
                 method: 'POST',
                 body: { 
                     "cpf": "90350307024"
