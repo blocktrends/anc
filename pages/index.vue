@@ -9,8 +9,6 @@
             <Meta hid="twitter:image" name="twitter:image" content="https://blocktrends.com.br/wp-content/uploads/2023/07/cardpreview-generica.png" />
           -->
     </Head>
-
-
     <Header />
 
     <Hero />
@@ -662,13 +660,8 @@ export default defineNuxtComponent({
 
   data() {
     return {
-
+     
     }
-  },
-  methods: {
-
-
-
   }
 })
 
