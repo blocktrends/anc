@@ -7,9 +7,10 @@
   <form class="  mb-4 ">
     <div class="mb-4 px-5 md:px-0">
       <label class="block text-center font-bold text-[#00a7d0] pt-9 md:pt-10 text-blue text-2xl md:text-3xl text-grey-darker  " for="username">
-        Olá, precisamos consultar<br />
-sua associação de<br />
-certificação ANCORD.
+        Você é um Assessor de<br />
+        Investimentos certificado<br />
+        pela ANCORD?
+      
       </label>
       <div class="text-xs text-white text-center mt-8 mb-2">Digite o seu CPF</div>
       <input pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"  class=" shadow appearance-none border rounded w-full py-3 mt-3 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="000.000.000-00">
@@ -19,7 +20,7 @@ certificação ANCORD.
       <a @click="submitCpf()" class="text-slate-950 text-center cursor-pointer text-base xl:text-lg 2xl:text-base font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3 max-md:px-5 uppercase" data-v-inspector="components/header.vue:52:13"> Enviar</a>
         
     </div>
-    <div class="text-center text-white text-xs underline pt-4 font-light">Precisa de ajuda? Entre em contato conosco. </div>
+    <a href="https://wa.me/message/W2USYZZK75FMC1" target="_blank" class="block text-center text-white text-xs underline pt-4 font-light">Precisa de ajuda? Entre em contato conosco. </a>
   </form>
 
 </div>
