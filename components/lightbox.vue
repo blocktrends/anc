@@ -12,8 +12,12 @@
         pela ANCORD?
       
       </label>
-      <div class="text-xs text-white text-center mt-8 mb-2">Digite o seu CPF</div>
-      <input pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"  class=" shadow appearance-none border rounded w-full py-3 mt-3 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="000.000.000-00">
+      <div class="text-xs text-white  text-center mt-8 mb-2"><label :class="cpf_class" v-html="mensagem_cpf"></label></div>
+
+      <input v-mask="['###.###.###-##', '##.###.###/####-##']"  maxlength="14"
+      v-model="cpf"
+      class="a shadow appearance-none border rounded w-full py-3 mt-3 px-3 text-grey-darker 
+      leading-tight focus:outline-none focus:shadow-outline" id="username" type="tel" placeholder="000.000.000-00">
     </div>
  
     <div class="flex items-center justify-between mt-4 px-5 md:px-0">
@@ -28,63 +32,66 @@
     </div>
 </template>
 
-<script>
+<script >
 
 export default {
  data() {
     return {
-  //   apiToken:'abc'
+      cpf:'',
+      mensagem_cpf: 'Digite o seu CPF',
+      cpf_class: ''
     }
   },
   methods: {
     async submitCpf() {
-    
+      
       const config = useRuntimeConfig()
-        console.log(config)
+     
 
-        let LOGIN_ANCORD = config.public.VUE_APP_ENV_ANCORD_USERNAME;
-        let PASS_ANCORD = config.public.VUE_APP_ENV_ANCORD_PASSWORD;
+      let LOGIN_ANCORD = config.public.VUE_APP_ENV_ANCORD_USERNAME;
+      let PASS_ANCORD = config.public.VUE_APP_ENV_ANCORD_PASSWORD;
 
-        console.log(LOGIN_ANCORD)
-        console.log(PASS_ANCORD)
+      let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
+          method: 'POST',
+          body: { 
+              "login": LOGIN_ANCORD,
+              "senha": PASS_ANCORD
+          }
+      });
 
-        let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
-            method: 'POST',
-            body: { 
-                "login": LOGIN_ANCORD,
-                "senha":PASS_ANCORD
-            }
-        });
 
-        apiToken.then((res) => { 
-          console.log(res)
+      apiToken.then((res) => { 
+ 
+        let cpf_sent = this.cpf.replace(/[^\w\s]/gi, '')
 
-           let statusCpf = $fetch('https://apicredenciamento.ancord.org.br:8085/candidato/consultar/aprovados', {
-                method: 'POST',
-                body: { 
-                    "cpf": "90350307024"
-                },
-                headers: {
-                    'ApiKey': res,
-                }
-            });
-
-            statusCpf.then((result) => { 
-             //   window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca");
-            });
+        if(cpf_sent.length == 11) {
+          let statusCpf = $fetch('https://apicredenciamento.ancord.org.br:8085/candidato/consultar/aprovados', {
+              method: 'POST',
+              body: { 
+                  "cpf": cpf_sent
+              },
+              headers: {
+                  'ApiKey': res,
+              }
+          });
 
             
 
-        });
-
-
-       /* const statusCpf = $fetch('http://54.209.206.23:9092/candidato/consultar/aprovados', {
-            method: 'POST',
-            body: { 
-                "cpf": "90350307024"
+          statusCpf.then((result) => { 
+            console.log(result)
+            if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado")
+              window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca")
+            else {
+              this.mensagem_cpf = "CPF não encontrado. Tente novamente ou <a href='https://wa.me/message/W2USYZZK75FMC1' target='_blank'><u>fale conosco</u></a>."
+              this.cpf_class = 'text-red bold text-base'
             }
-        });*/
+              
+          });
+        } else {
+          alert("Preencha seu CPF corretamente.");
+        } 
 
+      });
 
 
     }

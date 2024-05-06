@@ -131,6 +131,10 @@ background: #063146;
   display: none;
 }
 
+.text-red {
+  color: red;
+}
+
 @media (max-width: 1615px) {
   body .xl\:container {
     padding: 0 20px;
@@ -235,7 +239,7 @@ body .carousel__pagination-button::after {
   height: 7px;
   background-color: #d4dbe9;
 }
-  
+
 div .carousel__prev {
   background: url('../imgs/arrow-l-mobile.svg');
   
