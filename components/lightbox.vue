@@ -38,18 +38,26 @@ export default {
   },
   methods: {
     async submitCpf() {
+    
+      const config = useRuntimeConfig()
+        console.log(config)
 
+        let LOGIN_ANCORD = config.public.VUE_APP_ENV_ANCORD_USERNAME;
+        let PASS_ANCORD = config.public.VUE_APP_ENV_ANCORD_PASSWORD;
+
+        console.log(LOGIN_ANCORD)
+        console.log(PASS_ANCORD)
 
         let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
             method: 'POST',
             body: { 
-                "login": "26195884000170",
-                "senha":"123456"
+                "login": LOGIN_ANCORD,
+                "senha":PASS_ANCORD
             }
         });
 
         apiToken.then((res) => { 
-     
+          console.log(res)
 
            let statusCpf = $fetch('https://apicredenciamento.ancord.org.br:8085/candidato/consultar/aprovados', {
                 method: 'POST',
@@ -62,7 +70,7 @@ export default {
             });
 
             statusCpf.then((result) => { 
-                window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca");
+             //   window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca");
             });
 
             

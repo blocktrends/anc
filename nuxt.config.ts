@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      VUE_APP_ENV_ANCORD_PASSWORD:  process.env.VUE_APP_ENV_ANCORD_PASSWORD,
+      VUE_APP_ENV_ANCORD_USERNAME: process.env.VUE_APP_ENV_ANCORD_USERNAME
+    }
+  },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
