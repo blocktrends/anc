@@ -13,11 +13,13 @@
       
       </label>
       <div class="text-xs text-white  text-center mt-8 mb-2"><label :class="cpf_class" v-html="mensagem_cpf"></label></div>
-
-      <input v-mask="['###.###.###-##', '##.###.###/####-##']"  maxlength="14"
+<div v-if="isBrowser">
+ <input v-mask="['###.###.###-##', '##.###.###/####-##']"  maxlength="14"
       v-model="cpf"
       class="a shadow appearance-none border rounded w-full py-3 mt-3 px-3 text-grey-darker 
       leading-tight focus:outline-none focus:shadow-outline" id="username" type="tel" placeholder="000.000.000-00">
+  </div>
+     
     </div>
  
     <div class="flex items-center justify-between mt-4 px-5 md:px-0">
@@ -31,7 +33,11 @@
 </div>
     </div>
 </template>
+<script setup>
+import { ref } from 'vue';
 
+const isBrowser = ref(typeof window !== 'undefined');
+</script>
 <script >
 
 export default {
