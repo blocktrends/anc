@@ -1,6 +1,6 @@
 <template>
   <div :class="{ hidden: isHidden  }">
-    <div class="fixed bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
+    <div class="fixed cursor-pointer bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
     </div>
     <Lightbox />
     
