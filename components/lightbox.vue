@@ -87,8 +87,12 @@ export default {
             
 
           statusCpf.then((result) => { 
-            if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado")
-              window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca")
+            if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
+           
+              var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
+             
+              window.location.replace(guru_url)
+            }
             else {
               this.mensagem_cpf = "CPF não encontrado. Tente novamente ou <a href='https://wa.me/message/W2USYZZK75FMC1' target='_blank'><u>fale conosco</u></a>."
               this.cpf_class = 'text-red bold text-base'

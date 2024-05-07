@@ -302,6 +302,10 @@ div .carousel__next {
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
   }
+  body .iframe-video {
+    display: block;
+
+  }
 }
 
 .iframe-video, .hideMoldura {

@@ -63,25 +63,25 @@
     <div>
       <div class="xl:container mx-auto">
 
-        <div class="lg:flex mt-10 sm:mt-16">
-          <div class="flex-1 sm:pr-20 text-white">
+        <div class="xl:flex mt-10 sm:mt-16">
+          <div class="flex-1 xl:pr-20 text-white">
 
-            <div class="flex flex-col justify-start items-center sm:items-start relative gap-9">
-              <div class="px-5 sm:px-0 flex flex-col justify-start items-center sm:items-start gap-10">
-                <div class="flex flex-col justify-start items-center sm:items-start   relative gap-7 sm:gap-12">
+            <div class="flex flex-col justify-start items-center xl:items-start relative gap-9">
+              <div class="px-5 sm:px-0 flex flex-col justify-start items-center xl:items-start gap-10">
+                <div class="flex flex-col justify-start items-center xl:items-start   relative gap-7 xl:gap-12">
                   <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
 
-                  <div class="flex flex-col justify-start items-center sm:items-start     relative gap-6">
-                    <div class="flex flex-col justify-start items-center sm:items-start    relative gap-2">
+                  <div class="flex flex-col justify-start items-center xl:items-start     relative gap-6">
+                    <div class="flex flex-col justify-start items-center xl:items-start    relative gap-2">
                       <p
-                        class=" text-center sm:text-left   text-3xl md:text-5xl 2xl:text-5xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
+                        class=" text-center xl:text-left   text-3xl md:text-5xl 2xl:text-5xl font-bold leading-tight md:leading-tight 2xl:leading-tight ">
                         <span class="   font-bold text-left text-[#00a7d0]">CCA</span><span
                           class="    font-bold text-left text-white">
                           - A 1ª Certificação<br />Cripto do Mercado <span class="mobileextra"><br /></span>Brasileiro</span>
                       </p>
                     </div>
                     <div
-                      class="whitespace-normal block px-4 sm:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
+                      class="whitespace-normal block px-4 xl:px-0  font-light hidebrs   opacity-[0.87] text-xl 2xl:text-2xl text-center sm:text-left text-white">
                       Domine
                       a blockchain e lidere a <br class="brmobile" /> revolução cripto<br />
                       com o Programa<br class="brmobile" /> CCA, desenvolvido pelo<br />
@@ -128,16 +128,16 @@
                 class="sm:hidden absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" class="inline-block" alt="Certificado Cca" />
               </a>
-            <div class="gif-video" :class="youtube ? 'hideMoldura' : '' " >
+            <div class="gif-video md:block hidden" :class="youtube ? 'hideMoldura' : '' " >
               <a
                 class="absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" alt="Certificado Cca" />
               </a>
               <a 
-                class="absolute flex sm:block w-full sm:w-auto  text-center justify-center sm:right-0 sm:inline-table top-24 sm:top-0 sm:left-0 bottom-0 m-auto">
+                class="absolute flex sm:block w-full sm:w-auto  text-center justify-center sm:right-0 sm:inline-table top-24 sm:top-1/2 -mt-[83px] sm:left-0  m-auto">
                 <img src="../assets/imgs/aperte-play.svg" class="max-w-[150px] sm:max-w-none" alt="Certificado Cca" />
               </a>
-              <video  @click="toggleVideo" width="756px" loop="true" autoplay="autoplay" class="mt-24 sm:mt-0 border border-white rounded "
+              <video  @click="toggleVideo" width="756px" height="456px" loop="true" autoplay="autoplay" class="mt-24 sm:mt-0 border border-white rounded "
                 muted>
                 <source src="../assets/video/intro-ancord.webm" type="video/webm" />
 
