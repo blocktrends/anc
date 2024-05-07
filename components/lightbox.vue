@@ -1,10 +1,10 @@
 <template>
     
 
-    <div class="absolute bg-neutral-900 max-w-[88vw] shadow-md rounded-lg border-2 border-[#00A7D0] h-[400px] md:h-[420px] w-[560px] z-50 left-0 right-0 top-0 bottom-0 m-auto">
+    <div class="fixed bg-neutral-900 max-w-[88vw] shadow-md rounded-lg border-2 border-[#00A7D0] h-[400px] md:h-[420px] w-[560px] z-50 left-0 right-0 top-0 bottom-0 m-auto">
         <div class="flex justify-center">
 <div class="w-full md:mx-14">
-  <form class="  mb-4 ">
+  <form class="  mb-4 "  v-on:submit.prevent="submitCpf">
     <div class="mb-4 px-5 md:px-0">
       <label class="block text-center font-bold text-[#00a7d0] pt-9 md:pt-10 text-blue text-2xl md:text-3xl text-grey-darker  " for="username">
         Você é um Assessor de<br />
@@ -21,7 +21,7 @@
     </div>
  
     <div class="flex items-center justify-between mt-4 px-5 md:px-0">
-      <a @click="submitCpf()" class="text-slate-950 text-center cursor-pointer text-base xl:text-lg 2xl:text-base font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3 max-md:px-5 uppercase" data-v-inspector="components/header.vue:52:13"> Enviar</a>
+      <a @click="submitCpf()" :class="button_class"  class="text-slate-950 text-center cursor-pointer text-base xl:text-lg 2xl:text-base font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3 max-md:px-5 uppercase" data-v-inspector="components/header.vue:52:13"> Enviar</a>
         
     </div>
     <a href="https://wa.me/message/W2USYZZK75FMC1" target="_blank" class="block text-center text-white text-xs underline pt-4 font-light">Precisa de ajuda? Entre em contato conosco. </a>
@@ -39,11 +39,14 @@ export default {
     return {
       cpf:'',
       mensagem_cpf: 'Digite o seu CPF',
-      cpf_class: ''
+      cpf_class: '',
+      button_class: ''
     }
   },
   methods: {
     async submitCpf() {
+      
+      this.button_class = "pointer-events-none"
       
       const config = useRuntimeConfig()
      
@@ -78,7 +81,6 @@ export default {
             
 
           statusCpf.then((result) => { 
-            console.log(result)
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado")
               window.location.replace("https://checkout.blocktrends.com.br/pay/programa-cca")
             else {

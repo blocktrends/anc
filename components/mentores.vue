@@ -1,4 +1,10 @@
 <template>
+<div :class="{ hidden: isHidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
+    </div>
+    <Lightbox />
+    
+  </div>
     <div class="xl:container  mx-auto" id="mentores">
 
         <div class="2xl:flex pt-10 sm:pt-0 sm:py-14 lg:py-24">
@@ -14,7 +20,7 @@
                 </div>
 
                 <div class="hidden sm:block items-stretch flex gap-2">
-                    <a class="link-blue-rect" href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank">
+                    <a class="link-blue-rect cursor-pointer"   @click="showLightBox()">
                         
                   
                     <svg width="496" class="max-w-full md:max-w-md" height="68" viewBox="0 0 496 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +79,7 @@
                 </Carousel>
             </div>
             <div class="block sm:hidden mt-7 mx-8 mb-10 items-stretch flex gap-2">
-                    <a class="link-blue-rect" href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank">
+                    <a class="link-blue-rect cursor-pointer" @click="showLightBox()">
                         
                   
                     <svg width="496" class="max-w-full md:max-w-md" height="68" viewBox="0 0 496 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,6 +133,8 @@ export default {
     },
     data() {
         return {
+             open: false,
+      isHidden: true,
             teachers: [
                 {
                     image: fernandoImage, id: 'fernando', nome: 'Fernando Carvalho', empresa: fernandoEmpresa,
@@ -183,6 +191,13 @@ export default {
         }
     },
     methods: {
+         showLightBox() {
+      this.isHidden = !this.isHidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
         closeModalTeacher() {
             this.modalArmando = false
             this.modalPedro = false

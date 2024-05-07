@@ -1,4 +1,10 @@
 <template>
+<div :class="{ hidden: isHidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
+    </div>
+    <Lightbox />
+    
+  </div>
   <div class="bg-black">
 
     <Head>
@@ -156,7 +162,7 @@
           </div>
         </div>
 
-        <a class="link-blue-rect" href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank">
+        <a class="link-blue-rect cursor-pointer" @click="showLightBox()" >
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="57" width="406" height="68" rx="4" class="blue-rect transition-all" fill="#00A7D0" />
@@ -366,8 +372,8 @@
 </svg>
 
                     </div>
-                    <a href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank"
-                      class="justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
+                    <a  @click="showLightBox()"
+                      class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
                         class="hidden sm:block aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
@@ -517,8 +523,8 @@
       </div>
       <div
         class="items-center flex justify-center gap-5 mt-12 mb-9 px-px max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-        <a href="https://checkout.blocktrends.com.br/pay/programa-cca" target="_blank"
-          class="transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
+        <a @click="showLightBox()"
+          class="cursor-pointer transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />
 
@@ -660,9 +666,21 @@ export default defineNuxtComponent({
 
   data() {
     return {
-     
+     open: false,
+      isHidden: true
     }
+  },
+   methods: {
+    showLightBox() {
+      this.isHidden = !this.isHidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+ 
   }
+  
 })
 
 </script>

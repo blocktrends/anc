@@ -1,6 +1,6 @@
 <template>
   <div :class="{ hidden: isHidden  }">
-    <div class="absolute bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
+    <div class="fixed bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
     </div>
     <Lightbox />
     
@@ -172,6 +172,10 @@ export default {
   methods: {
     showLightBox() {
       this.isHidden = !this.isHidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
     },
     toggleMenu() {
 
