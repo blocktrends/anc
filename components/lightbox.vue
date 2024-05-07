@@ -52,7 +52,7 @@ export default {
   methods: {
     async submitCpf() {
       
-      this.button_class = "pointer-events-none"
+
       
       const config = useRuntimeConfig()
      
