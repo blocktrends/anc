@@ -307,7 +307,9 @@ div .carousel__next {
 
   }
 }
-
+.hideMoldura { 
+display: none!important;
+}
 .iframe-video, .hideMoldura {
   display: none;
   max-width: 100%;

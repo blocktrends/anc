@@ -204,9 +204,7 @@
     tornam especialistas em criptoativos. A ANCORD e o BlockTrends
     <span class="font-bold">
       não se responsabilizam por quaisquer decisões de investimento tomadas
-      pelos profissionais certificados
-    </span>
-    . É importante que os profissionais que obtenham a CCA tenham plena ciência
+      pelos profissionais certificados</span>. É importante que os profissionais que obtenham a CCA tenham plena ciência
     dos riscos inerentes a esse tipo de produto.
     <span class="font-bold">
       Em nenhuma hipótese, a ANCORD e o BlockTrends serão responsáveis por
