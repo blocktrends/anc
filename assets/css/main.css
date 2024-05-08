@@ -10,6 +10,16 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+.button_class  {
+  pointer-events: none;
+
+}
+.button_class span {
+  opacity: 0;
+}
+.button_class .hidden {
+  display: block;
+}
 .bg-top {
   background: url('../imgs/banner-cca.jpg') top center no-repeat;
   background-size: cover;

@@ -23,7 +23,15 @@
     </div>
  
     <div class="flex items-center justify-between mt-4 px-5 md:px-0">
-      <a @click="submitCpf()" :class="button_class"  class="text-slate-950 text-center cursor-pointer text-base xl:text-lg 2xl:text-base font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3 max-md:px-5 uppercase" data-v-inspector="components/header.vue:52:13"> Enviar</a>
+     
+      <a @click="submitCpf()" :class="button_class"  class="relative text-slate-950 text-center cursor-pointer text-base xl:text-lg 2xl:text-base font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3 max-md:px-5 uppercase" data-v-inspector="components/header.vue:52:13"> 
+  
+ <svg   class="hidden animate-spin left-0 right-0 mx-auto absolute  h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+    </svg>
+  <span>Enviar</span>
+  </a>
         
     </div>
     <a href="https://wa.me/message/W2USYZZK75FMC1" target="_blank" class="block text-center text-white text-xs underline pt-4 font-light">Precisa de ajuda? Entre em contato conosco. </a>
@@ -53,7 +61,7 @@ export default {
     async submitCpf() {
       
 
-      
+      this.button_class = 'button_class';
       const config = useRuntimeConfig()
      
 
@@ -96,11 +104,13 @@ export default {
             else {
               this.mensagem_cpf = "CPF não encontrado. Tente novamente ou <a href='https://wa.me/message/W2USYZZK75FMC1' target='_blank'><u>fale conosco</u></a>."
               this.cpf_class = 'text-red bold text-base'
+              this.button_class = '';
             }
               
           });
         } else {
           alert("Preencha seu CPF corretamente.");
+          this.button_class = '';
         } 
 
       });
