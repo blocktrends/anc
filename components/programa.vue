@@ -208,9 +208,7 @@
     dos riscos inerentes a esse tipo de produto.
     <span class="font-bold">
       Em nenhuma hipótese, a ANCORD e o BlockTrends serão responsáveis por
-      quaisquer danos diretos ou indiretos
-    </span>
-    , incluindo perda de lucro, perda de receita, ou outros danos decorrentes de
+      quaisquer danos diretos ou indiretos</span>, incluindo perda de lucro, perda de receita, ou outros danos decorrentes de
     ofertas de mercado.
     <br />
   </div>
