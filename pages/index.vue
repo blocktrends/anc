@@ -59,7 +59,7 @@
                   <div
                     class="text-white text-justify text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
                 
-                    Com mais de 50 anos de atuação, a <strong>ANCORD</strong> (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) se consolidou como a mais representativa Associação da Índústria de Intermediação. Além disso, é reconhecida pela qualidade de suas iniciativas educacionais e se tornou uma referência, como a mais importante Entidade Certificadora e Credenciadora do Mercado.
+                    Com mais de 50 anos de atuação, a <strong>ANCORD</strong> (Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias) se consolidou como a mais representativa Associação da Indústria de Intermediação. Além disso, é reconhecida pela qualidade de suas iniciativas educacionais e se tornou uma referência, como a mais importante Entidade Certificadora e Credenciadora do Mercado.
 
                   </div>
                   <!--
