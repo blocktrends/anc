@@ -5,6 +5,21 @@
     <Lightbox />
     
   </div>
+
+  <div :class="{ hidden: isTermosHidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showTermos()" >
+    </div>
+    <Termos />
+    
+  </div>
+
+  <div :class="{ hidden: isPoliticasHidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showPoliticas()" >
+    </div>
+    <Politicas />
+    
+  </div>
+
   <div class="bg-black">
 
     <Head>
@@ -605,9 +620,9 @@
               <div class="mb-4 mt-10 lg:mt-0 flex flex-col sm:mr-20">
 
                 <h6 class="text-sm  font-bold text-[#00A7D0] mb-5">POLÍTICAS</h6>
-                <a class="text-white text-left text-sm hover:text-green-main mb-5 font-normal" href="#">Termos e
+                <a class="text-white cursor-pointer text-left text-sm hover:text-green-main mb-5 font-normal" @click="showTermos()">Termos e
                   Condições</a>
-                <a class="text-white text-left text-sm hover:text-green-main mb-5 font-normal" href="#">Política de
+                <a class="text-white cursor-pointer text-left text-sm hover:text-green-main mb-5 font-normal" @click="showPoliticas()">Política de
                   Privacidade</a>
 
 
@@ -667,10 +682,26 @@ export default defineNuxtComponent({
   data() {
     return {
      open: false,
-      isHidden: true
+    isHidden: true,
+    isPoliticasHidden: true,
+    isTermosHidden: true,
     }
   },
    methods: {
+    showPoliticas() {
+      this.isPoliticasHidden = !this.isPoliticasHidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showTermos() {
+      this.isTermosHidden = !this.isTermosHidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
     showLightBox() {
       this.isHidden = !this.isHidden;
       document.documentElement.classList.
