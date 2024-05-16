@@ -77,6 +77,20 @@ fbq('init', '322393097349578');
 fbq('track', 'PageView');
 `
         },       
+        {
+          hid: 'fb',
+          innerHTML: `
+          <!-- Twitter conversion tracking event code -->
+<script type="text/javascript">
+  // Insert Twitter Event ID
+  twq('event', 'tw-ofos8-om4aj', {
+    email_address: null, // use this to pass a user’s email address
+    phone_number: null // phone number in E164 standard
+  });
+</script>
+<!-- End Twitter conversion tracking event code -->
+`
+        },   
       ],
     },
   },
