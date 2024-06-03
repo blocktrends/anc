@@ -126,28 +126,62 @@
               </div>
             </div>
           </div>
-          <div
-            class="rounded bg-banca border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col  mt-6 px-5  py-9 border-[1.5px] border-solid items-center justify-center max-md:max-w-full max-md:px-5">
-            <div class="flex  flex-1 max-w-full items-stretch   max-sm:flex-wrap ">
-              <div class="text-white pr-5 uppercase lg:text-xl xl:pl-16 leading-8 self-center grow my-auto">
-                Aplicação da Prova:
-              </div>
-              <div class="flex-1 text-right xl:pr-7">
-               <img class="max-w-[110px] sm:max-w-none inline-block"
-                        src="../assets/imgs/fgv.svg" alt="FGV" />
-           
+
+
+          <div class="gap-1 flex max-lg:flex-col max-lg:items-stretch max-md:gap-0 ">
+            
+            <div
+              class="rounded w-6/12 max-lg:w-full max-lg:ml-0 bg-banca border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col  mt-6 px-5  py-9 border-[1.5px] border-solid items-center justify-center max-md:max-w-full max-md:px-5">
+              
+              <div class="flex  flex-1 max-w-full items-stretch   max-sm:flex-wrap ">
+                <div class="text-white pr-5 uppercase lg:text-xl xl:pl-16 leading-8 self-center grow my-auto">
+                  Aplicação da Prova:
+                </div>
+                <div class="flex-1 text-right xl:pr-7">
+                <img class="max-w-[110px] sm:max-w-none inline-block"
+                          src="../assets/imgs/fgv.svg" alt="FGV" />
+            
+                </div>
+
+                <!--<div class="items-stretch self-center flex gap-2 lg:pr-[90px] xl:pr-[140px] my-auto">
+                  <div class="text-white text-xl font-bold leading-7 grow whitespace-nowrap">
+                    Institucional FGV
+                  </div>
+                  <svg   width="24" class="mt-0.5" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+                  </div>-->
               </div>
 
-              <!--<div class="items-stretch self-center flex gap-2 lg:pr-[90px] xl:pr-[140px] my-auto">
-                <div class="text-white text-xl font-bold leading-7 grow whitespace-nowrap">
-                  Institucional FGV
-                </div>
-                <svg   width="24" class="mt-0.5" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-                </div>-->
             </div>
-          </div>
+
+            <div
+              class="rounded w-6/12 ml-5 max-lg:w-full max-lg:ml-0 bg-banca border-[color:var(--Cor-Primria-Ancord,#00A7D0)] flex flex-col  mt-6 px-5  py-9 border-[1.5px] border-solid items-center justify-center max-md:max-w-full max-md:px-5">
+              
+              <div class="flex  flex-1 max-w-full items-stretch   max-sm:flex-wrap ">
+                <div class="text-white pr-5 uppercase lg:text-xl xl:pl-16 leading-8 self-center grow my-auto">
+                  Apoio:
+                </div>
+                <div class="flex-1 text-right xl:pr-7">
+                <img class="max-w-[110px] sm:max-w-none inline-block"
+                          src="../assets/imgs/abcripto.svg" alt="FGV" />
+            
+                </div>
+
+                <!--<div class="items-stretch self-center flex gap-2 lg:pr-[90px] xl:pr-[140px] my-auto">
+                  <div class="text-white text-xl font-bold leading-7 grow whitespace-nowrap">
+                    Institucional FGV
+                  </div>
+                  <svg   width="24" class="mt-0.5" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+                  </div>-->
+              </div>
+              
+            </div>
+            </div>
+
+
         </div>
       </div>
 
