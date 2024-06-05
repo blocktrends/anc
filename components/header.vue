@@ -1,4 +1,16 @@
 <template>
+  <div>
+    <Head>
+
+      <Title>Programa Certificação Criptoativos ANCORD</Title>
+<Meta name="og:image" content="/ancord-share.jpg" />
+<Meta name="twitter:image" content="/ancord-share.jpg" />
+<Meta name="twitter:card" content="summary_large_image" />
+<Meta name="title" content="Programa Certificação Criptoativos ANCORD" />
+<Meta name="twitter:title" content="Programa Certificação Criptoativos ANCORD" />
+<Meta name="description" content="Domine a blockchain e lidere a revolução cripto com o Programa CCA, desenvolvido pelo BlockTrends e certificado pela ANCORD." />
+    </Head>
+  </div>
   <div :class="{ hidden: isHidden  }">
     <div class="fixed cursor-pointer bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
     </div>
