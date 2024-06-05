@@ -44,6 +44,7 @@ export default defineNuxtConfig({
   app: {
     cdnURL: '/',
     head: {
+      /*
       meta: [
         { hid: 'og:image', name: 'og:image', content: '/ancord-share.jpg'},
         { hid: 'twitter:image', name: 'twitter:image', content: '/ancord-share.jpg'},
@@ -51,7 +52,7 @@ export default defineNuxtConfig({
         {  hid: 'title', name: 'title', content: 'Programa Certificação Criptoativos ANCORD'},
         {  hid: 'og:title', name: 'twitter:title', content: 'Programa Certificação Criptoativos ANCORD'},
         {  hid: 'description', name: 'description', content: 'Domine a blockchain e lidere a revolução cripto com o Programa CCA, desenvolvido pelo BlockTrends e certificado pela ANCORD.'}
-      ],
+      ],*/
       script: [
         {
           hid: 'clt',
