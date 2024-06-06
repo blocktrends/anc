@@ -107,7 +107,7 @@ export default {
             console.log(result)
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
            
-              var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
+              var guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
              
               window.location.replace(guru_url)
             }
