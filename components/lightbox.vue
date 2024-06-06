@@ -102,7 +102,8 @@ export default {
               window.location.replace(guru_url)
             }
             else {
-              this.mensagem_cpf = "CPF não pertence a Assessor (AAI) certificado.<br />Houve algum engano?<br class='brmobile' /><a href='https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf' target='_blank'><u>Clique aqui para continuar</u></a>."
+              let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent;
+              this.mensagem_cpf = "CPF não pertence a Assessor (AAI) certificado.<br />Houve algum engano?<br class='brmobile' /><a href='"+linkAssessorNaoEncontrado+"'> <u>Clique aqui para continuar</u></a>."
               this.cpf_class = 'text-white bold text-base'
               this.button_class = '';
             }
