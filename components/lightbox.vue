@@ -68,6 +68,15 @@ export default {
       let LOGIN_ANCORD = config.public.VUE_APP_ENV_ANCORD_USERNAME;
       let PASS_ANCORD = config.public.VUE_APP_ENV_ANCORD_PASSWORD;
 
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      let paramsrc = urlParams.get('src');
+
+      if(paramsrc !== null)
+        paramsrc = '&src='+paramsrc;
+      else
+       paramsrc = '';
+
       let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
           method: 'POST',
           body: { 
@@ -98,12 +107,12 @@ export default {
             console.log(result)
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
            
-              var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
+              var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
              
               window.location.replace(guru_url)
             }
             else {
-              let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent;
+              let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
               this.mensagem_cpf = "CPF não pertence a Assessor (AAI) certificado.<br />Houve algum engano?<br class='brmobile' /><a href='"+linkAssessorNaoEncontrado+"'> <u>Clique aqui para continuar</u></a>."
               this.cpf_class = 'text-white bold text-base'
               this.button_class = '';
