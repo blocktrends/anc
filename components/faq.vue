@@ -190,7 +190,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    A carga horária é de 47 horas, distribuídas em quatro módulos com 19 aulas. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 5 Provas Intermediárias, totalizando 40 questões, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
+                                    A carga horária é de +50 horas distribuídas em quatro módulos com 19 aulas, provas, exames e lives. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 5 Provas Intermediárias, totalizando 40 questões, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
                                  </p>
                         </div>
 

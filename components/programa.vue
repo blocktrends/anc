@@ -272,7 +272,7 @@
                 <img src="../assets/imgs/47-horas.svg" alt="47 horas" />
 
               </div>
-              <div class="text-white text-3xl sm:text-4xl font-bold tracking-tighter self-stretch mt-7 sm:mt-7 2xl:mt-14 ">47
+              <div class="text-white text-3xl sm:text-4xl font-bold tracking-tighter self-stretch mt-7 sm:mt-7 2xl:mt-14 ">50
                 horas</div>
               <div class="text-zinc-500 text-lg leading-7 self-stretch mt-6 sm:mb-9">Totais de conteúdo divididos em aulas,
                 apostilas, lives e exercícios.</div>
