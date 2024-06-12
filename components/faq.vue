@@ -259,8 +259,9 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    1 - Sim! Profissionais das Associadas ANCORD contam com 20% de desconto nas inscrições.<br /><br />
-2 - Caso as Associadas se interessem em adquirir inscrições em lote para seus colaboradores, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato: <a href="mailto:contato@blocktrends.com.br" target="_blank">contato@blocktrends.com.br</a>.
+                                Sim! Profissionais das Associadas ANCORD contam com 20% de desconto nas inscrições.<br /><br />
+Caso as Associadas optem em adquirir inscrições em lote para seus AIs, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato com o nosso suporte no <a href="https://wa.me/message/W2USYZZK75FMC1" target="_blank"><u>WhatsApp</u></a> ou por e-mail (<a href="mailto:contato@blocktrends.com.br" target="_blank"><u>contato@blocktrends.com.br</u></a>).
+
                             </p>
                         </div>
 
