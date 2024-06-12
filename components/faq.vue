@@ -259,7 +259,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    1 - Sim! Profissionais das Associadas ANCORD contam com 30% de desconto nas inscrições.<br /><br />
+                                    1 - Sim! Profissionais das Associadas ANCORD contam com 20% de desconto nas inscrições.<br /><br />
 2 - Caso as Associadas se interessem em adquirir inscrições em lote para seus colaboradores, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato com o <a href="https://api.whatsapp.com/message/W2USYZZK75FMC1?autoload=1&app_absent=0" target="_blank">nosso suporte no WhatsApp</a>.
                             </p>
                         </div>
