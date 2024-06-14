@@ -121,7 +121,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O Programa CCA é exclusivo para Assessores de Investimentos que buscam aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas através da certificação ANCORD.
+                                    O Programa CCA é exclusivo para o Assessor de Investimento (AI) certificado pela ANCORD que busca aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas.
                             </p>
                         </div>
 
