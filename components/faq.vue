@@ -182,7 +182,7 @@
                         <input type="checkbox" name="panel" id="fpanel-7" class="hidden">
                         <label for="fpanel-7" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            Qual é a carga horária do Curso do Curso Intensivo CCA ANCORD?
+                            Qual é a carga horária do Curso Intensivo CCA ANCORD?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
@@ -399,7 +399,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O aluno tem 1 ano para concluir todos os passos do Programa CCA contando a partir da sua data de inscrição.
+                                   O aluno tem 1 ano para concluir todos os passos do Programa CCA contando a partir da sua data de inscrição. Além disso, após concluir o Curso Intensivo e as Provas Intermediárias (1ª e 2ª Etapas) e, consequentemente, obter o Atestado de Qualificação (3ª Etapa), o aluno possui até 60 dias para agendar o Exame CCA (4ª Etapa) junto à FGV. 
                             </p>
                         </div>
 
