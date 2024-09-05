@@ -63,14 +63,14 @@
     <Hero />
     <a id="programa" style="position: absolute;"></a>
     <Programa />
-    <div class="bg-[#010918] py-20">
+    <div class="bg-[#010918] py-10 lg:py-20">
            <div class="xl:container mx-auto">
         <section class="flex flex-wrap gap-10 justify-between items-end">
     <div class="flex flex-col font-bold min-w-[240px] w-[550px] max-md:max-w-full">
       <h2 class="gap-2.5 mx-auto lg:mx-0 self-stretch p-2 max-w-full text-xs text-cyan-500 whitespace-nowrap rounded border border-solid bg-neutral-800 border-zinc-600 min-h-[29px] w-[106px]">
         DEPOIMENTOS
       </h2>
-      <h3 class="mt-6 text-3xl lg:text-5xl text-center lg:text-left text-white leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+      <h3 class="mt-6 text-3xl lg:text-5xl text-center lg:text-left text-white lg:leading-[58px] ">
         Ser certificado como CCA vale a pena?
       </h3>
     </div>
@@ -84,7 +84,7 @@
     </div>
   </section>
   <div>
-    <section class="lg:flex pt-20 flex-wrap justify-between items-center font-bold leading-none">
+    <section class="lg:flex pt-10 lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
   <article @click="showDepo1()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch pb-8  my-auto      ">
     <img loading="lazy" src="../assets/imgs/01.webp" alt="Lucas Q. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
     <div class="flex bottom-16 justify-between px-5 w-full  absolute">
