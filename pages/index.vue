@@ -20,6 +20,34 @@
     
   </div>
 
+  <div :class="{ hidden: isPoliticasHidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showPoliticas()" >
+    </div>
+    <Politicas />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo1Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo1()" >
+    </div>
+    <Depo1 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo2Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo2()" >
+    </div>
+    <Depo2 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo3Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo3()" >
+    </div>
+    <Depo3 />
+    
+  </div>
+
   <div class="bg-black">
 
     <Head>
@@ -183,10 +211,84 @@
 
 
         </div>
+
+        
       </div>
+
+
+
+ 
 
     </div>
 
+  <div class="bg-[#010918] py-20">
+           <div class="xl:container mx-auto">
+        <section class="flex flex-wrap gap-10 justify-between items-end">
+    <div class="flex flex-col font-bold min-w-[240px] w-[550px] max-md:max-w-full">
+      <h2 class="gap-2.5 self-stretch p-2 max-w-full text-xs text-cyan-500 whitespace-nowrap rounded border border-solid bg-neutral-800 border-zinc-600 min-h-[29px] w-[106px]">
+        DEPOIMENTOS
+      </h2>
+      <h3 class="mt-6 text-5xl text-white leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+        Ser certificado como CCA vale a pena?
+      </h3>
+    </div>
+    <div class="flex gap-4 items-end text-xl tracking-normal text-white min-w-[240px]">
+      <p class="w-[214px]">O próximo depoimento pode ser o seu</p>
+      
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="object-contain shrink-0 w-6 aspect-square" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.5 13.5L12 21M12 21L4.5 13.5M12 21L12 3" stroke="#00A7D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+    </div>
+  </section>
+  <div>
+    <section class="lg:flex pt-20 flex-wrap justify-between items-center font-bold leading-none">
+  <article @click="showDepo1()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch pb-8  my-auto      ">
+    <img loading="lazy" src="../assets/imgs/01.webp" alt="Lucas Q. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex bottom-16 justify-between px-5 w-full  absolute">
+      <div class="flex flex-col self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Lucas Q.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+      
+<svg width="82" height="81" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+
+
+    </div>
+  </article>
+  <article @click="showDepo2()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]   relative flex-col   self-stretch pb-8  my-auto  ">
+    <img loading="lazy" src="../assets/imgs/02.webp" alt="João V. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex bottom-16 justify-between px-5 w-full absolute gap-10 items-center">
+      <div class="flex flex-col self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">João V.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+  <article @click="showDepo3()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/03.webp" alt="Giovani R. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Giovani R.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+</section>
+  </div>
+      </div>
+      </div>
 
     <div class="bg-white">
       <Aulas />
@@ -415,11 +517,12 @@
                     </div>
                     <div class="flex mt-5 justify-center">
      <div class="flex gap-2 justify-center text-sm font-medium text-zinc-500">
-  <img
-    loading="lazy"
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/555c92055aaaa10e3488482823b307de48edaf820084fbf85029e3c5339a0ae8?"
-    class="shrink-0 my-auto w-5 aspect-square"
-  />
+
+  
+<svg  class="shrink-0 my-auto w-5 aspect-square" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM11 6C11 6.55228 10.5523 7 10 7C9.44771 7 9 6.55228 9 6C9 5.44772 9.44771 5 10 5C10.5523 5 11 5.44772 11 6ZM9 9C8.58579 9 8.25 9.33579 8.25 9.75C8.25 10.1642 8.58579 10.5 9 10.5H9.25338C9.41332 10.5 9.53213 10.6481 9.49743 10.8042L9.03829 12.8704C8.79542 13.9633 9.62706 15 10.7466 15H11C11.4142 15 11.75 14.6642 11.75 14.25C11.75 13.8358 11.4142 13.5 11 13.5H10.7466C10.5867 13.5 10.4679 13.3519 10.5026 13.1958L10.9617 11.1296C11.2046 10.0367 10.3729 9 9.25338 9H9Z" fill="#7A7A7E"/>
+</svg>
+
   <div class="hidebrs">
     Obtenha desconto somente para compras em lote,<br />
     acima de 10 AIs. (<a target="_blank" href="mailto:contato@blocktrends.com.br">contato@blocktrends.com.br</a>).
@@ -720,6 +823,10 @@ import Aulas from '../components/aulas.vue'
 import Faq from '../components/faq.vue'
 import Mentores from '../components/mentores.vue'
 
+import Depo1 from '../components/depoimento1.vue'
+import Depo2 from '../components/depoimento2.vue'
+import Depo3 from '../components/depoimento3.vue'
+
 export default defineNuxtComponent({
   components: {
     Header,
@@ -727,7 +834,8 @@ export default defineNuxtComponent({
     Programa,
     Aulas,
     Faq,
-    Mentores
+    Mentores,
+    Depo1
   },
 
   data() {
@@ -736,6 +844,9 @@ export default defineNuxtComponent({
     isHidden: true,
     isPoliticasHidden: true,
     isTermosHidden: true,
+    isDepo1Hidden: true,
+    isDepo2Hidden: true,
+    isDepo3Hidden: true
     }
   },
    methods: {
@@ -760,6 +871,27 @@ export default defineNuxtComponent({
       document.body.classList.
             toggle("overflow-y-hidden");
     },
+    showDepo1() {
+      this.isDepo1Hidden = !this.isDepo1Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo2() {
+      this.isDepo2Hidden = !this.isDepo2Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo3() {
+      this.isDepo3Hidden = !this.isDepo3Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    }
  
   }
   
