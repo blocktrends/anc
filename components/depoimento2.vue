@@ -10,7 +10,7 @@
         <div class="flex justify-center">
             <div class="w-full md:mx-14">
                 <iframe class="max-h-[85vh] max-w-[80vw] mx-auto " width="480" height="853" 
-src="https://www.youtube.com/embed/cPD1uW_GAUk" 
+src="https://www.youtube.com/embed/ddP9pwfSELA" 
 title="YouTube video player" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media;
 gyroscope; picture-in-picture;
