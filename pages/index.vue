@@ -63,7 +63,7 @@
     <Hero />
     <a id="programa" style="position: absolute;"></a>
     <Programa />
-    <div class="bg-[#010918] py-10 lg:py-20">
+    <div class="bg-[#010918] py-10 lg:py-20" id="depoimentos">
            <div class="xl:container mx-auto">
         <section class="flex flex-wrap gap-10 justify-between items-end">
     <div class="flex flex-col font-bold min-w-[240px] w-[550px] max-md:max-w-full">
@@ -127,6 +127,24 @@
 </svg>
  </div>
   </article>
+  <div class="mx-auto text-center">
+  <a  @click="showLightBox()"
+                      class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
+
+                      <svg
+                        class="hidden sm:block aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
+                        width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.1665 10H15.8332" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M10 4.16699L15.8333 10.0003L10 15.8337" stroke="#010918" stroke-width="1.75"
+                          stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+
+                      <div class="text-slate-950 xl:text-xl font-extrabold leading-7 self-stretch grow whitespace-nowrap">
+                        MATRICULE-SE AGORA
+                      </div>
+                    </a>
+                  </div>
 </section>
   </div>
       </div>
