@@ -114,13 +114,13 @@ import muriloImage from '../assets/imgs/foto-murilo-cortina.png'
 import muriloEmpresa from '../assets/imgs/logo-prof-qr-asset.svg'
 
 import gersonImage from '../assets/imgs/foto-gerson.jpg'
-import gersonEmpresa from '../assets/imgs/logo-prof-qr-asset.svg'
+import gersonEmpresa from '../assets/imgs/logo-k2-cca.svg'
 
 import nicholasImage from '../assets/imgs/foto-nicholas.jpg'
 import nicholasEmpresa from '../assets/imgs/logo-prof-bt.svg'
 
 import andersonImage from '../assets/imgs/foto-anderson.jpg'
-import andersonEmpresa from '../assets/imgs/vortx.svg'
+import andersonEmpresa from '../assets/imgs/logo-itau-cca.svg'
 
 
 
@@ -137,8 +137,8 @@ export default {
       isHidden: true,
             teachers: [
                 {
-                    image: fernandoImage, id: 'fernando', nome: 'Fernando Carvalho', empresa: fernandoEmpresa,
-                    cargo: 'CEO da Vórtx QR tokenizadora', bio: 'Administrador de empresas com mais de 18 anos de experiência de trabalho em empresas multinacionais. Possui MBA pela Universidade de Pittsburgh (EUA) e formação no Programa Blockchain de Oxford na Said Business School (Reino Unido). É embaixador no Brasil para o Global Blockchain Business Council e fundador da QR Capital. Atualmente é CEO da Vórtx QR Tokenizadora.'
+                    image: fernandoImage, id: 'fernando', nome: 'Fernando Carvalho', empresa: carlosEmpresa,
+                    cargo: 'Fundador e Chairman da QR Capital', bio: 'Administrador de empresas com mais de 18 anos de experiência de trabalho em empresas multinacionais. Possui MBA pela Universidade de Pittsburgh (EUA) e formação no Programa Blockchain de Oxford na Said Business School (Reino Unido). É embaixador no Brasil para o Global Blockchain Business Council e fundador da QR Capital.'
                 },
                 {
                     image: theoImage, id: 'theo', nome: 'Theodoro Fleury, CFA', empresa: theoEmpresa,
@@ -154,7 +154,7 @@ export default {
                 },
                 {
                     image: gersonImage, id: 'gerson', nome: 'Gerson Junior, PhD', empresa: gersonEmpresa,
-                    cargo: 'Analista Quantitativo da QR Asset', bio: 'Foi Pesquisador Visitante no IÉSEG - Paris (2020) e com passagem na equipe de analistas da NCH Capital. Com interesse na área de finanças, atuando principalmente nos seguintes temas: Portfolio Management, Econometria Financeira e Finanças Quantitativas. Publicou artigos em revistas internacionais: Finance Research Letters, Journal of Behavioral Finance, Applied Economics Letters.'
+                    cargo: 'Analista Quantitativo da K2 Trading Partners', bio: 'Foi Pesquisador Visitante no IÉSEG - Paris (2020) e com passagem na equipe de analistas da NCH Capital e da QR Asset. Com interesse na área de finanças, atuando principalmente nos seguintes temas: Portfolio Management, Econometria Financeira e Finanças Quantitativas. Publicou artigos em revistas internacionais: Finance Research Letters, Journal of Behavioral Finance, Applied Economics Letters.'
                 },
                 {
                     image: nicholasImage, id: 'nicholas', nome: 'Nicholas Sacchi', empresa: nicholasEmpresa,
@@ -162,7 +162,7 @@ export default {
                 },
                 {
                     image: andersonImage, id: 'anderson', nome: 'Anderson Gabriel', empresa: andersonEmpresa,
-                    cargo: 'Regulatory Specialist na Vórtx QR Tokenizadora', bio: 'Advogado, com mais de 9 anos de experiência em Regulatório, Governança Corporativa e Compliance no mercado financeiro e de capitais. Especialista em Direito Corporativo e Compliance pela Escola Paulista de Direito – EPD. Membro do Instituto Crypto Jus, grupo de estudos vinculado à Faculdade de Direito da USP que promove o debate da disciplina jurídica dos criptoativos. Hoje atua como Regulatory Specialist na Vórtx QR Tokenizadora'
+                    cargo: 'Especialista Regulatório no Itaú Unibanco', bio: 'Advogado, com mais de 9 anos de experiência em Regulatório, Governança Corporativa e Compliance no mercado financeiro e de capitais. Especialista em Direito Corporativo e Compliance pela Escola Paulista de Direito – EPD. Membro do Instituto Crypto Jus, grupo de estudos vinculado à Faculdade de Direito da USP que promove o debate da disciplina jurídica dos criptoativos. Já atuou como Especialista Regulatório na Vórtx QR Tokenizadora e hoje exerce o mesmo cargo no Itaú Unibanco.'
                 }
             ],
             settings: {
