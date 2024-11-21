@@ -7,12 +7,13 @@
   </div>
   
   <div class="bg-top pb-14 sm:pb-24">
-    <div class="pt-16  top-0 border-b border-[#00A7D0] pb-10">
+    <div class="pt-16  top-0 font-bold  border-[#00A7D0] pb-10">
       <nav class="flex items-center justify-between flex-wrap xl:container mx-auto">
         <div class="flex items-center flex-no-shrink text-white">
           <a href="/">
             <img src="../assets/imgs/certificacao-criptoativos-ancord.svg" class="max-w-[260px] sm:max-w-none"
               alt="Logo Ancord" />
+           
           </a>
         </div>
         <div class="block xl:hidden">
@@ -58,6 +59,25 @@
           </div>
         </div>
       </nav>
+
+      
+      <div class="mt-10 faixa-bf py-3 text-lg  border-y-2 text-lg uppercase text-center  border-[#00A7D0] ">
+      <span class="text-white">Black Friday</span>
+       <span class=" text-[#00A7D0]">
+       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+       </span>
+       <span class="text-white hidden sm:inline">PROGRAMA CCA</span>
+       <span class=" text-[#00A7D0] hidden sm:inline">
+       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+       </span>
+       <span class="text-white hidden sm:inline">Black Friday</span>
+        <span class=" text-[#00A7D0] hidden sm:inline">
+       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+       </span>
+       <span class="text-white hidden sm:inline">PROGRAMA CCA</span>
+      </div>
+
+
     </div>
 
     <div>
@@ -69,8 +89,11 @@
             <div class="flex flex-col justify-start items-center xl:items-start relative gap-9">
               <div class="px-5 sm:px-0 flex flex-col justify-start items-center xl:items-start gap-10">
                 <div class="flex flex-col justify-start items-center xl:items-start   relative gap-7 xl:gap-12">
-                  <img src="../assets/imgs/ancord-bt-topo.svg" alt="Logo Ancord Blocktrends" />
-
+             <div class="sm:flex text-center sm:text-left">
+                  <img src="../assets/imgs/ancord-bt-topo.svg" class="inline-block" alt="Logo Ancord Blocktrends" />
+   <img src="../assets/imgs/button-bf.svg" class="hidden mt-5 sm:mt-0 sm:ml-14 button-bf"
+              alt="Logo Ancord" />
+</div>
                   <div class="flex flex-col justify-start items-center xl:items-start     relative gap-6">
                     <div class="flex flex-col justify-start items-center xl:items-start    relative gap-2">
                       <p
@@ -92,7 +115,7 @@
                   </div>
                 </div>
                 <a @click="showLightBox()" 
-                  class="flex cursor-pointer justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
+                  class="flex main-button-bf cursor-pointer justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
                   <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="  w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
                     <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
@@ -101,7 +124,7 @@
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
                   <p class="  text-xl font-bold text-left text-[#010918]">
-                    MATRICULE-SE AGORA
+                    MATRICULE-SE AGORA <span class="hidden button-bf">COM 60% OFF</span>
                   </p>
                 </a>
               </div>
@@ -158,6 +181,8 @@
 <script>
 import Lightbox from '../components/lightbox.vue'
 
+
+
 export default {
   components: {
     Lightbox
@@ -169,6 +194,11 @@ export default {
       isHidden: true
     }
   },
+  mounted() {
+  if (window.location.search.includes('bf')) {
+    document.body.classList.add('bf');
+  };
+},
   methods: {
     showLightBox() {
       this.isHidden = !this.isHidden;

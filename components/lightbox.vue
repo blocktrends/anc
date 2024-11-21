@@ -98,7 +98,9 @@ export default {
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
            
               var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
-             
+              if (window.location.search.includes('bf')) {
+                guru_url = "https://checkout.blocktrends.com.br/pay/9d8ac6f6-d742-4156-8ea6-7a7497e2d18d?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
+              };
               window.location.replace(guru_url)
             }
             else {

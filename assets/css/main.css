@@ -227,6 +227,10 @@ background: #063146;
  }
 }
 @media (max-width: 768px) {
+  .bf .faixa-bf .hidden {
+display: none;
+  }
+
 
  body .carousel__pagination-button::after {
     border-radius: 21px!important;
@@ -341,4 +345,29 @@ display: none!important;
   .mobileextra br {
       display: block;
   }
+}
+
+
+.faixa-bf * {
+  display: none;
+}
+
+.faixa-bf {
+  border-bottom: 0;
+}
+
+.bf .faixa-bf *, .bf .button-bf {
+  display: inline-flex
+}
+
+.bf .faixa-bf {
+  border-bottom: 2px solid rgb(0 167 208 / 1);
+}
+
+.bf .main-button-bf {
+  background: #05D361;
+}
+
+.bf .preco-desconto {
+  display: none;
 }
