@@ -348,7 +348,7 @@ display: none!important;
 }
 
 
-.faixa-bf * {
+.faixa-bf *, .faixa-bf .sm\:inline {
   display: none;
 }
 
