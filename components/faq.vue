@@ -56,7 +56,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 120 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
+                                   Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 70 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
                             </p>
                         </div>
 
@@ -121,7 +121,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O Programa CCA é exclusivo para Assessores de Investimentos que buscam aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas através da certificação ANCORD.
+                                    O Programa CCA é exclusivo para o Assessor de Investimento (AI) certificado pela ANCORD que busca aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas.
                             </p>
                         </div>
 
@@ -182,7 +182,7 @@
                         <input type="checkbox" name="panel" id="fpanel-7" class="hidden">
                         <label for="fpanel-7" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            Qual é a carga horária do Curso do Curso Intensivo CCA ANCORD?
+                            Qual é a carga horária do Curso Intensivo CCA ANCORD?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
@@ -190,7 +190,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    A carga horária é de 47 horas, distribuídas em quatro módulos com 19 aulas. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 5 Provas Intermediárias, totalizando 40 questões, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
+                                    A carga horária é de +50 horas distribuídas em quatro módulos com 19 aulas, provas, exames e lives. O Curso Intensivo CCA, no entanto, é apenas a primeira etapa do Programa CCA. O Programa completo ainda conta com 5 Provas Intermediárias, totalizando 40 questões, e o Exame CCA propriamente dito, com 40 questões de múltipla escolha.
                                  </p>
                         </div>
 
@@ -259,8 +259,9 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    1 - Sim! Profissionais das Associadas ANCORD contam com 30% de desconto nas inscrições.<br /><br />
-2 - Caso as Associadas se interessem em adquirir inscrições em lote para seus colaboradores, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato com o <a href="https://api.whatsapp.com/message/W2USYZZK75FMC1?autoload=1&app_absent=0" target="_blank">nosso suporte no WhatsApp</a>.
+                                Sim! Profissionais das Associadas ANCORD contam com desconto nas inscrições. Caso as Associadas optem em adquirir inscrições em lote para seus AIs, elas poderão contar ainda com descontos extras. Para saber mais sobre pacotes promocionais, entre em contato com o nosso suporte no <a href="https://wa.me/message/W2USYZZK75FMC1" target="_blank"><u>WhatsApp</u></a> ou por e-mail (<a href="mailto:contato@blocktrends.com.br" target="_blank"><u>contato@blocktrends.com.br</u></a>).
+
+                                
                             </p>
                         </div>
 
@@ -398,7 +399,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                    O aluno tem 1 ano para concluir todos os passos do Programa CCA contando a partir da sua data de inscrição.
+                                   O aluno tem 1 ano para concluir todos os passos do Programa CCA contando a partir da sua data de inscrição. Além disso, após concluir o Curso Intensivo e as Provas Intermediárias (1ª e 2ª Etapas) e, consequentemente, obter o Atestado de Qualificação (3ª Etapa), o aluno possui até 60 dias para agendar o Exame CCA (4ª Etapa) junto à FGV. 
                             </p>
                         </div>
 

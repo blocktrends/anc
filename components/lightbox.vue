@@ -1,11 +1,11 @@
 <template>
     
 
-    <div class="fixed bg-neutral-900 max-w-[88vw] shadow-md rounded-lg border-2 border-[#00A7D0] h-[400px] md:h-[420px] w-[560px] z-50 left-0 right-0 top-0 bottom-0 m-auto">
+    <div class="fixed bg-neutral-900 max-w-[88vw] shadow-md rounded-lg border-2 border-[#00A7D0] h-max pb-7 md:pb-9 w-[560px] z-50 left-0 right-0 top-0 bottom-0 m-auto">
         <div class="flex justify-center">
 <div class="w-full md:mx-14">
   <form class="  mb-4 "  v-on:submit.prevent="submitCpf">
-    <div class="mb-4 px-5 md:px-0">
+    <div class="mb-4 px-2 md:px-0">
       <label class="block text-center font-bold text-[#00a7d0] pt-9 md:pt-10 text-blue text-2xl md:text-3xl text-grey-darker  " for="username">
         Você é um Assessor de<br />
         Investimentos certificado<br />
@@ -13,7 +13,7 @@
       
       </label>
       <div class="text-xs text-white  text-center mt-8 mb-2"><label :class="cpf_class" v-html="mensagem_cpf"></label></div>
-<div v-if="isBrowser">
+<div class="px-3 md:px-0" v-if="isBrowser">
  <input v-mask="['###.###.###-##', '##.###.###/####-##']"  maxlength="14"
       v-model="cpf"
       class="a shadow appearance-none border rounded w-full py-3 mt-3 px-3 text-grey-darker 
@@ -30,7 +30,7 @@
       <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
       <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
     </svg>
-  <span>Enviar</span>
+  <span>Continuar</span>
   </a>
         
     </div>
@@ -68,6 +68,15 @@ export default {
       let LOGIN_ANCORD = config.public.VUE_APP_ENV_ANCORD_USERNAME;
       let PASS_ANCORD = config.public.VUE_APP_ENV_ANCORD_PASSWORD;
 
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      let paramsrc = urlParams.get('src');
+
+      if(paramsrc !== null)
+        paramsrc = '&src='+paramsrc;
+      else
+       paramsrc = '';
+
       let apiToken = $fetch('https://apicredenciamento.ancord.org.br:8085/auth/entrar/', {
           method: 'POST',
           body: { 
@@ -95,17 +104,19 @@ export default {
             
 
           statusCpf.then((result) => { 
+            console.log(result)
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
            
-              var guru_url = "https://checkout.blocktrends.com.br/pay/programa-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
+              var guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
               if (window.location.search.includes('bf')) {
                 guru_url = "https://checkout.blocktrends.com.br/pay/9d8ac6f6-d742-4156-8ea6-7a7497e2d18d?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
               };
               window.location.replace(guru_url)
             }
             else {
-              this.mensagem_cpf = "CPF não encontrado. Tente novamente ou <a href='https://wa.me/message/W2USYZZK75FMC1' target='_blank'><u>fale conosco</u></a>."
-              this.cpf_class = 'text-red bold text-base'
+              let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
+              this.mensagem_cpf = "CPF não pertence a Assessor (AI) certificado.<br />Você é um AI certificado pela ANCORD?<br /><a href='"+linkAssessorNaoEncontrado+"'> <u>Se sim, clique aqui para continuar.</u></a>."
+              this.cpf_class = 'text-white bold text-base'
               this.button_class = '';
             }
               
