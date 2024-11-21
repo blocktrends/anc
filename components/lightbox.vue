@@ -115,6 +115,11 @@ export default {
             }
             else {
               let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
+               if (window.location.search.includes('bf')) {
+                linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/pay/9d8ac6f6-d742-4156-8ea6-7a7497e2d18d?doc='+cpf_sent+paramsrc;
+              
+              };
+              
               this.mensagem_cpf = "CPF não pertence a Assessor (AI) certificado.<br />Você é um AI certificado pela ANCORD?<br /><a href='"+linkAssessorNaoEncontrado+"'> <u>Se sim, clique aqui para continuar.</u></a>."
               this.cpf_class = 'text-white bold text-base'
               this.button_class = '';
