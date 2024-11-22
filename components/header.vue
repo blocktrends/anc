@@ -61,20 +61,20 @@
       </nav>
 
       
-      <div class="mt-10 faixa-bf py-3 text-lg  border-y-2 text-lg uppercase text-center  border-[#00A7D0] ">
-      <span class="text-white">Black Friday</span>
-       <span class=" text-[#00A7D0]">
-       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+      <div class="mt-10 flex items-center justify-center faixa-bf py-3 text-lg xl:tracking-[0.2em]  2xl:tracking-[0.38em] border-y-2 text-lg uppercase text-center  border-[#00A7D0] ">
+      <span class="text-white font-light">Black Friday</span>
+       <span class=" text-[#00A7D0] items-center">
+       <span class="mx-3 text-4xl">•</span> 60% OFF <span class="mx-3 text-4xl">•</span>
        </span>
-       <span class="text-white hidden sm:inline">PROGRAMA CCA</span>
-       <span class=" text-[#00A7D0] hidden sm:inline">
-       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+       <span class="text-white hidden sm:inline font-light">PROGRAMA CCA</span>
+       <span class=" text-[#00A7D0] items-center hidden sm:inline">
+       <span class="mx-3 text-4xl">•</span> 60% OFF <span class="mx-3 text-4xl">•</span>
        </span>
-       <span class="text-white hidden sm:inline">Black Friday</span>
-        <span class=" text-[#00A7D0] hidden sm:inline">
-       <span class="mx-3">•</span> 60% OFF <span class="mx-3">•</span>
+       <span class="text-white hidden sm:inline font-light">Black Friday</span>
+        <span class=" text-[#00A7D0] items-center hidden sm:inline">
+       <span class="mx-3 text-4xl">•</span> 60% OFF <span class="mx-3 text-4xl">•</span>
        </span>
-       <span class="text-white hidden sm:inline">PROGRAMA CCA</span>
+       <span class="text-white hidden sm:inline font-light">PROGRAMA CCA</span>
       </div>
 
 
