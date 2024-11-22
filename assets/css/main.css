@@ -10,6 +10,10 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+.bfbr  {
+  display: none!important;
+}
+
 .button_class  {
   pointer-events: none;
 
@@ -229,6 +233,10 @@ background: #063146;
 @media (max-width: 768px) {
   .bf .faixa-bf .hidden {
 display: none;
+  }
+
+  .bfbr  {
+    display: inline-block!important;
   }
 
 
