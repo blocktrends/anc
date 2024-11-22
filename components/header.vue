@@ -1,6 +1,6 @@
 <template>
 
-<div style="background: linear-gradient(222.77deg, #0296bb 1.96%, #39d8ff 98.36%); width: 100vw;" 
+<a href="#matricule" style="background: linear-gradient(222.77deg, #0296bb 1.96%, #39d8ff 98.36%); width: 100vw;" 
 class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3 text-xs sm:text-xl lg:text-2xl  uppercase text-center ">
       <span>Black Friday CCA</span>
        <span class=" items-center">
@@ -10,7 +10,7 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
    
    
   
-      </div>
+      </a>
 
   <div :class="{ hidden: isHidden  }">
     <div class="fixed cursor-pointer bg-black bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showLightBox()" >
