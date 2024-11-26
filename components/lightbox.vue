@@ -108,17 +108,17 @@ export default {
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
            
               var guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
-              if (window.location.search.includes('bf')) {
+            //  if (window.location.search.includes('bf')) {
                 guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
-              };
+           //   };
               window.location.replace(guru_url)
             }
             else {
               let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
-               if (window.location.search.includes('bf')) {
+             //  if (window.location.search.includes('bf')) {
                 linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?doc='+cpf_sent+paramsrc;
               
-              };
+           //   };
               
               this.mensagem_cpf = "CPF não pertence a Assessor (AI) certificado.<br />Você é um AI certificado pela ANCORD?<br /><a href='"+linkAssessorNaoEncontrado+"'> <u>Se sim, clique aqui para continuar.</u></a>."
               this.cpf_class = 'text-white bold text-base'
