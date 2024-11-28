@@ -85,8 +85,8 @@ fbq('track', 'PageView');
 <script type="text/javascript">
   // Insert Twitter Event ID
   twq('event', 'tw-ofos8-om4aj', {
-    email_address: null, // use this to pass a user’s email address
-    phone_number: null // phone number in E164 standard
+    email_address: null, 
+    phone_number: null 
   });
 </script>
 <!-- End Twitter conversion tracking event code -->

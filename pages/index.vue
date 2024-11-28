@@ -119,7 +119,7 @@
     </div>
   </section>
   <div>
-    <section class="lg:flex pt-10 depoimentos-section lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
+    <section class="relative lg:flex pt-10 depoimentos-section lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
 
 <Carousel v-bind="settings" :breakpoints="breakpoints">
    <slide v-for="depoimento in depoimentos"  :key="depoimento.indice">
@@ -144,11 +144,14 @@
   </slide>
 
 
-                    <template #addons>
-                        <Navigation />
-                        <div class="sm:hidden mt-7"><Pagination /></div>
-                    </template>
-
+               <template #addons>
+  <div @click.stop>
+    <Navigation />
+  </div>
+  <div class="sm:hidden mt-7">
+    <Pagination />
+  </div>
+</template>
 
                 </Carousel>
 
@@ -1141,7 +1144,7 @@ export default defineNuxtComponent({
                 },
                 1024: {
                     itemsToShow: 3,
-                    snapAlign: 'start',
+                    snapAlign: 'center',
                     mouseDrag: false,
                     touchDrag: false,
                 },
