@@ -48,6 +48,41 @@
     
   </div>
 
+  <div :class="{ hidden: isDepo4Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo4()" >
+    </div>
+    <Depo4 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo5Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo5()" >
+    </div>
+    <Depo5 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo6Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo6()" >
+    </div>
+    <Depo6 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo7Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo7()" >
+    </div>
+    <Depo7 />
+    
+  </div>
+
+  <div :class="{ hidden: isDepo8Hidden  }">
+    <div class="fixed bg-black cursor-pointer bg-opacity-75 left-0 right-0 top-0 bottom-0 z-40" @click="showDepo8()" >
+    </div>
+    <Depo8 />
+    
+  </div>
+
   <div class="bg-black">
 
     <Head>
@@ -84,7 +119,40 @@
     </div>
   </section>
   <div>
-    <section class="lg:flex pt-10 lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
+    <section class="lg:flex pt-10 depoimentos-section lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
+
+<Carousel v-bind="settings" :breakpoints="breakpoints">
+   <slide v-for="depoimento in depoimentos"  :key="depoimento.indice">
+
+   <article @click="showDepo(depoimento.indice)" class="cursor-pointer px-2 flex max-w-[444px]  relative flex-col  self-stretch pb-8  my-auto      ">
+    <img loading="lazy" :src="depoimento.image" :alt="depoimento.nome" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex bottom-16 justify-between px-5 w-full  absolute">
+      <div class="flex flex-col self-stretch my-auto ">
+        <h3 class="text-3xl text-left tracking-tighter text-white">{{depoimento.nome}}</h3>
+        <p class="mt-4 text-left text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+      
+<svg width="82" height="81" class="object-contain mr-4 shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+
+
+    </div>
+  </article>
+
+  </slide>
+
+
+                    <template #addons>
+                        <Navigation />
+                        <div class="sm:hidden mt-7"><Pagination /></div>
+                    </template>
+
+
+                </Carousel>
+
+<!--
   <article @click="showDepo1()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch pb-8  my-auto      ">
     <img loading="lazy" src="../assets/imgs/01.webp" alt="Lucas Q. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
     <div class="flex bottom-16 justify-between px-5 w-full  absolute">
@@ -114,6 +182,7 @@
 </svg>
  </div>
   </article>
+
   <article @click="showDepo3()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
     <img loading="lazy" src="../assets/imgs/03.webp" alt="Giovani R. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
     <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
@@ -127,6 +196,79 @@
 </svg>
  </div>
   </article>
+
+  <article @click="showDepo4()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/04.webp" alt="Otavio M. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Otávio M.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+
+  <article @click="showDepo5()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/05.webp" alt="Danilo R. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Danilo R.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+
+  <article @click="showDepo6()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/06.webp" alt="Thiago C. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Thiago C.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+
+   <article @click="showDepo7()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/07.webp" alt="Carlos N. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Carlos N.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+
+   <article @click="showDepo8()" class="cursor-pointer flex max-w-[444px] lg:max-w-[30%]  relative flex-col  self-stretch  pb-8 my-auto ">
+    <img loading="lazy" src="../assets/imgs/08.webp" alt="Gabriel R. portrait" class="object-cover  inset-0 size-full rounded-2xl border-2 border-cyan-500 border-solid" />
+    <div class="flex absolute justify-between px-5 w-full bottom-16  gap-10 items-center">
+      <div class="flex flex-col justify-center self-stretch my-auto ">
+        <h3 class="text-3xl tracking-tighter text-white">Gabriel R.</h3>
+        <p class="mt-4 text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
+      </div>
+   <svg width="82" height="81" class=" object-contain shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
+<path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
+</svg>
+ </div>
+  </article>
+
+-->
+
   <div class="mx-auto text-center">
   <a  @click="showLightBox()"
                       class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
@@ -859,6 +1001,26 @@ useSeoMeta({
 </script>
 
 <script lang="ts">
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+
+import lucasImage from '../assets/imgs/01.webp'
+
+import joaoImage from '../assets/imgs/02.webp'
+
+import giovaniImage from '../assets/imgs/03.webp'
+
+import otavioImage from '../assets/imgs/04.webp'
+
+import daniloImage from '../assets/imgs/05.webp'
+
+import thiagoImage from '../assets/imgs/06.webp'
+
+import carlosImage from '../assets/imgs/07.webp'
+
+import gabrielImage from '../assets/imgs/08.webp'
+
+
 import Header from '../components/header.vue'
 import Hero from '../components/hero.vue'
 import Programa from '../components/programa.vue'
@@ -870,6 +1032,12 @@ import Depo1 from '../components/depoimento1.vue'
 import Depo2 from '../components/depoimento2.vue'
 import Depo3 from '../components/depoimento3.vue'
 
+import Depo4 from '../components/depoimento4.vue'
+import Depo5 from '../components/depoimento5.vue'
+import Depo6 from '../components/depoimento6.vue'
+import Depo7 from '../components/depoimento7.vue'
+import Depo8 from '../components/depoimento8.vue'
+
 export default defineNuxtComponent({
   components: {
     Header,
@@ -880,7 +1048,16 @@ export default defineNuxtComponent({
     Mentores,
     Depo1,
     Depo2,
-    Depo3
+    Depo3,
+    Depo4,
+    Depo5,
+    Depo6,
+    Depo7,
+    Depo8,
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation
   },
 
   data() {
@@ -891,7 +1068,84 @@ export default defineNuxtComponent({
     isTermosHidden: true,
     isDepo1Hidden: true,
     isDepo2Hidden: true,
-    isDepo3Hidden: true
+    isDepo3Hidden: true,
+    isDepo4Hidden: true,
+    isDepo5Hidden: true,
+    isDepo6Hidden: true,
+    isDepo7Hidden: true,
+    isDepo8Hidden: true,
+    depoimentos: [
+         {
+                    id: 'otavio', 
+                    image: otavioImage, 
+                    nome: 'Otávio M.', 
+                    indice: '4',
+                },
+                {
+                    id: 'danilo', 
+                    image: daniloImage, 
+                    nome: 'Danilo R.', 
+                    indice: '5',
+                },
+                {
+                    id: 'thiago', 
+                    image: thiagoImage, 
+                    nome: 'Thiago C.', 
+                    indice: '6',
+                },
+                {
+                    id: 'carlos', 
+                    image: carlosImage, 
+                    nome: 'Carlos N.', 
+                    indice: '7',
+                },
+                {
+                    id: 'gabriel', 
+                    image: gabrielImage, 
+                    nome: 'Gabriel R.', 
+                    indice: '8',
+                },
+                {
+                    id: 'lucas', 
+                    image: lucasImage, 
+                    nome: 'Lucas Q.', 
+                    indice: '1',
+                },
+                
+                {
+                    id: 'joao', 
+                    image: joaoImage, 
+                    nome: 'João V.', 
+                    indice: '2',
+                },
+                {
+                    id: 'giovani', 
+                    image: giovaniImage, 
+                    nome: 'Giovani R.', 
+                    indice: '3',
+                },
+                
+            ],
+            settings: {
+                itemsToShow: 1,
+                modelValue: 1,
+                snapAlign: 'center',
+                wrapAround: true,
+            },
+            breakpoints: {
+                // 700px and up
+                900: {
+                    itemsToShow: 3,
+                    snapAlign: 'center',
+                    dots: true
+                },
+                1024: {
+                    itemsToShow: 3,
+                    snapAlign: 'start',
+                    mouseDrag: false,
+                    touchDrag: false,
+                },
+            },
     }
   },
    methods: {
@@ -916,6 +1170,16 @@ export default defineNuxtComponent({
       document.body.classList.
             toggle("overflow-y-hidden");
     },
+    showDepo(depoNumber) {
+      const key = `isDepo${depoNumber}Hidden`; // Dynamically generate the key
+      if (this[key] !== undefined) { // Check if the key exists
+        this[key] = !this[key]; // Toggle the value
+        document.documentElement.classList.toggle("overflow-y-hidden");
+        document.body.classList.toggle("overflow-y-hidden");
+      } else {
+        console.error(`Key ${key} does not exist`);
+      }
+    },
     showDepo1() {
       this.isDepo1Hidden = !this.isDepo1Hidden;
       document.documentElement.classList.
@@ -932,6 +1196,41 @@ export default defineNuxtComponent({
     },
     showDepo3() {
       this.isDepo3Hidden = !this.isDepo3Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo4() {
+      this.isDepo4Hidden = !this.isDepo4Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo5() {
+      this.isDepo5Hidden = !this.isDepo5Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo6() {
+      this.isDepo6Hidden = !this.isDepo6Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo7() {
+      this.isDepo7Hidden = !this.isDepo7Hidden;
+      document.documentElement.classList.
+            toggle("overflow-y-hidden");
+      document.body.classList.
+            toggle("overflow-y-hidden");
+    },
+    showDepo8() {
+      this.isDepo8Hidden = !this.isDepo8Hidden;
       document.documentElement.classList.
             toggle("overflow-y-hidden");
       document.body.classList.

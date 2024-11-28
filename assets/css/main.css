@@ -113,8 +113,26 @@ div .carousel__prev {
 div .carousel__next {
   background: url('../imgs/right-arrow.svg');
   right: -16px;
-  width: 64px;
-  height: 64px;
+  width: 65px;
+  height: 65px;
+}
+
+section.depoimentos-section  .carousel__prev {
+  background: url('../imgs/left-arrow.svg')!important;
+  top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 64px!important;
+  height: 65px!important;
+}
+
+section.depoimentos-section  .carousel__next {
+  background: url('../imgs/right-arrow.svg')!important;
+  top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 65px!important;
+  height: 65px!important;
 }
 
 .line-mobile {
@@ -147,6 +165,18 @@ background: #063146;
 
 .text-red {
   color: red;
+}
+
+@media (min-width: 1750px) {
+  section.depoimentos-section  .carousel__prev {
+    left: -75px;
+
+  }
+  
+  section.depoimentos-section  .carousel__next {
+    right: -75px;
+   
+  }
 }
 
 @media (max-width: 1615px) {
@@ -231,6 +261,20 @@ background: #063146;
  }
 }
 @media (max-width: 768px) {
+  section.depoimentos-section  .carousel__next {
+
+    width: 45px!important;
+    height: 45px!important;
+    background-size: cover!important;
+}
+
+section.depoimentos-section  .carousel__prev {
+
+  width: 45px!important;
+  height: 45px!important;
+  background-size: cover!important;
+}
+
   .bf .faixa-bf .hidden {
 display: none;
   }
