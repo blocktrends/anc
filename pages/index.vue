@@ -121,7 +121,7 @@
   <div>
     <section class="relative lg:flex pt-10 depoimentos-section lg:pt-20 flex-wrap justify-between items-center font-bold leading-none">
 
-<Carousel v-bind="settings" :breakpoints="breakpoints">
+<Carousel ref="slider1" v-bind="settings" :breakpoints="breakpoints">
    <slide v-for="depoimento in depoimentos"  :key="depoimento.indice">
 
    <article @click="showDepo(depoimento.indice)" class="cursor-pointer px-2 flex max-w-[444px]  relative flex-col  self-stretch pb-8  my-auto      ">

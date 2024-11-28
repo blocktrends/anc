@@ -38,7 +38,7 @@
 
             </div>
             <div class="w-full sm:mt-28 2xl:mt-0 2xl:max-w-[65%]">
-                <Carousel v-bind="settings" :breakpoints="breakpoints">
+                <Carousel ref="slider2" v-bind="settings" :breakpoints="breakpoints">
                     <slide v-for="teacher in teachers" :key="teacher.image">
                         <div class="md:flex rounded-[32px] sm:bg-[#F0F0F0] sm:border border-[#bebebe] carousel__item text-left mx-3">
                             <div class="flex flex-wrap sm:flex-nowrap sm:block flex-1 md:max-w-md sm:pt-7 md:pl-8">
