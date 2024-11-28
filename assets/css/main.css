@@ -135,6 +135,8 @@ section.depoimentos-section  .carousel__next {
   height: 65px!important;
 }
 
+
+
 .line-mobile {
   background: url('../imgs/line-mobile.svg') repeat-y;
   height: 1300px;
@@ -273,6 +275,14 @@ section.depoimentos-section  .carousel__prev {
   width: 45px!important;
   height: 45px!important;
   background-size: cover!important;
+}
+
+.setaplay {
+  opacity: 0;
+}
+
+.carousel__slide--visible .setaplay {
+  opacity: 1;
 }
 
   .bf .faixa-bf .hidden {

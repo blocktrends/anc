@@ -132,7 +132,7 @@
         <p class="mt-4 text-left text-xl tracking-tight text-cyan-500 uppercase">aluno cca certificado</p>
       </div>
       
-<svg width="82" height="81" class="object-contain mr-4 shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="82" height="81" class="setaplay object-contain mr-4 shrink-0 self-stretch my-auto aspect-square w-[81px]" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M29.8462 52.8C29.8462 53.84 30.9262 54.53 31.8662 54.08L57.7562 41.9C58.8462 41.39 58.8462 39.84 57.7562 39.33L31.8662 27.15C30.9262 26.71 29.8462 27.39 29.8462 28.43V52.8Z" fill="white"/>
 <path d="M41.1862 0.23999C18.8862 0.23999 0.806152 18.32 0.806152 40.62C0.806152 62.92 18.8862 81 41.1862 81C63.4862 81 81.5662 62.92 81.5662 40.62C81.5662 18.32 63.4862 0.23999 41.1862 0.23999ZM41.1862 78.34C20.3562 78.34 3.46615 61.45 3.46615 40.62C3.46615 19.79 20.3462 2.89999 41.1862 2.89999C62.0262 2.89999 78.9062 19.79 78.9062 40.62C78.9062 61.45 62.0162 78.34 41.1862 78.34Z" fill="white"/>
 </svg>
