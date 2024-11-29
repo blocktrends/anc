@@ -1136,7 +1136,7 @@ export default defineNuxtComponent({
                 snapAlign: 'center',
                     mouseDrag: false,
                     touchDrag: false,
-                wrapAround: true,
+                wrapAround: false,
             },
             breakpoints: {
                 // 700px and up
