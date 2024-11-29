@@ -77,21 +77,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '322393097349578');
 fbq('track', 'PageView');
 `
-        },       
-        {
-          hid: 'fb',
-          innerHTML: `
-          <!-- Twitter conversion tracking event code -->
-<script type="text/javascript">
-  // Insert Twitter Event ID
-  twq('event', 'tw-ofos8-om4aj', {
-    email_address: null, 
-    phone_number: null 
-  });
-</script>
-<!-- End Twitter conversion tracking event code -->
-`
-        },   
+        }
       ],
     },
   },
