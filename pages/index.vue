@@ -1134,8 +1134,6 @@ export default defineNuxtComponent({
             settings: {
                 itemsToShow: 3,
                 snapAlign: 'center',
-                    mouseDrag: false,
-                    touchDrag: false,
                 wrapAround: false,
             },
             breakpoints: {
@@ -1147,6 +1145,8 @@ export default defineNuxtComponent({
                 },
                 1024: {
                     itemsToShow: 3,
+                    mouseDrag: false,
+                    touchDrag: false,
                     
                 },
             },
