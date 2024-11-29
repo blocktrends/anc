@@ -169,7 +169,7 @@ export default {
                 itemsToShow: 1,
                 modelValue: 1,
                 snapAlign: 'center',
-                wrapAround: true,
+                wrapAround: false,
             },
             // breakpoints are mobile first
             // any settings not specified will fallback to the carousel settings
@@ -183,7 +183,6 @@ export default {
                 // 1024 and up
                 901: {
                     itemsToShow: 1,
-                    snapAlign: 'start',
                     mouseDrag: false,
                     touchDrag: false,
                 },

@@ -1131,7 +1131,8 @@ export default defineNuxtComponent({
                 
             ],
             settings: {
-                itemsToShow: 3
+                itemsToShow: 3,
+                wrapAround: true,
             },
             breakpoints: {
                 // 700px and up
