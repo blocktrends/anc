@@ -146,7 +146,7 @@
 
                <template #addons>
   <div @click.stop>
-    <Navigation />
+    <Navigation v-if="showNavigation"  />
   </div>
   <div class="sm:hidden mt-7">
     <Pagination />
@@ -1065,6 +1065,7 @@ export default defineNuxtComponent({
 
   data() {
     return {
+      showNavigation: true,
      open: false,
     isHidden: true,
     isPoliticasHidden: true,

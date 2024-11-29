@@ -169,6 +169,17 @@ background: #063146;
   color: red;
 }
 
+@media (min-width: 1750px) {
+  section.depoimentos-section  .carousel__prev {
+    left: -75px;
+
+  }
+  
+  section.depoimentos-section  .carousel__next {
+    right: -75px;
+   
+  }
+}
 
 @media (max-width: 1615px) {
   body .xl\:container {
