@@ -1131,15 +1131,12 @@ export default defineNuxtComponent({
                 
             ],
             settings: {
-                itemsToShow: 3,
-                modelValue: 1,
-                snapAlign: 'center',
-                wrapAround: true,
+                itemsToShow: 3
             },
             breakpoints: {
                 // 700px and up
-                900: {
-                    itemsToShow: 3,
+                300: {
+                    itemsToShow: 1,
                     snapAlign: 'center',
                     dots: true
                 },
