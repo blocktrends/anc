@@ -1131,7 +1131,7 @@ export default defineNuxtComponent({
                 
             ],
             settings: {
-                itemsToShow: 1,
+                itemsToShow: 3,
                 modelValue: 1,
                 snapAlign: 'center',
                 wrapAround: true,
@@ -1145,7 +1145,9 @@ export default defineNuxtComponent({
                 },
                 1024: {
                     itemsToShow: 3,
-                    snapAlign: 'center'
+                    snapAlign: 'center',
+                    mouseDrag: false,
+                    touchDrag: false,
                 },
             },
     }
