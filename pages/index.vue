@@ -1145,9 +1145,7 @@ export default defineNuxtComponent({
                 },
                 1024: {
                     itemsToShow: 3,
-                    snapAlign: 'center',
-                    mouseDrag: false,
-                    touchDrag: false,
+                    snapAlign: 'center'
                 },
             },
     }
