@@ -209,7 +209,7 @@ export default {
   },
   mounted() {
   //if (window.location.search.includes('bf')) {
-    document.body.classList.add('bf');
+    //document.body.classList.add('bf');
   //};
 },
   methods: {

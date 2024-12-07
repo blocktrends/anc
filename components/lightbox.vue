@@ -109,14 +109,14 @@ export default {
            
               var guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
             //  if (window.location.search.includes('bf')) {
-                guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
+            //    guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
            //   };
               window.location.replace(guru_url)
             }
             else {
               let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
              //  if (window.location.search.includes('bf')) {
-                linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?doc='+cpf_sent+paramsrc;
+             //   linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?doc='+cpf_sent+paramsrc;
               
            //   };
               
