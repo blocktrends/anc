@@ -223,7 +223,7 @@ export default {
             console.log(this.responseText);
           }
         };
-        xhttp.open("GET", "https://cca.blocktrends.com.br/?lightbox", true);
+        xhttp.open("GET", "https://cca.blocktrends.com.br/?lightbox=s", true);
         xhttp.send();
       }
 
