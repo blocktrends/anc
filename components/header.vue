@@ -64,7 +64,7 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
               class="entrar-button-plataforma mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
               ENTRAR
             </a>
-            <a @click="showLightBox()" 
+            <a @click="showLightBox();" 
               class="text-slate-950 cursor-pointer text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
               MATRICULE-SE
             </a>
@@ -215,6 +215,18 @@ export default {
   methods: {
     showLightBox() {
       this.isHidden = !this.isHidden;
+
+      if(this.isHidden === false) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+          }
+        };
+        xhttp.open("GET", "https://cca.blocktrends.com.br/?lightbox", true);
+        xhttp.send();
+      }
+
       document.documentElement.classList.
             toggle("overflow-y-hidden");
       document.body.classList.
