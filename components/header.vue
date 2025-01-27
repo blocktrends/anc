@@ -217,14 +217,11 @@ export default {
       this.isHidden = !this.isHidden;
 
       if(this.isHidden === false) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            console.log(this.responseText);
-          }
-        };
-        xhttp.open("GET", "https://cca.blocktrends.com.br/?lightbox=s", true);
-        xhttp.send();
+        gtag('event', 'lightbox_open', {
+          event_category: 'UI Interaction',
+          event_label: 'Lightbox Opened',
+          value: 1, // Optional, use a numeric value if it makes sense
+        });
       }
 
       document.documentElement.classList.
