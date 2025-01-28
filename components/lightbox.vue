@@ -106,7 +106,13 @@ export default {
           statusCpf.then((result) => { 
          //   console.log(result)
             if(result[0].resultado == "HABILITADO" || result[0].resultado == "Habilitado") {
-           
+
+              gtag('event', 'assessor_habilitado', {
+                event_category: 'UI Interaction',
+                event_label: 'Assessor Habilitado',
+                value: 1, // Optional, use a numeric value if it makes sense
+              });
+
               var guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf+paramsrc;
             //  if (window.location.search.includes('bf')) {
             //    guru_url = "https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?email="+result[0].email+"&name="+result[0].nome+"&phone="+result[0].telefone+"&doc="+result[0].cpf;
@@ -114,6 +120,13 @@ export default {
               window.location.replace(guru_url)
             }
             else {
+
+              gtag('event', 'assessor_nao_encontrado', {
+                event_category: 'UI Interaction',
+                event_label: 'Assessor não encontrado',
+                value: 1, // Optional, use a numeric value if it makes sense
+              });
+
               let linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-cpf?doc='+cpf_sent+paramsrc;
              //  if (window.location.search.includes('bf')) {
              //   linkAssessorNaoEncontrado = 'https://checkout.blocktrends.com.br/checkout/btancord-cca-bf?doc='+cpf_sent+paramsrc;

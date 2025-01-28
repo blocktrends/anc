@@ -192,6 +192,15 @@ export default {
     methods: {
          showLightBox() {
       this.isHidden = !this.isHidden;
+
+      if(this.isHidden === false) {
+        gtag('event', 'lightbox_open', {
+          event_category: 'UI Interaction',
+          event_label: 'Lightbox Opened',
+          value: 1, // Optional, use a numeric value if it makes sense
+        });
+      }
+      
       document.documentElement.classList.
             toggle("overflow-y-hidden");
       document.body.classList.
