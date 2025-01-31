@@ -236,8 +236,8 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                              O valor é R$3895. Com o desconto de 60% da Black Friday, o preço à vista passa a ser de R$1.558. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
-                               </p>
+                             O valor é R$3.895. Com o desconto de 50% exclusivo para AIs, o preço à vista passa a ser de R$1.947. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
+                             </p>
                         </div>
 
 
