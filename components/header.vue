@@ -141,13 +141,16 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
                   </p>
                 </a>
               </div>
-              <a href="#programa">
+              <a href="#depoimentos" class="sm:flex text-center flex-row-reverse sm:text-left sm:items-center text-2xl ">
+                 <span class="sm:pl-2 block font-bold text-center sm:text-left mb-3 sm:mb-0">Quero ver a opinião de<br class="brmobile" /> outros alunos antes</span>
+             
                 <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  class="  w-12 h-12 relative" preserveAspectRatio="xMidYMid meet">
+                  class="  w-12 h-12 relative inline-block" preserveAspectRatio="xMidYMid meet">
                   <path d="M14 26.072L24 36.072L34 26.072" stroke="#00A7D0" stroke-width="4" stroke-linecap="round"
                     stroke-linejoin="round"></path>
                   <path d="M14 12.072L24 22.072L34 12.072" stroke="#00A7D0" stroke-width="4" stroke-linecap="round"
                     stroke-linejoin="round"></path>
+
                 </svg>
               </a>
             </div>
