@@ -249,7 +249,9 @@
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
                             O valor do CCA é de R$3.895,00. Com o desconto de 50%, exclusivo para pioneiros, o preço à vista passa a ser de R$1.947. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
-                             </p>
+                            <br /><br />
+<strong>ATENÇÃO: O desconto de 50%, exclusivo para pioneiros, acaba no dia 28/02 (Sexta-feira).</strong>
+ </p>
                         </div>
 
 
