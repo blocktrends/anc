@@ -240,7 +240,7 @@
                         <input type="checkbox" name="panel" id="fpanel-9" class="hidden">
                         <label for="fpanel-9" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
                             text-sm sm:text-lg font-semibold pr-5">
-                            Qual é o valor do Programa CCA? E quais são os meios de pagamento?
+                            Qual é o valor do Programa CCA? O desconto tem data pra acabar?<br /> Quais são os meios de pagamento?
                         </label>
 
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
@@ -248,7 +248,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                             O valor é R$3.895. Com o desconto de 50% exclusivo para AIs, o preço à vista passa a ser de R$1.947. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
+                            O valor do CCA é de R$3.895,00. Com o desconto de 50%, exclusivo para pioneiros, o preço à vista passa a ser de R$1.947. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
                              </p>
                         </div>
 
@@ -540,6 +540,8 @@
                 </div>
 
                 <!--  Panel 24  -->
+                
+                <!--
                 <div class="xl:pl-8 sm:pl-0 w-full">
                         <input type="checkbox" name="panel" id="fpanel-24" class="hidden">
                         <label for="fpanel-24" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
@@ -561,7 +563,7 @@
                     </div>
                     
 
-                </div>
+                </div>-->
 
                
 
