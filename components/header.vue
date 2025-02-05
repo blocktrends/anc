@@ -64,10 +64,18 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
               class="entrar-button-plataforma mr-5 xl:mr-8 text-cyan-500 text-base xl:text-lg 2xl:text-xl font-bold leading-7 whitespace-nowrap justify-center items-stretch rounded border-[color:var(--Cor-Primria-Ancord,#00A7D0)] grow px-5 2xl:px-8 py-3 border-2 border-solid max-md:px-5">
               ENTRAR
             </a>
-            <a @click="showLightBox();" 
+
+            <!--<a @click="showLightBox();" 
+              class="text-slate-950 cursor-pointer text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
+              MATRICULE-SE
+            </a>-->
+
+            <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
               class="text-slate-950 cursor-pointer text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
               MATRICULE-SE
             </a>
+
+            
 
           </div>
         </div>
@@ -127,6 +135,7 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
                     </div>
                   </div>
                 </div>
+                <!--
                 <a @click="showLightBox()" 
                   class="flex main-button-bf cursor-pointer justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
                   <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +148,25 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
                   <p class="  text-xl font-bold text-left text-[#010918]">
                     MATRICULE-SE AGORA <span class="hidden button-bf">COM 60% OFF</span>
                   </p>
+                </a>-->
+
+                <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+                  class="flex main-button-bf cursor-pointer justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
+                  <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="  w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
+                    <path d="M4.66699 10.072H16.3337" stroke="#010918" stroke-width="1.75" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                    <path d="M10.5 4.23862L16.3333 10.072L10.5 15.9053" stroke="#010918" stroke-width="1.75"
+                      stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <p class="  text-xl font-bold text-left text-[#010918]">
+                    MATRICULE-SE AGORA <span class="hidden button-bf">COM 60% OFF</span>
+                  </p>
                 </a>
+
+                
+
+
               </div>
               <a href="#depoimentos" class="sm:flex text-center flex-row-reverse sm:text-left sm:items-center text-2xl ">
                  <span class="sm:pl-2 block font-bold text-center sm:text-left mb-3 sm:mb-0">Quero ver a opinião de<br class="brmobile" /> outros alunos antes</span>

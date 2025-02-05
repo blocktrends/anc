@@ -30,9 +30,14 @@
 
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
-                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                               <!-- <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
                                     Para ingressar no Programa CCA, o aluno deve ser um Assessor de Investimentos devidamente credenciado e regularizado junto à Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias (ANCORD).
+                                </p>-->
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Não. O Programa CCA é liberado para todos os públicos.
                                 </p>
+
                             </div>
 
 
@@ -54,10 +59,13 @@
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
 
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
-
+                                <!--
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
                                    Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 70 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
-                            </p>
+                                </p>-->
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                   Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 50 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
+                                </p>
                         </div>
 
 
@@ -119,10 +127,14 @@
                         <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
 
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
-
+                             <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                O Programa CCA é indicado para todos os públicos, seja você um Assessor de Investimentos, um Profissional do Mercado Financeiro ou apenas um Entusiasta em Cripto que busca aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas.
+                            </p>
+                                <!--
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
                                     O Programa CCA é exclusivo para o Assessor de Investimento (AI) certificado pela ANCORD que busca aprofundar seus conhecimentos em criptoativos e validar sua expertise no setor de criptomoedas.
                             </p>
+                            -->
                         </div>
 
 
@@ -523,6 +535,31 @@
 
 
                     </div>
+                    
+
+                </div>
+
+                <!--  Panel 24  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-24" class="hidden">
+                        <label for="fpanel-24" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                             O preço do CCA será mantido até o final do ano?
+                         </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                                    Sim, o preço do CCA seguirá o mesmo, o que pode sofrer alterações são os descontos aplicados ao preço cheio.
+                                    </p>
+                        </div>
+
+
+
+                    </div>
+                    
 
                 </div>
 
