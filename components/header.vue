@@ -21,8 +21,9 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
 
 
 <div class="bg-cyan-500 min-h-[48px] hidden font-semibold z-20 sticky top-0 text-center text-xs md:text-base py-2  sm:px-0 sm:py-4 " style="display: block;">
+<a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank">
 O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLICOS! 
-<a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"><u>MATRICULE-SE JÁ!</u></a>
+<u>MATRICULE-SE JÁ!</u></a>
   </div>
   
   <div class="bg-top pb-14 sm:pb-24">
