@@ -705,11 +705,11 @@
 
                         <div
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
-                          <span class="text-[28px] mr-1">ou  </span>
-                          <span class="text-[28px] mr-1">10x </span>
+                          <span class="text-[25px] mr-1">ou  </span>
+                          <span class="text-[25px] mr-1">10x </span>
                           <span class="font-bold preco-desconto"> R$271,61 </span>
                             <span class="font-bold hidden button-bf mr-2"> R$217,34   </span>
-                          <span class="text-[28px] mr-1"> no cartão</span>
+                          <span class="text-[25px] mr-1"> no cartão</span>
                         </div>
 
                       </div>
