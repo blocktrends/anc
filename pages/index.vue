@@ -658,6 +658,8 @@
             class="border border-[color:var(--cinza-cinza-4,#575757)] self-stretch mt-12 rounded-lg border-solid max-lg:max-w-full max-lg:mt-10">
             <div class="flex max-lg:flex-col max-lg:items-stretch max-lg:gap-0">
               <div class="flex flex-col items-stretch w-6/12 max-lg:w-full max-md:ml-0">
+
+              <!--
                 <div class="bg-[#05D361] rounded-t-md py-3 flex justify-center">
                <span class="hidden  button-bf text-xl sm:text-3xl font-bold flex items-center">
                BLACK FRIDAY CCA <span class="text-4xl mx-2 sm:mx-3 text-[#01602C] ">•</span> 60% OFF
@@ -668,6 +670,7 @@
 </svg>
 
                 </div>
+                -->
                 <div
                   class="bg-black flex grow flex-col justify-center items-center w-full px-4 xl:px-16 pt-8 sm:pt-0 sm:py-12 rounded-lg max-md:max-w-full max-md:px-2">
                   <div class="flex w-[544px] max-w-full flex-col mb-10">
@@ -685,18 +688,24 @@
                     <div
                       class="self-center flex lg:w-[500px] max-w-full justify-between lg:gap-5 items-start">
                       <div class="items-center flex grow basis-[0%] flex-col">
-                        <div class="text-white lg:text-center text-xl tracking-tight whitespace-nowrap">
+                        <div class="text-white lg:text-center text-2xl tracking-tight whitespace-nowrap">
                           De <span class="line-through">R$ 3.895,00</span> por
                         </div>
                         <div
                           class="text-white text-center text-2xl sm:text-[32px] tracking-tighter whitespace-nowrap mt-4">
                      
-                          <span class="font-bold preco-desconto">R$ 1.947 à vista ou</span>
+                          <span class="font-bold preco-desconto flex justify-center items-center gap-5">
+                          R$ 1.947 à vista 
+                            <span class="bg-[#05D361] rounded-md text-black py-3 px-3  flex justify-center">
+                            50%  OFF
+                            </span>
+                          </span>
                           <span class="font-bold hidden button-bf">R$ 1.558 à vista ou</span>
                         </div>
 
                         <div
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
+                          <span class="text-[28px] mr-1">ou  </span>
                           <span class="text-[28px] mr-1">10x </span>
                           <span class="font-bold preco-desconto"> R$271,61 </span>
                             <span class="font-bold hidden button-bf mr-2"> R$217,34   </span>
