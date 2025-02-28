@@ -695,20 +695,20 @@
                           class="text-white text-center text-2xl sm:text-[32px] tracking-tighter whitespace-nowrap mt-4">
                      
                           <span class="font-bold preco-desconto flex justify-center items-center gap-5">
-                          R$ 1.947 à vista 
+                          R$ 2.921,25 à vista 
                             <span class="bg-[#05D361] rounded-md text-black py-3 px-3  flex justify-center">
-                            50%  OFF
+                            25%  OFF
                             </span>
                           </span>
-                          <span class="font-bold hidden button-bf">R$ 1.558 à vista ou</span>
+                          <span class="font-bold hidden button-bf">R$ 2.921,25 à vista ou</span>
                         </div>
 
                         <div
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
                           <span class="text-[25px] mr-1">ou  </span>
                           <span class="text-[25px] mr-1">10x </span>
-                          <span class="font-bold preco-desconto"> R$271,61 </span>
-                            <span class="font-bold hidden button-bf mr-2"> R$217,34   </span>
+                          <span class="font-bold preco-desconto"> R$407,51 </span>
+                            <span class="font-bold hidden button-bf mr-2"> R$407,51   </span>
                           <span class="text-[25px] mr-1"> no cartão</span>
                         </div>
 
@@ -721,7 +721,7 @@
 
 
                           <div class="text-green-500 text-center text-sm uppercase grow whitespace-nowrap self-start">
-                            +50% de desconto
+                            +25% de desconto
                           </div>
                         </div>
                         <div class="text-white  text-right text-xs lg:text-xl self-stretch mt-5">
@@ -823,12 +823,29 @@
               <div class="flex flex-col items-stretch w-6/12  max-lg:w-full max-md:ml-0">
                 <div
                   class="bg-neutral-900 flex grow flex-col justify-center w-full px-16 py-12 rounded-md items-start max-md:max-w-full max-md:px-5">
+                  <div class="text-center sm:text-left mx-auto sm:mx-0" >
+                
+
+                 
+                  </div>
+
                   <div
                     class="flex w-96 max-w-full flex-col items-stretch xl:ml-14 sm:mt-20 sm:mb-14 max-md:ml-2.5 ">
-                    <div class="text-neutral-400 text-left text-xl font-medium whitespace-nowrap">
+                      <div style='width: max-content' class="inline-block mb-4 text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)]  px-5 py-2 border-solid" > 
+                  RESGATAR DESCONTO
+                  </div>
+                    <div class="text-white text-xl">É um Assessor de Investimentos? </div>
+                    <div class="mb-10 text-white text-xl ">
+                      <a href="https://wa.me/message/W2USYZZK75FMC1#" class="font-bold" target="_blank" >
+                      <u>Clique aqui e resgate mais descontos.</u>
+                      </a>
+                    </div>
+
+                    <div class="text-neutral-400 text-left text-xl mb-5 font-medium whitespace-nowrap">
                       VOCÊ RECEBE
                     </div>
-                    <div class="items-stretch flex justify-between gap-3 mt-10">
+
+                    <div class="items-stretch flex justify-between gap-3 ">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/raio.svg" alt="Icone raio" />
 
