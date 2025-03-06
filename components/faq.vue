@@ -64,8 +64,8 @@
                                    Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 70 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
                                 </p>-->
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                                   Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de até 50 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
-                                </p>
+                                Sim. Por se tratar de um Programa em que a ANCORD é parceira, o número de créditos do PEC será de 50 pontos no ano. Para cadastrar os pontos, o AI acessa sua área de credenciamento no PEC, faz o upload do Certificado do Programa CCA e a pontuação será creditada automaticamente.
+                                 </p>
                         </div>
 
 
