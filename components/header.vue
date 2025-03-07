@@ -191,17 +191,36 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
 
           </div>
 
-          <div class="relative mt-20 inline-flex xl:block">
-            <iframe :class="youtube ? 'showVideo' : '' " class="mt-20 sm:mt-0 iframe-video" width="756" height="425"
+          <div class="relative mt-36 2xl:mt-20 inline-flex xl:block">
+            <div class="absolute -mt-[120px] md:-mt-[90px] items-center justify-center md:justify-between flex-wrap md:flex-nowrap flex gap-2 w-full">
+              <div>
+                  <h2
+    class=" py-0 w-full text-xl 2xl:text-2xl tracking-tight text-white max-w-[1200px] max-md:text-2xl max-sm:text-xl max-sm:text-center"
+  >
+    É um Assessor de Investimentos?
+  </h2>
+              </div>
+              <div class="mt-2 md:mt-0">
+                <a href="https://wa.me/message/W2USYZZK75FMC1#"
+                target="_blank"
+                    class=" self-stretch hover:bg-[#05D361] hover:text-[#000] text-[#05D361] border-[#05D361] px-3 2xl:px-5 py-3 text-lg 2xl:text-xl font-bold tracking-normal rounded-lg border-2  border-solid"
+                    aria-label="Resgatar desconto"
+                >
+                    Clique para resgatar seu desconto
+                </a>
+              </div>
+            </div>
+
+            <iframe :class="youtube ? 'showVideo' : '' " class="mt-36 sm:mt-10 iframe-video" width="756" height="425"
               src="https://www.youtube.com/embed/7QA-3JxoXU0?si=i87TjIgS7UeP3uxU" title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
               <a :class="youtube ? 'showVideo' : '' "
-                class="sm:hidden absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
+                class="sm:hidden absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 top-[25px] md:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" class="inline-block" alt="Certificado Cca" />
               </a>
-            <div class="gif-video md:block hidden" :class="youtube ? 'hideMoldura' : '' " >
+            <div class="gif-video  md:block hidden" :class="youtube ? 'hideMoldura' : '' " >
               <a
                 class="absolute flex sm:block w-full sm:w-auto text-center justify-center sm:right-3 -top-[40px] sm:top-0">
                 <img src="../assets/imgs/certificado-cca.svg" alt="Certificado Cca" />

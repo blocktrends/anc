@@ -673,7 +673,7 @@
                 -->
                 <div
                   class="bg-black flex grow flex-col justify-center items-center w-full px-4 xl:px-16 pt-8 sm:pt-0 sm:py-12 rounded-lg max-md:max-w-full max-md:px-2">
-                  <div class="flex w-[544px] max-w-full flex-col mb-10">
+                  <div class="flex w-[544px] sm:mt-16 max-w-full flex-col mb-10">
                 
                   <!--
                     <div class="text-cyan-500 text-center text-xl font-medium self-center whitespace-nowrap">
@@ -734,7 +734,9 @@
                         </div>
                       </div>-->
                     </div>
+                       <!--
                     <div class="flex mt-5 justify-center">
+                 
      <div class="flex gap-2 justify-center text-sm font-medium text-zinc-500">
 
   
@@ -742,13 +744,17 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM11 6C11 6.55228 10.5523 7 10 7C9.44771 7 9 6.55228 9 6C9 5.44772 9.44771 5 10 5C10.5523 5 11 5.44772 11 6ZM9 9C8.58579 9 8.25 9.33579 8.25 9.75C8.25 10.1642 8.58579 10.5 9 10.5H9.25338C9.41332 10.5 9.53213 10.6481 9.49743 10.8042L9.03829 12.8704C8.79542 13.9633 9.62706 15 10.7466 15H11C11.4142 15 11.75 14.6642 11.75 14.25C11.75 13.8358 11.4142 13.5 11 13.5H10.7466C10.5867 13.5 10.4679 13.3519 10.5026 13.1958L10.9617 11.1296C11.2046 10.0367 10.3729 9 9.25338 9H9Z" fill="#7A7A7E"/>
 </svg>
 
+
   <div class="hidebrs">
     Obtenha desconto somente para compras em lote,<br />
     acima de 10 AIs. (<a target="_blank" href="mailto:contato@blocktrends.com.br">contato@blocktrends.com.br</a>).
-  </div>
+  </div> 
+
 </div>
 
+
                     </div>
+                    -->
 
                     <!--<a  @click="showLightBox()"
                       class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
@@ -768,7 +774,7 @@
                     </a>-->
 
                     <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
-                      class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
+                      class=" cursor-pointer justify-center items-center bg-[#05D361] hover:bg-[#039E46] self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all  max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
                         class="hidden sm:block aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
@@ -808,14 +814,28 @@
                     </div>
                     <div class="bg-zinc-800 self-stretch shrink-0 h-px mt-9 max-md:max-w-full"></div>
                     <div class="items-stretch self-center flex gap-1.5 mt-9">
+
+                    <a class="font-medium text-center" href="https://wa.me/message/W2USYZZK75FMC1#" target="_blank" >
+                      <span class="text-white">
+                      É um Assessor de Investimentos ou deseja fazer compras em lote?
+                      </span>
+                      <br />
+                      <span class="underline text-[rgba(5,211,97,1)]">
+                        Entre em contato e resgate seu desconto!
+                      </span>
+                    </a>
+
+                  <!--
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/ambiente-seguro.svg" alt="Icone ambiente seguro" />
 
 
-
                       <div class="text-white text-base leading-4 self-center grow whitespace-nowrap my-auto">
                         Ambiente 100% seguro
+
                       </div>
+                      -->
+
                     </div>
                   </div>
                 </div>
@@ -829,19 +849,24 @@
                  
                   </div>
 
+
                   <div
-                    class="flex w-96 max-w-full flex-col items-stretch xl:ml-14 sm:mt-20 sm:mb-14 max-md:ml-2.5 ">
+                    class="flex w-96 max-w-full flex-col items-stretch xl:ml-14 sm:mt-6 sm:mb-14 max-md:ml-2.5 ">
+                    <!--
                       <div style='width: max-content' class="inline-block mb-4 text-cyan-500 text-xs font-bold whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Cor-Primria-Ancord,#00A7D0)]  px-5 py-2 border-solid" > 
                   RESGATAR DESCONTO
                   </div>
+
                     <div class="text-white text-xl">É um Assessor de Investimentos? </div>
+
                     <div class="mb-10 text-white text-xl ">
                       <a href="https://wa.me/message/W2USYZZK75FMC1#" class="font-bold" target="_blank" >
                       <u>Clique aqui e resgate mais descontos.</u>
                       </a>
                     </div>
+                    -->
 
-                    <div class="text-neutral-400 text-left text-xl mb-5 font-medium whitespace-nowrap">
+                    <div class=" text-[rgba(5,211,97,1)] text-left text-xl mb-7 font-medium whitespace-nowrap">
                       VOCÊ RECEBE
                     </div>
 
@@ -851,21 +876,21 @@
 
 
 
-                      <div class="text-neutral-400 text-xl font-extrabold grow ">
+                      <div class="text-white text-xl font-extrabold grow ">
                         Inscrição para o Exame do CCA
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/raio.svg" alt="Icone raio" />
-                      <div class="text-neutral-400 text-xl font-extrabold grow ">
+                      <div class="text-white text-xl font-extrabold grow ">
                         Acesso à Comunidade e Networking
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/raio.svg" alt="Icone raio" />
-                      <div class="text-neutral-400 text-xl font-extrabold grow ">
+                      <div class="text-white text-xl font-extrabold grow ">
                         Live exclusiva para alunos
                       </div>
                     </div>
@@ -876,35 +901,35 @@
 
 
 
-                      <div class="text-neutral-400 text-xl font-medium grow">
+                      <div class="text-white text-xl font-medium grow">
                         Curso Intensivo CCA
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/check.svg" alt="Icone check" />
-                      <div class="text-neutral-400 text-xl font-medium grow ">
+                      <div class="text-white text-xl font-medium grow ">
                         19 Aulas completas
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/check.svg" alt="Icone check" />
-                      <div class="text-neutral-400 text-xl font-medium grow ">
+                      <div class="text-white text-xl font-medium grow ">
                         4 Apostilas abrangentes
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/check.svg" alt="Icone check" />
-                      <div class="text-neutral-400 text-xl font-medium grow ">
+                      <div class="text-white text-xl font-medium grow ">
                         Plantão de tira-dúvidas
                       </div>
                     </div>
                     <div class="items-stretch flex justify-between gap-3 mt-6">
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/check.svg" alt="Icone check" />
-                      <div class="text-neutral-400 text-xl font-medium grow ">
+                      <div class="text-white text-xl font-medium grow ">
                         Atendimento humano e especializado
                       </div>
                     </div>
