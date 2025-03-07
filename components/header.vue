@@ -192,7 +192,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
           </div>
 
           <div class="relative mt-36 2xl:mt-20 inline-flex xl:block">
-            <div class="absolute -mt-[120px] md:-mt-[90px] items-center justify-center md:justify-between flex-wrap md:flex-nowrap flex gap-2 w-full">
+            <div class="absolute -mt-[120px] md:-mt-[72px] items-center justify-center md:justify-between flex-wrap md:flex-nowrap flex gap-2 w-full">
               <div>
                   <h2
     class=" py-0 w-full text-xl 2xl:text-2xl tracking-tight text-white max-w-[1200px] max-md:text-2xl max-sm:text-xl max-sm:text-center"
