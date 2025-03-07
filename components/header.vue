@@ -200,7 +200,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
     É um Assessor de Investimentos?
   </h2>
               </div>
-              <div class="mt-2 md:mt-0">
+              <div class="mt-5 md:mt-0">
                 <a href="https://wa.me/message/W2USYZZK75FMC1#"
                 target="_blank"
                     class=" self-stretch hover:bg-[#05D361] hover:text-[#000] text-[#05D361] border-[#05D361] px-3 2xl:px-5 py-3 text-lg 2xl:text-xl font-bold tracking-normal rounded-lg border-2  border-solid"
