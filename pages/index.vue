@@ -696,7 +696,7 @@
                      
                           <span class="font-bold preco-desconto flex justify-center items-center gap-5">
                           R$ 2.921,25 à vista 
-                            <span class="bg-[#05D361] rounded-md text-black py-3 px-3  flex justify-center">
+                            <span class="bg-[#05D361] text-xl md:text-2xl rounded-md text-black py-3 px-3  flex justify-center">
                             25%  OFF
                             </span>
                           </span>
