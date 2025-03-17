@@ -191,7 +191,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
 
           </div>
 
-          <div class="relative mt-36 2xl:mt-20 inline-flex xl:block w-full sm:w-auto">
+          <div class="relative mt-36 2xl:mt-20 inline-flex xl:block w-full " :class="youtube ? '' : 'sm:w-auto'">
             <div class="absolute -mt-[120px] md:-mt-[72px] items-center justify-center md:justify-between flex-wrap md:flex-nowrap flex gap-2 w-full">
               <div>
                   <h2
