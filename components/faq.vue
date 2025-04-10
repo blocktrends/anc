@@ -446,6 +446,32 @@
 
                 </div>
 
+                <!--  Panel 17  -->
+                <div class="xl:pl-8 sm:pl-0 w-full">
+                        <input type="checkbox" name="panel" id="fpanel-177" class="hidden">
+                        <label for="fpanel-177" class="relative  pl-12 lg:pl-16 border-y border-[#29292E] block cursor-pointer text-white p-4 
+                            text-sm sm:text-lg font-semibold pr-5">
+                            Como e quando devo fazer a recertificação do Programa CCA?
+                        </label>
+
+                        <div class="accordion__content border-y border-[#29292E] overflow-hidden ">
+
+                            <div class="pb-7 pt-7 pl-12 lg:pl-16">
+
+                                <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
+                           A recertificação do Programa CCA deve ser feita a cada 5 anos, contados a partir da data de aprovação no exame ou da última renovação. Para os profissionais certificados antes do lançamento do PEC, esse prazo começa a contar a partir da disponibilização do Programa de Educação Continuada. Há duas formas de renovar sua certificação:<br />
+Exame de Recertificação: prova com 40 questões, exigindo 70% de acerto. Pode ser realizada a partir de 90 dias antes do vencimento da certificação. A taxa é de R$ 610,00.<br />
+Programa de Educação Continuada (PEC): exige o acúmulo de créditos ao longo dos 5 anos por meio de cursos e atividades reconhecidos pela ANCORD. A lista oficial de conteúdos elegíveis está disponível [neste link], e é necessário apresentar certificados de conclusão. A taxa também é de R$ 610,00, paga no momento da submissão dos créditos.
+
+</p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
                 <!--  Panel 18 -->
                 <div class="xl:pl-8 sm:pl-0 w-full">
                         <input type="checkbox" name="panel" id="fpanel-18" class="hidden">
