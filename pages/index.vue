@@ -1205,12 +1205,12 @@ export default defineNuxtComponent({
     isDepo7Hidden: true,
     isDepo8Hidden: true,
     depoimentos: [
-         {
+       /*  {
                     id: 'otavio', 
                     image: otavioImage, 
                     nome: 'Otávio M.', 
                     indice: '4',
-                },
+                },*/
                 {
                     id: 'danilo', 
                     image: daniloImage, 
