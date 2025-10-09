@@ -632,8 +632,8 @@
     </div>
 
 
-    <div class="bg-[#121214] pb-20  ">
-
+    <div class="bg-[#121214] pb-20  relative">
+      <a id="matricule2" style="position: absolute;"></a>
       <div class="xl:container mx-auto">
         <div class="flex w-full max-w-screen-2xl flex-col mb-12 max-md:max-w-full">
           <div
@@ -707,8 +707,8 @@
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
                           <span class="text-[25px] mr-1">ou  </span>
                           <span class="text-[25px] mr-1">10x </span>
-                          <span class="font-bold preco-desconto"> R$407,51 </span>
-                            <span class="font-bold hidden button-bf mr-2"> R$407,51   </span>
+                          <span class="font-bold preco-desconto"> R$416,28 </span>
+                            <span class="font-bold hidden button-bf mr-2"> R$416,28   </span>
                           <span class="text-[25px] mr-1"> no cartão</span>
                         </div>
 

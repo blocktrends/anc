@@ -21,7 +21,7 @@ class="flex button-bf items-center font-bold justify-center hidden faixa-bf py-3
 
 
 <div class="bg-cyan-500 min-h-[48px] hidden font-semibold z-20 sticky top-0 text-center text-xs md:text-base py-2  sm:px-0 sm:py-4 " style="display: block;">
-<a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank">
+<a href="#matricule2">
 O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLICOS! 
 <u>MATRICULE-SE JÁ!</u></a>
   </div>
@@ -77,7 +77,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
               MATRICULE-SE
             </a>-->
 
-            <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+            <a href="#matricule2"
               class="text-slate-950 cursor-pointer text-base xl:text-lg 2xl:text-xl font-bold leading-7  whitespace-nowrap justify-center items-stretch rounded transition-all bg-cyan-500 hover:bg-[#0A6F94] self-stretch grow px-8 2xl:px-14 py-3.5 max-md:px-5">
               MATRICULE-SE
             </a>
@@ -157,7 +157,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
                   </p>
                 </a>-->
 
-                <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+                <a href="#matricule2"
                   class="flex main-button-bf cursor-pointer justify-center mx-auto xl:mx-0 items-center   w-[521px] max-w-max sm:max-w-none relative gap-2 pl-[42px] pr-[46px] py-5 transition-all rounded bg-[#00a7d0] hover:bg-[#0A6F94]">
                   <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="  w-5 h-5 relative" preserveAspectRatio="xMidYMid meet">
