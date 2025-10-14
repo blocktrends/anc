@@ -248,7 +248,7 @@
                             <div class="pb-7 pt-7 pl-12 lg:pl-16">
 
                                 <p class="accordion__body text-[#B6C3DA]  block text-md lg:pr-24">
-                           O valor do CCA é de R$3.895,00. Com o desconto de 25%, o preço à vista passa a ser de R$2.921,25 ou em até 10x de R$407,51. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
+                           O valor do CCA é de R$3.895,00. Com o desconto de 25%, o preço à vista passa a ser de R$2.921,25 ou em até 10x de R$416,28. Os meios de pagamento são cartão de crédito, em até 6x sem juros, boleto bancário e PIX.
                             <br /><br />
 
  </p>
