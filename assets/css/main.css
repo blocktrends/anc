@@ -411,11 +411,11 @@ display: none!important;
 
 
 .faixa-bf *, .faixa-bf .sm\:inline {
-  display: none;
+  display: flex;
 }
 
 .faixa-bf {
-  border-bottom: 0;
+ background: #000;
 }
 
 .bf .faixa-bf *, .bf .button-bf {
