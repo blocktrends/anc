@@ -902,6 +902,7 @@
                         src="../assets/imgs/amex.svg" alt="Icone pagamento amex" />
 
                     </div>
+                    <!--
                     <div class="bg-zinc-800 self-stretch shrink-0 h-px mt-9 max-md:max-w-full"></div>
                     <div class="items-stretch self-center flex gap-1.5 mt-9">
 
@@ -915,7 +916,12 @@
                       </span>
                     </a>
 
-                  <!--
+                  
+
+                    </div>
+                    -->
+                    <!--
+                    estava dentro da div acima
                       <img class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
                         src="../assets/imgs/ambiente-seguro.svg" alt="Icone ambiente seguro" />
 
@@ -925,8 +931,6 @@
 
                       </div>
                       -->
-
-                    </div>
                   </div>
                 </div>
               </div>

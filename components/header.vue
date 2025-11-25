@@ -220,7 +220,9 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
 
           </div>
 
+
           <div class="relative mt-36 2xl:mt-20 inline-flex xl:block w-full " :class="youtube ? '' : 'sm:w-auto'">
+            <!--
             <div class="absolute -mt-[120px] md:-mt-[72px] items-center justify-center md:justify-between flex-wrap md:flex-nowrap flex gap-2 w-full">
               <div>
                   <h2
@@ -238,7 +240,7 @@ O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLIC
                     Clique para resgatar seu desconto
                 </a>
               </div>
-            </div>
+            </div>-->
 
             <iframe :class="youtube ? 'showVideo' : '' " class="mt-36 sm:mt-10 iframe-video" style="aspect-ratio: 16 / 9;width: 100%;" 
               src="https://www.youtube.com/embed/7QA-3JxoXU0?si=i87TjIgS7UeP3uxU" title="YouTube video player"
