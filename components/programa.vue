@@ -63,12 +63,12 @@
                       O 1º passo para conquistar a Certificação Criptoativos ANCORD é se 
                       
                       <!--<a @click="showLightBox()"  class="underline cursor-pointer">matricular no Curso Intensivo CCA</a>.-->
-
+    <!--
     <a href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank" class="underline cursor-pointer">matricular no Curso Intensivo CCA</a>.
+                  -->   
                   
-                      <!--link normal 23/11/2025
                       <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank" class="underline cursor-pointer">matricular no Curso Intensivo CCA</a>.
-                   -->
+                
                    
                       Essencial para sua preparação, esta etapa
                       garante que você esteja totalmente pronto para o Exame de Certificação do Programa CCA.
@@ -261,7 +261,7 @@
           fill="#00A7D0" />
       </svg>
     </a>-->
-
+<!--
     <a class="comece-cta cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank">
         <svg class="block sm:hidden" width="352" height="108" viewBox="0 0 352 108" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="40" width="352" height="68" rx="4" fill="#010918"/>
@@ -281,8 +281,8 @@
           fill="#00A7D0" />
       </svg>
     </a>
+  -->
 
-<!--link normal 23/11/2025
     <a class="comece-cta cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank">
         <svg class="block sm:hidden" width="352" height="108" viewBox="0 0 352 108" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="40" width="352" height="68" rx="4" fill="#010918"/>
@@ -302,7 +302,7 @@
           fill="#00A7D0" />
       </svg>
     </a>
-    -->
+  
 
 
     </header>

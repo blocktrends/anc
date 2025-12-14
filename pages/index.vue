@@ -291,7 +291,7 @@
                         MATRICULE-SE AGORA
                       </div>
                     </a>-->
-
+<!--
 <a href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
@@ -308,8 +308,8 @@
                         MATRICULE-SE AGORA
                       </div>
                     </a>
-
-                    <!--link normal 23/11/2025
+-->
+                    
                 <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
@@ -326,7 +326,7 @@
                         MATRICULE-SE AGORA
                       </div>
                     </a>
--->
+
 
 
 
@@ -526,7 +526,7 @@
           </svg>
 
         </a>-->
-
+  <!-- 
         <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank" >
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -541,8 +541,8 @@
           </svg>
 
         </a>
-
-        <!-- link normal 23/11/2025
+  -->
+      
         <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank" >
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -557,7 +557,7 @@
           </svg>
 
         </a>
-        -->
+      
 
 
       </div>
@@ -723,7 +723,7 @@
 
                     <div
                       class="self-center flex lg:w-[500px] max-w-full justify-between lg:gap-5 items-start">
-
+  <!-- 
                       <div class="items-center flex grow basis-[0%] flex-col">
                         <div class="text-white lg:text-center text-2xl tracking-tight whitespace-nowrap">
                           De <span class="line-through">R$ 3.895,00</span> por
@@ -750,9 +750,9 @@
                         </div>
 
                       </div>
+ -->
 
-
-                      <!-- link normal 23/11/2025
+                    
                       <div class="items-center flex grow basis-[0%] flex-col">
                         <div class="text-white lg:text-center text-2xl tracking-tight whitespace-nowrap">
                           De <span class="line-through">R$ 3.895,00</span> por
@@ -779,7 +779,7 @@
                         </div>
 
                       </div>
-                      -->
+                     
 
 
 
@@ -843,7 +843,7 @@
                       </div>
                     </a>-->
 
-
+ <!--
                     <a  href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-[#05D361] hover:bg-[#039E46] self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all  max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
@@ -861,7 +861,7 @@
                       </div>
                     </a>
 
-                    <!-- link normal 23/11/2025
+                       -->
                     <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-[#05D361] hover:bg-[#039E46] self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all  max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
@@ -878,7 +878,7 @@
                         QUERO ME MATRICULAR AGORA
                       </div>
                     </a>
-                    -->
+                
 
 
 
@@ -1069,7 +1069,7 @@
           </div>
         </a>-->
 
-
+ <!-- 
          <a href="https://checkout.blocktrends.com.br/checkout/cca-bf" target="_blank"
           class="cursor-pointer transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
@@ -1079,8 +1079,8 @@
             EMBARQUE AGORA
           </div>
         </a>
-
-        <!-- link normal 23/11/2025 
+    -->
+       
         <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
           class="cursor-pointer transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
@@ -1090,7 +1090,7 @@
             EMBARQUE AGORA
           </div>
         </a>
-        -->
+    
 
         <a href="https://wa.me/message/W2USYZZK75FMC1#" target="_blank"
           class="transition-all hover:bg-[#008CA1] items-center bg-cyan-950 flex justify-between gap-4 px-10 py-4 rounded-lg max-md:px-5">
