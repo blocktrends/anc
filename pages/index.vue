@@ -543,7 +543,7 @@
         </a>
   -->
       
-        <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank" >
+        <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/cca-consumidor" target="_blank" >
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="57" width="406" height="68" rx="4" class="blue-rect transition-all" fill="#00A7D0" />
@@ -862,7 +862,7 @@
                     </a>
 
                        -->
-                    <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+                    <a  href="https://checkout.blocktrends.com.br/checkout/cca-consumidor" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-[#05D361] hover:bg-[#039E46] self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all  max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
@@ -1081,7 +1081,7 @@
         </a>
     -->
        
-        <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+        <a href="https://checkout.blocktrends.com.br/checkout/cca-consumidor" target="_blank"
           class="cursor-pointer transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />
