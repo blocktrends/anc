@@ -30,7 +30,7 @@ ENTRE OS DIAS 24/11 E 12/12
 
 
   <a href="#matricule2">
-SEMANA DO CONSUMIDOR NO PROGRAMA CCA<br class="brmobile" />COM 45% DE DESCONTO! 
+SEMANA DO CONSUMIDOR NO PROGRAMA CCA <br class="brmobile" />COM 45% DE DESCONTO! 
 <u>APROVEITE!</u></a>
 
  
