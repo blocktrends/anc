@@ -1199,7 +1199,7 @@
   © Todos os direitos reservados. 1971 Comunicações e sistemas LTDA.
   </div>
   <div>
-  DPO | Maria Carolina de Bellis Doria Masetti | E-mail: <a href="mailto:dpo@qr.capital" target="_blank">dpo@qr.capital</a>
+  DPO | E-mail: <a href="mailto:dpo@qr.capital" target="_blank">dpo@qr.capital</a>
   </div>
 </div>
 
