@@ -30,8 +30,8 @@ ENTRE OS DIAS 24/11 E 12/12
 
 
   <a href="#matricule2">
-SEMANA DO CONSUMIDOR NO PROGRAMA CCA <br class="brmobile" />COM 45% DE DESCONTO! 
-<u>APROVEITE!</u></a>
+O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLICOS! 
+<u>MATRICULE-SE JÁ!</u></a>
 
  
 </div>
