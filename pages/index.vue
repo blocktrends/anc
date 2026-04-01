@@ -761,20 +761,20 @@
                           class="text-white text-center text-2xl sm:text-[32px] tracking-tighter whitespace-nowrap mt-4">
                      
                           <span class="font-bold preco-desconto flex justify-center items-center gap-5">
-                          R$ 2.142,25 à vista  
+                          R$ 2.921,25 à vista  
                             <span class="bg-[#05D361] text-xl md:text-2xl rounded-md text-black py-3 px-3  flex justify-center">
-                            45%  OFF
+                            25%  OFF
                             </span>
                           </span>
-                          <span class="font-bold hidden button-bf">R$ 2.142,25 à vista ou</span>
+                          <span class="font-bold hidden button-bf">R$ 2.921,25 à vista ou</span>
                         </div>
 
                         <div
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
                           <span class="text-[25px] mr-1">ou  </span>
                           <span class="text-[25px] mr-1">10x </span>
-                          <span class="font-bold preco-desconto"> R$305,27 </span>
-                            <span class="font-bold hidden button-bf mr-2"> R$305,27   </span>
+                          <span class="font-bold preco-desconto"> R$416,28 </span>
+                            <span class="font-bold hidden button-bf mr-2"> R$416,28   </span>
                           <span class="text-[25px] mr-1"> no cartão</span>
                         </div>
 
