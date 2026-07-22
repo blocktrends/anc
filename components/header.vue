@@ -30,7 +30,7 @@ ENTRE OS DIAS 24/11 E 12/12
 
 
   <a href="#matricule2">
-O PROGRAMA CCA AGORA ESTÁ LIBERADO <br class="brmobile" />PARA TODOS OS PÚBLICOS! 
+APROVEITE A PROMOÇÃO DA EXPERT 2026 <br class="brmobile" />DO PROGRAMA CCA! 
 <u>MATRICULE-SE JÁ!</u></a>
 
  
