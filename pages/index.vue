@@ -310,7 +310,7 @@
                     </a>
 -->
                     
-                <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+                <a  href="https://checkout.blocktrends.com.br/checkout/cca-expert26" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-cyan-500 self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all hover:bg-[#0A6F94] max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
@@ -543,7 +543,7 @@
         </a>
   -->
       
-        <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank" >
+        <a class="link-blue-rect cursor-pointer" href="https://checkout.blocktrends.com.br/checkout/cca-expert26" target="_blank" >
           <svg class="mt-5 sm:mt-10 -ml-5 lg:ml-0 lg:mt-0 max-w-full" width="463" height="68" viewBox="0 0 463 68"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="57" width="406" height="68" rx="4" class="blue-rect transition-all" fill="#00A7D0" />
@@ -761,20 +761,20 @@
                           class="text-white text-center text-2xl sm:text-[32px] tracking-tighter whitespace-nowrap mt-4">
                      
                           <span class="font-bold preco-desconto flex justify-center items-center gap-5">
-                          R$ 2.921,25 à vista
+                          R$ 2.142,25 à vista
                             <span class="bg-[#05D361] text-xl md:text-2xl rounded-md text-black py-3 px-3  flex justify-center">
-                            25%  OFF
+                            45%  OFF
                             </span>
                           </span>
-                          <span class="font-bold hidden button-bf">R$ 2.921,25 à vista ou</span>
+                          <span class="font-bold hidden button-bf">R$ 2.142,25 à vista ou</span>
                         </div>
 
                         <div
                           class="text-cyan-500 text-center text-4xl sm:text-5xl tracking-tighter whitespace-nowrap mt-4">
                           <span class="text-[25px] mr-1">ou  </span>
                           <span class="text-[25px] mr-1">10x </span>
-                          <span class="font-bold preco-desconto"> R$416,28 </span>
-                            <span class="font-bold hidden button-bf mr-2"> R$416,28   </span>
+                          <span class="font-bold preco-desconto"> R$305,27 </span>
+                            <span class="font-bold hidden button-bf mr-2"> R$305,27   </span>
                           <span class="text-[25px] mr-1"> no cartão</span>
                         </div>
 
@@ -862,7 +862,7 @@
                     </a>
 
                        -->
-                    <a  href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+                    <a  href="https://checkout.blocktrends.com.br/checkout/cca-expert26" target="_blank"
                       class=" cursor-pointer justify-center items-center bg-[#05D361] hover:bg-[#039E46] self-center flex gap-2 mt-8 px-8 xl:px-16 py-5 rounded-md max-md:max-w-full transition-all  max-md:flex-wrap max-md:mt-10 max-md:px-5">
 
                       <svg
@@ -1081,7 +1081,7 @@
         </a>
     -->
        
-        <a href="https://checkout.blocktrends.com.br/checkout/btancord-cca" target="_blank"
+        <a href="https://checkout.blocktrends.com.br/checkout/cca-expert26" target="_blank"
           class="cursor-pointer transition-all hover:bg-[#BDBDBD] min-w-[339px]  justify-center items-center bg-white flex gap-2 px-14 py-6 rounded-lg max-md:px-5">
           <img class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
             src="../assets/imgs/embarque-agora.svg" alt="Embarque agora" />
